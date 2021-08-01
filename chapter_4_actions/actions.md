@@ -1,0 +1,7 @@
+# Chapter 4: Actions {#chapter-4-actions}
+
+![](../assets/graphics11.png)
+
+An action is what happens within the game when the player types a command. Inform provides a bunch of built-in actions, but before long you’ll probably want to modify the built-in actions, or create some new ones. **Page 12.7** in _Writing with Inform,_ “New actions,” begins this way: “It is not often that we need to create new actions....” In my own experience writing games, this is simply not true. Inform’s built-in actions handle many of the basic types of commands that the player may want to use, but many equally common actions are not included. Soon after I add a few objects to a new game, I begin to realize that the player may want to try all sorts of odd commands with the objects. Even if I only want to give the player an interesting “you can’t do that” message, I still need to create a new action.
+
+As a general rule, you should try to anticipate _all_ of the command words that your players may think to try, and write code to handle them. Your beta-testers will be a great source of feedback on this point: If you read the game transcripts they send you, you’ll probably spot a dozen or more synonyms for actions that you have implemented, plus an assortment of plausible actions that you may want to add. Some of these might even suggest alternate solutions to your puzzles. Adding a few alternate solutions is not just a courtesy to players: It also deepens and enriches the model world of your game.

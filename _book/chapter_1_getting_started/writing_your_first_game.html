@@ -1,0 +1,2520 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Writing Your First Game · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-intopic-toc/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../styles/website.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="all_about_bugs.html" />
+    
+    
+    <link rel="prev" href="downloading_&_playing_games.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    I7Handbook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../foreword/foreword.html">
+            
+                <a href="../foreword/foreword.html">
+            
+                    
+                    Foreword
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../foreword/acknowledgments.html">
+            
+                <a href="../foreword/acknowledgments.html">
+            
+                    
+                    Acknowledgments
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../foreword/about_the_author.html">
+            
+                <a href="../foreword/about_the_author.html">
+            
+                    
+                    About the Author
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="getting_started.html">
+            
+                <a href="getting_started.html">
+            
+                    
+                    Chapter 1: Getting Started
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="downloading_&_installing.html">
+            
+                <a href="downloading_&_installing.html">
+            
+                    
+                    Downloading & Installing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="the_inform_7_program.html">
+            
+                <a href="the_inform_7_program.html">
+            
+                    
+                    The Inform 7 Program
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="using_the_built-in_documentation.html">
+            
+                <a href="using_the_built-in_documentation.html">
+            
+                    
+                    Using the Built-In Documentation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="what_happens_in_a_game.html">
+            
+                <a href="what_happens_in_a_game.html">
+            
+                    
+                    What Happens in a Game
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="downloading_&_playing_games.html">
+            
+                <a href="downloading_&_playing_games.html">
+            
+                    
+                    Downloading & Playing Games
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.6" data-path="writing_your_first_game.html">
+            
+                <a href="writing_your_first_game.html">
+            
+                    
+                    Writing Your First Game
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="all_about_bugs.html">
+            
+                <a href="all_about_bugs.html">
+            
+                    
+                    All About Bugs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="testing_your_game.html">
+            
+                <a href="testing_your_game.html">
+            
+                    
+                    Testing Your Game
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="using_the_debugging_commands.html">
+            
+                <a href="using_the_debugging_commands.html">
+            
+                    
+                    Using the Debugging Commands
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="puzzles.html">
+            
+                <a href="puzzles.html">
+            
+                    
+                    Puzzles
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11" data-path="extensions_for_inform.html">
+            
+                <a href="extensions_for_inform.html">
+            
+                    
+                    Extensions for Inform
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.12" data-path="where_to_learn_more.html">
+            
+                <a href="where_to_learn_more.html">
+            
+                    
+                    Where to Learn More
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../chapter_2_rooms_&_scenery/rooms_&_scenery.html">
+            
+                <a href="../chapter_2_rooms_&_scenery/rooms_&_scenery.html">
+            
+                    
+                    Chapter 2: Rooms & Scenery
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../chapter_2_rooms_&_scenery/creating_your_first_room.html">
+            
+                <a href="../chapter_2_rooms_&_scenery/creating_your_first_room.html">
+            
+                    
+                    Creating Your First Room
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../chapter_2_rooms_&_scenery/scenery.html">
+            
+                <a href="../chapter_2_rooms_&_scenery/scenery.html">
+            
+                    
+                    Scenery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../chapter_2_rooms_&_scenery/distant_scenery.html">
+            
+                <a href="../chapter_2_rooms_&_scenery/distant_scenery.html">
+            
+                    
+                    Distant Scenery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../chapter_2_rooms_&_scenery/adding_more_rooms_to_the_map.html">
+            
+                <a href="../chapter_2_rooms_&_scenery/adding_more_rooms_to_the_map.html">
+            
+                    
+                    Adding More Rooms to the Map
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../chapter_2_rooms_&_scenery/the_great_outdoors.html">
+            
+                <a href="../chapter_2_rooms_&_scenery/the_great_outdoors.html">
+            
+                    
+                    The Great Outdoors
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../chapter_2_rooms_&_scenery/enterable_scenery.html">
+            
+                <a href="../chapter_2_rooms_&_scenery/enterable_scenery.html">
+            
+                    
+                    Enterable Scenery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../chapter_2_rooms_&_scenery/doors.html">
+            
+                <a href="../chapter_2_rooms_&_scenery/doors.html">
+            
+                    
+                    Doors
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="../chapter_2_rooms_&_scenery/travel_by_fiat.html">
+            
+                <a href="../chapter_2_rooms_&_scenery/travel_by_fiat.html">
+            
+                    
+                    Travel by Fiat
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="../chapter_2_rooms_&_scenery/windows.html">
+            
+                <a href="../chapter_2_rooms_&_scenery/windows.html">
+            
+                    
+                    Windows
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10" data-path="../chapter_2_rooms_&_scenery/you_cant_go_that_way.html">
+            
+                <a href="../chapter_2_rooms_&_scenery/you_cant_go_that_way.html">
+            
+                    
+                    “You can’t go that way.”
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.11" data-path="../chapter_2_rooms_&_scenery/duplicate_exits_&_twisty_connections.html">
+            
+                <a href="../chapter_2_rooms_&_scenery/duplicate_exits_&_twisty_connections.html">
+            
+                    
+                    Duplicate Exits & Twisty Connections
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.12" data-path="../chapter_2_rooms_&_scenery/changing_the_map_during_the_game.html">
+            
+                <a href="../chapter_2_rooms_&_scenery/changing_the_map_during_the_game.html">
+            
+                    
+                    Changing the Map During the Game
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.13" data-path="../chapter_2_rooms_&_scenery/regions.html">
+            
+                <a href="../chapter_2_rooms_&_scenery/regions.html">
+            
+                    
+                    Regions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.14" data-path="../chapter_2_rooms_&_scenery/backdrops.html">
+            
+                <a href="../chapter_2_rooms_&_scenery/backdrops.html">
+            
+                    
+                    Backdrops
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.15" data-path="../chapter_2_rooms_&_scenery/dark_rooms.html">
+            
+                <a href="../chapter_2_rooms_&_scenery/dark_rooms.html">
+            
+                    
+                    Dark Rooms
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.16" data-path="../chapter_2_rooms_&_scenery/seemingly_identical_rooms.html">
+            
+                <a href="../chapter_2_rooms_&_scenery/seemingly_identical_rooms.html">
+            
+                    
+                    Seemingly Identical Rooms
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.17" data-path="../chapter_2_rooms_&_scenery/floorless_rooms.html">
+            
+                <a href="../chapter_2_rooms_&_scenery/floorless_rooms.html">
+            
+                    
+                    Floorless Rooms
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.18" data-path="../chapter_2_rooms_&_scenery/when_is_a_room_visited.html">
+            
+                <a href="../chapter_2_rooms_&_scenery/when_is_a_room_visited.html">
+            
+                    
+                    When Is a Room “visited”?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.19" data-path="../chapter_2_rooms_&_scenery/more_about_room_descriptions.html">
+            
+                <a href="../chapter_2_rooms_&_scenery/more_about_room_descriptions.html">
+            
+                    
+                    More About Room Descriptions
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../chapter_3_things/things.html">
+            
+                <a href="../chapter_3_things/things.html">
+            
+                    
+                    Chapter 3: Things
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../chapter_3_things/creating_things.html">
+            
+                <a href="../chapter_3_things/creating_things.html">
+            
+                    
+                    Creating Things
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../chapter_3_things/things_vs_kinds.html">
+            
+                <a href="../chapter_3_things/things_vs_kinds.html">
+            
+                    
+                    Things vs. Kinds
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../chapter_3_things/the_names_of_things.html">
+            
+                <a href="../chapter_3_things/the_names_of_things.html">
+            
+                    
+                    The Names of Things
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../chapter_3_things/long_names.html">
+            
+                <a href="../chapter_3_things/long_names.html">
+            
+                    
+                    Long Names
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../chapter_3_things/initial_appearance.html">
+            
+                <a href="../chapter_3_things/initial_appearance.html">
+            
+                    
+                    Initial Appearance
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="../chapter_3_things/adding_vocabulary_words_with_understand.html">
+            
+                <a href="../chapter_3_things/adding_vocabulary_words_with_understand.html">
+            
+                    
+                    Adding Vocabulary Words with “Understand”
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="../chapter_3_things/containers_&_supporters.html">
+            
+                <a href="../chapter_3_things/containers_&_supporters.html">
+            
+                    
+                    Containers & Supporters
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8" data-path="../chapter_3_things/looking_under_&_looking_behind.html">
+            
+                <a href="../chapter_3_things/looking_under_&_looking_behind.html">
+            
+                    
+                    Looking Under & Looking Behind
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9" data-path="../chapter_3_things/take_all.html">
+            
+                <a href="../chapter_3_things/take_all.html">
+            
+                    
+                    Take All
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.10" data-path="../chapter_3_things/enterable_containers_&_supporters.html">
+            
+                <a href="../chapter_3_things/enterable_containers_&_supporters.html">
+            
+                    
+                    Enterable Containers & Supporters
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.11" data-path="../chapter_3_things/moving_things_around.html">
+            
+                <a href="../chapter_3_things/moving_things_around.html">
+            
+                    
+                    Moving Things Around
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.12" data-path="../chapter_3_things/inventory.html">
+            
+                <a href="../chapter_3_things/inventory.html">
+            
+                    
+                    Inventory
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.13" data-path="../chapter_3_things/testing_where_a_thing_is.html">
+            
+                <a href="../chapter_3_things/testing_where_a_thing_is.html">
+            
+                    
+                    Testing Where a Thing Is
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.14" data-path="../chapter_3_things/things_can_have_properties.html">
+            
+                <a href="../chapter_3_things/things_can_have_properties.html">
+            
+                    
+                    Things Can Have Properties
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.15" data-path="../chapter_3_things/plurals_&_collective_objects.html">
+            
+                <a href="../chapter_3_things/plurals_&_collective_objects.html">
+            
+                    
+                    Plurals & Collective Objects
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16" data-path="../chapter_3_things/more_about_collections_&_kinds.html">
+            
+                <a href="../chapter_3_things/more_about_collections_&_kinds.html">
+            
+                    
+                    More about Collections & Kinds
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17" data-path="../chapter_3_things/objects_that_have_parts.html">
+            
+                <a href="../chapter_3_things/objects_that_have_parts.html">
+            
+                    
+                    Objects That Have Parts
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.18" data-path="../chapter_3_things/reading_matter.html">
+            
+                <a href="../chapter_3_things/reading_matter.html">
+            
+                    
+                    Reading Matter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.19" data-path="../chapter_3_things/writing_on_things.html">
+            
+                <a href="../chapter_3_things/writing_on_things.html">
+            
+                    
+                    Writing on Things
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.20" data-path="../chapter_3_things/mechanical_marvels.html">
+            
+                <a href="../chapter_3_things/mechanical_marvels.html">
+            
+                    
+                    Mechanical Marvels
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.21" data-path="../chapter_3_things/smelling_&_listening.html">
+            
+                <a href="../chapter_3_things/smelling_&_listening.html">
+            
+                    
+                    Smelling & Listening
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.22" data-path="../chapter_3_things/transforming_one_thing_into_another.html">
+            
+                <a href="../chapter_3_things/transforming_one_thing_into_another.html">
+            
+                    
+                    Transforming One Thing into Another
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.23" data-path="../chapter_3_things/new_ways_to_use_things.html">
+            
+                <a href="../chapter_3_things/new_ways_to_use_things.html">
+            
+                    
+                    New Ways to Use Things
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../chapter_4_actions/actions.html">
+            
+                <a href="../chapter_4_actions/actions.html">
+            
+                    
+                    Chapter 4: Actions
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../chapter_4_actions/built-in_actions.html">
+            
+                <a href="../chapter_4_actions/built-in_actions.html">
+            
+                    
+                    Built-In Actions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../chapter_4_actions/using_instead.html">
+            
+                <a href="../chapter_4_actions/using_instead.html">
+            
+                    
+                    Using “Instead”
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../chapter_4_actions/action_processing.html">
+            
+                <a href="../chapter_4_actions/action_processing.html">
+            
+                    
+                    Action Processing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../chapter_4_actions/rulebooks_&_stop_the_action.html">
+            
+                <a href="../chapter_4_actions/rulebooks_&_stop_the_action.html">
+            
+                    
+                    Rulebooks & “Stop the Action”
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../chapter_4_actions/three_types_of_actions.html">
+            
+                <a href="../chapter_4_actions/three_types_of_actions.html">
+            
+                    
+                    Three Types of Actions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../chapter_4_actions/creating_new_actions.html">
+            
+                <a href="../chapter_4_actions/creating_new_actions.html">
+            
+                    
+                    Creating New Actions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="../chapter_4_actions/[any_thing].html">
+            
+                <a href="../chapter_4_actions/[any_thing].html">
+            
+                    
+                    [Any Thing]
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.8" data-path="../chapter_4_actions/same_action,_new_results.html">
+            
+                <a href="../chapter_4_actions/same_action,_new_results.html">
+            
+                    
+                    Same Action, New Results
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.9" data-path="../chapter_4_actions/redirecting_an_action.html">
+            
+                <a href="../chapter_4_actions/redirecting_an_action.html">
+            
+                    
+                    Redirecting an Action
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.10" data-path="../chapter_4_actions/actions_with_topics.html">
+            
+                <a href="../chapter_4_actions/actions_with_topics.html">
+            
+                    
+                    Actions with Topics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.11" data-path="../chapter_4_actions/action_processing__summary.html">
+            
+                <a href="../chapter_4_actions/action_processing__summary.html">
+            
+                    
+                    Action Processing — Summary
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../chapter_5_creating_characters/creating_characters.html">
+            
+                <a href="../chapter_5_creating_characters/creating_characters.html">
+            
+                    
+                    Chapter 5: Creating Characters
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../chapter_5_creating_characters/overview.html">
+            
+                <a href="../chapter_5_creating_characters/overview.html">
+            
+                    
+                    Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../chapter_5_creating_characters/the_player_character.html">
+            
+                <a href="../chapter_5_creating_characters/the_player_character.html">
+            
+                    
+                    The Player Character
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../chapter_5_creating_characters/creating_an_npc.html">
+            
+                <a href="../chapter_5_creating_characters/creating_an_npc.html">
+            
+                    
+                    Creating an NPC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../chapter_5_creating_characters/mr_&_mrs.html">
+            
+                <a href="../chapter_5_creating_characters/mr_&_mrs.html">
+            
+                    
+                    Mr. & Mrs.
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="../chapter_5_creating_characters/conversations,_part_i_talk_to.html">
+            
+                <a href="../chapter_5_creating_characters/conversations,_part_i_talk_to.html">
+            
+                    
+                    Conversations, Part I: talk to
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6" data-path="../chapter_5_creating_characters/conversations,_part_ii_asktellgiveshow.html">
+            
+                <a href="../chapter_5_creating_characters/conversations,_part_ii_asktellgiveshow.html">
+            
+                    
+                    Conversations, Part II: ask/tell/give/show
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.7" data-path="../chapter_5_creating_characters/conversations,_part_iii_character_knowledge.html">
+            
+                <a href="../chapter_5_creating_characters/conversations,_part_iii_character_knowledge.html">
+            
+                    
+                    Conversations, Part III: Character Knowledge
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8" data-path="../chapter_5_creating_characters/conversations,_part_iv_menu-based_conversation.html">
+            
+                <a href="../chapter_5_creating_characters/conversations,_part_iv_menu-based_conversation.html">
+            
+                    
+                    Conversations, Part IV: Menu-Based Conversation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.9" data-path="../chapter_5_creating_characters/giving_orders_to_characters.html">
+            
+                <a href="../chapter_5_creating_characters/giving_orders_to_characters.html">
+            
+                    
+                    Giving Orders to Characters
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.10" data-path="../chapter_5_creating_characters/giving_orders_that_involve_going_elsewhere.html">
+            
+                <a href="../chapter_5_creating_characters/giving_orders_that_involve_going_elsewhere.html">
+            
+                    
+                    Giving Orders that Involve Going Elsewhere
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.11" data-path="../chapter_5_creating_characters/moving_characters_around.html">
+            
+                <a href="../chapter_5_creating_characters/moving_characters_around.html">
+            
+                    
+                    Moving Characters Around
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.12" data-path="../chapter_5_creating_characters/characters_who_follow_the_player.html">
+            
+                <a href="../chapter_5_creating_characters/characters_who_follow_the_player.html">
+            
+                    
+                    Characters Who Follow the Player
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.13" data-path="../chapter_5_creating_characters/characters_the_player_can_follow.html">
+            
+                <a href="../chapter_5_creating_characters/characters_the_player_can_follow.html">
+            
+                    
+                    Characters the Player Can Follow
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.14" data-path="../chapter_5_creating_characters/stage_business.html">
+            
+                <a href="../chapter_5_creating_characters/stage_business.html">
+            
+                    
+                    Stage Business
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.15" data-path="../chapter_5_creating_characters/character_actions.html">
+            
+                <a href="../chapter_5_creating_characters/character_actions.html">
+            
+                    
+                    Character Actions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.16" data-path="../chapter_5_creating_characters/combat.html">
+            
+                <a href="../chapter_5_creating_characters/combat.html">
+            
+                    
+                    Combat
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.17" data-path="../chapter_5_creating_characters/moods.html">
+            
+                <a href="../chapter_5_creating_characters/moods.html">
+            
+                    
+                    Moods
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.18" data-path="../chapter_5_creating_characters/body_parts.html">
+            
+                <a href="../chapter_5_creating_characters/body_parts.html">
+            
+                    
+                    Body Parts
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../chapter_6_puzzles/puzzles.html">
+            
+                <a href="../chapter_6_puzzles/puzzles.html">
+            
+                    
+                    Chapter 6: Puzzles
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../chapter_6_puzzles/mapping.html">
+            
+                <a href="../chapter_6_puzzles/mapping.html">
+            
+                    
+                    Mapping
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../chapter_6_puzzles/blocked_passageways.html">
+            
+                <a href="../chapter_6_puzzles/blocked_passageways.html">
+            
+                    
+                    Blocked Passageways
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../chapter_6_puzzles/darkness.html">
+            
+                <a href="../chapter_6_puzzles/darkness.html">
+            
+                    
+                    Darkness
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="../chapter_6_puzzles/hidden_items.html">
+            
+                <a href="../chapter_6_puzzles/hidden_items.html">
+            
+                    
+                    Hidden Items
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5" data-path="../chapter_6_puzzles/items_out_of_reach.html">
+            
+                <a href="../chapter_6_puzzles/items_out_of_reach.html">
+            
+                    
+                    Items Out of Reach
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6" data-path="../chapter_6_puzzles/locked_containers.html">
+            
+                <a href="../chapter_6_puzzles/locked_containers.html">
+            
+                    
+                    Locked Containers
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.7" data-path="../chapter_6_puzzles/combination_locks.html">
+            
+                <a href="../chapter_6_puzzles/combination_locks.html">
+            
+                    
+                    Combination Locks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.8" data-path="../chapter_6_puzzles/manipulation_difficulties.html">
+            
+                <a href="../chapter_6_puzzles/manipulation_difficulties.html">
+            
+                    
+                    Manipulation Difficulties
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.9" data-path="../chapter_6_puzzles/enigmas.html">
+            
+                <a href="../chapter_6_puzzles/enigmas.html">
+            
+                    
+                    Enigmas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.10" data-path="../chapter_6_puzzles/deceptive_appearances_&_unusual_usages.html">
+            
+                <a href="../chapter_6_puzzles/deceptive_appearances_&_unusual_usages.html">
+            
+                    
+                    Deceptive Appearances & Unusual Usages
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.11" data-path="../chapter_6_puzzles/assembly_required.html">
+            
+                <a href="../chapter_6_puzzles/assembly_required.html">
+            
+                    
+                    Assembly Required
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.12" data-path="../chapter_6_puzzles/mechanisms.html">
+            
+                <a href="../chapter_6_puzzles/mechanisms.html">
+            
+                    
+                    Mechanisms
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.13" data-path="../chapter_6_puzzles/vehicles.html">
+            
+                <a href="../chapter_6_puzzles/vehicles.html">
+            
+                    
+                    Vehicles
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.14" data-path="../chapter_6_puzzles/consulting_information_sources.html">
+            
+                <a href="../chapter_6_puzzles/consulting_information_sources.html">
+            
+                    
+                    Consulting Information Sources
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.15" data-path="../chapter_6_puzzles/the_uncooperative_character.html">
+            
+                <a href="../chapter_6_puzzles/the_uncooperative_character.html">
+            
+                    
+                    The Uncooperative Character
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.16" data-path="../chapter_6_puzzles/timed_puzzles.html">
+            
+                <a href="../chapter_6_puzzles/timed_puzzles.html">
+            
+                    
+                    Timed Puzzles
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.17" data-path="../chapter_6_puzzles/inadequate_implementation.html">
+            
+                <a href="../chapter_6_puzzles/inadequate_implementation.html">
+            
+                    
+                    Inadequate Implementation
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../chapter_7_winning_&_losing/winning_losing.html">
+            
+                <a href="../chapter_7_winning_&_losing/winning_losing.html">
+            
+                    
+                    Chapter 7: Winning & Losing
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../chapter_7_winning_&_losing/a_word_about_fairness.html">
+            
+                <a href="../chapter_7_winning_&_losing/a_word_about_fairness.html">
+            
+                    
+                    A Word About Fairness
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../chapter_7_winning_&_losing/keeping_score.html">
+            
+                <a href="../chapter_7_winning_&_losing/keeping_score.html">
+            
+                    
+                    Keeping Score
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="../chapter_7_winning_&_losing/achievements.html">
+            
+                <a href="../chapter_7_winning_&_losing/achievements.html">
+            
+                    
+                    Achievements
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../chapter_8_time_&_scenes/time_scenes.html">
+            
+                <a href="../chapter_8_time_&_scenes/time_scenes.html">
+            
+                    
+                    Chapter 8: Time & Scenes
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../chapter_8_time_&_scenes/passing_time.html">
+            
+                <a href="../chapter_8_time_&_scenes/passing_time.html">
+            
+                    
+                    Passing Time
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="../chapter_8_time_&_scenes/future_events.html">
+            
+                <a href="../chapter_8_time_&_scenes/future_events.html">
+            
+                    
+                    Future Events
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3" data-path="../chapter_8_time_&_scenes/scenes.html">
+            
+                <a href="../chapter_8_time_&_scenes/scenes.html">
+            
+                    
+                    Scenes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.4" data-path="../chapter_8_time_&_scenes/every_turn_rules.html">
+            
+                <a href="../chapter_8_time_&_scenes/every_turn_rules.html">
+            
+                    
+                    Every Turn Rules
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../chapter_9_phrasing_&_punctuation/phrasing_punctuation.html">
+            
+                <a href="../chapter_9_phrasing_&_punctuation/phrasing_punctuation.html">
+            
+                    
+                    Chapter 9: Phrasing & Punctuation
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1" data-path="../chapter_9_phrasing_&_punctuation/types_of_source_text.html">
+            
+                <a href="../chapter_9_phrasing_&_punctuation/types_of_source_text.html">
+            
+                    
+                    Types of Source Text
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.2" data-path="../chapter_9_phrasing_&_punctuation/text_insertions.html">
+            
+                <a href="../chapter_9_phrasing_&_punctuation/text_insertions.html">
+            
+                    
+                    Text Insertions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.3" data-path="../chapter_9_phrasing_&_punctuation/breaking_up_paragraphs.html">
+            
+                <a href="../chapter_9_phrasing_&_punctuation/breaking_up_paragraphs.html">
+            
+                    
+                    Breaking Up Paragraphs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.4" data-path="../chapter_9_phrasing_&_punctuation/large_text_blocks.html">
+            
+                <a href="../chapter_9_phrasing_&_punctuation/large_text_blocks.html">
+            
+                    
+                    Large Text Blocks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.5" data-path="../chapter_9_phrasing_&_punctuation/white_space.html">
+            
+                <a href="../chapter_9_phrasing_&_punctuation/white_space.html">
+            
+                    
+                    White Space
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.6" data-path="../chapter_9_phrasing_&_punctuation/objects_vs_rules.html">
+            
+                <a href="../chapter_9_phrasing_&_punctuation/objects_vs_rules.html">
+            
+                    
+                    Objects vs. Rules
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.7" data-path="../chapter_9_phrasing_&_punctuation/the_names_of_things.html">
+            
+                <a href="../chapter_9_phrasing_&_punctuation/the_names_of_things.html">
+            
+                    
+                    The Names of Things
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.8" data-path="../chapter_9_phrasing_&_punctuation/punctuation.html">
+            
+                <a href="../chapter_9_phrasing_&_punctuation/punctuation.html">
+            
+                    
+                    Punctuation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.9" data-path="../chapter_9_phrasing_&_punctuation/assertions.html">
+            
+                <a href="../chapter_9_phrasing_&_punctuation/assertions.html">
+            
+                    
+                    Assertions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.10" data-path="../chapter_9_phrasing_&_punctuation/values.html">
+            
+                <a href="../chapter_9_phrasing_&_punctuation/values.html">
+            
+                    
+                    Values
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.11" data-path="../chapter_9_phrasing_&_punctuation/arithmetic.html">
+            
+                <a href="../chapter_9_phrasing_&_punctuation/arithmetic.html">
+            
+                    
+                    Arithmetic
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.12" data-path="../chapter_9_phrasing_&_punctuation/doing_calculations.html">
+            
+                <a href="../chapter_9_phrasing_&_punctuation/doing_calculations.html">
+            
+                    
+                    Doing Calculations
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.13" data-path="../chapter_9_phrasing_&_punctuation/testing_conditions.html">
+            
+                <a href="../chapter_9_phrasing_&_punctuation/testing_conditions.html">
+            
+                    
+                    Testing Conditions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.14" data-path="../chapter_9_phrasing_&_punctuation/creating_new_phrases.html">
+            
+                <a href="../chapter_9_phrasing_&_punctuation/creating_new_phrases.html">
+            
+                    
+                    Creating New Phrases
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.15" data-path="../chapter_9_phrasing_&_punctuation/indenting.html">
+            
+                <a href="../chapter_9_phrasing_&_punctuation/indenting.html">
+            
+                    
+                    Indenting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.16" data-path="../chapter_9_phrasing_&_punctuation/headings.html">
+            
+                <a href="../chapter_9_phrasing_&_punctuation/headings.html">
+            
+                    
+                    Headings
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.17" data-path="../chapter_9_phrasing_&_punctuation/loops.html">
+            
+                <a href="../chapter_9_phrasing_&_punctuation/loops.html">
+            
+                    
+                    Loops
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../chapter_10_advanced_topics/advanced_topics.html">
+            
+                <a href="../chapter_10_advanced_topics/advanced_topics.html">
+            
+                    
+                    Chapter 10: Advanced Topics
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1" data-path="../chapter_10_advanced_topics/story_tense_and_viewpoint.html">
+            
+                <a href="../chapter_10_advanced_topics/story_tense_and_viewpoint.html">
+            
+                    
+                    Story Tense and Viewpoint
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2" data-path="../chapter_10_advanced_topics/code_optimization.html">
+            
+                <a href="../chapter_10_advanced_topics/code_optimization.html">
+            
+                    
+                    Code Optimization
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.3" data-path="../chapter_10_advanced_topics/tables.html">
+            
+                <a href="../chapter_10_advanced_topics/tables.html">
+            
+                    
+                    Tables
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.4" data-path="../chapter_10_advanced_topics/the_skein.html">
+            
+                <a href="../chapter_10_advanced_topics/the_skein.html">
+            
+                    
+                    The Skein
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.5" data-path="../chapter_10_advanced_topics/using_the_index.html">
+            
+                <a href="../chapter_10_advanced_topics/using_the_index.html">
+            
+                    
+                    Using the Index
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.6" data-path="../chapter_10_advanced_topics/replacing_rules_in_the_standard_library.html">
+            
+                <a href="../chapter_10_advanced_topics/replacing_rules_in_the_standard_library.html">
+            
+                    
+                    Replacing Rules in the Standard Library
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.7" data-path="../chapter_10_advanced_topics/helping_the_parser.html">
+            
+                <a href="../chapter_10_advanced_topics/helping_the_parser.html">
+            
+                    
+                    Helping the Parser
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.8" data-path="../chapter_10_advanced_topics/clearing_the_screen.html">
+            
+                <a href="../chapter_10_advanced_topics/clearing_the_screen.html">
+            
+                    
+                    Clearing the Screen
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.9" data-path="../chapter_10_advanced_topics/i6_constants.html">
+            
+                <a href="../chapter_10_advanced_topics/i6_constants.html">
+            
+                    
+                    I6 Constants
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.10" data-path="../chapter_10_advanced_topics/relations.html">
+            
+                <a href="../chapter_10_advanced_topics/relations.html">
+            
+                    
+                    Relations
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.11" data-path="../chapter_10_advanced_topics/adding_hints.html">
+            
+                <a href="../chapter_10_advanced_topics/adding_hints.html">
+            
+                    
+                    Adding Hints
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.12" data-path="../chapter_10_advanced_topics/special_features_in_glulx.html">
+            
+                <a href="../chapter_10_advanced_topics/special_features_in_glulx.html">
+            
+                    
+                    Special Features in Glulx
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.13" data-path="../chapter_10_advanced_topics/what_does_inform_6_have_to_do_with_inform_7.html">
+            
+                <a href="../chapter_10_advanced_topics/what_does_inform_6_have_to_do_with_inform_7.html">
+            
+                    
+                    What Does Inform 6 Have to Do with Inform 7?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.14" data-path="../chapter_10_advanced_topics/so,_is_inform_7_the_ultimate_if_programming_langua.html">
+            
+                <a href="../chapter_10_advanced_topics/so,_is_inform_7_the_ultimate_if_programming_langua.html">
+            
+                    
+                    So, Is Inform 7 the Ultimate IF Programming Language?
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="../GLOSSARY.html">
+            
+                <a href="../GLOSSARY.html">
+            
+                    
+                    Appendix A: Glossary
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="../appendix_b_updating_older_extensions.html">
+            
+                <a href="../appendix_b_updating_older_extensions.html">
+            
+                    
+                    Appendix B: Updating Older Extensions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="../appendix_c_short_sample_games/short_sample_games.html">
+            
+                <a href="../appendix_c_short_sample_games/short_sample_games.html">
+            
+                    
+                    Appendix C: Short Sample Games
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.15.1" data-path="../appendix_c_short_sample_games/flea_market.html">
+            
+                <a href="../appendix_c_short_sample_games/flea_market.html">
+            
+                    
+                    Flea Market
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15.2" data-path="../appendix_c_short_sample_games/mr_potato_head.html">
+            
+                <a href="../appendix_c_short_sample_games/mr_potato_head.html">
+            
+                    
+                    Mr Potato Head
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15.3" data-path="../appendix_c_short_sample_games/a_dangerous_jewel_box.html">
+            
+                <a href="../appendix_c_short_sample_games/a_dangerous_jewel_box.html">
+            
+                    
+                    A Dangerous Jewel Box
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15.4" data-path="../appendix_c_short_sample_games/the_omega_machine.html">
+            
+                <a href="../appendix_c_short_sample_games/the_omega_machine.html">
+            
+                    
+                    The Omega Machine
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15.5" data-path="../appendix_c_short_sample_games/the_lurking_critter.html">
+            
+                <a href="../appendix_c_short_sample_games/the_lurking_critter.html">
+            
+                    
+                    The Lurking Critter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15.6" data-path="../appendix_c_short_sample_games/restraints.html">
+            
+                <a href="../appendix_c_short_sample_games/restraints.html">
+            
+                    
+                    Restraints
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15.7" data-path="../appendix_c_short_sample_games/broken_eggs.html">
+            
+                <a href="../appendix_c_short_sample_games/broken_eggs.html">
+            
+                    
+                    Broken Eggs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15.8" data-path="../appendix_c_short_sample_games/indoors_&_outdoors.html">
+            
+                <a href="../appendix_c_short_sample_games/indoors_&_outdoors.html">
+            
+                    
+                    Indoors & Outdoors
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="../appendix_d_license.html">
+            
+                <a href="../appendix_d_license.html">
+            
+                    
+                    Appendix D: License
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Writing Your First Game</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="writing-your-first-game">Writing Your First Game </h2>
+<p>There are no rules at all that dictate what you can put in a game. One of the great things about interactive fiction is that you&#x2019;re free to write whatever sort of story you&#x2019;d like, and put whatever story elements in it you think would be fun.</p>
+<p>Your first game may be just something that you put together for fun, or as a surprise for your kids. But if you hope to create a game that you can share with other people, you may want to think carefully about what people will be able to see and do when they play your game. Here are a few tips that may help you come up with a better game. If these tips don&#x2019;t make sense now, come back to the list in a few weeks &#x2014; it may make more sense after you&#x2019;ve done some writing.</p>
+<ol>
+<li><p>Players won&#x2019;t be able to read your mind. If you want them to know about something (such as which directions they can go when they&#x2019;re in a certain room, or the fact that a time bomb is ticking), you need to write some output text that will tell them. Output text is the material that appears in double quotation marks within your source text.</p>
+</li>
+<li><p>When creating objects, always add all of the vocabulary words you can think of that players might use to refer to the objects. (See &#x201C;Adding Vocabulary Words&#x201D; in Chapter 3, <a href="../chapter_3_things/adding_vocabulary_words_with_understand.html#adding_vocabulary_words_with_understand">here</a>, to learn how to do this.)</p>
+</li>
+<li><p>When creating new actions that will work on your objects, always add all of the verb synonyms you can think of. Forcing the player to guess what verb you had in mind is considered extremely poor form. (The techniques for creating new actions are explained in Chapter 4, starting <a href="../chapter_4_actions/creating_new_actions.html#creating_new_actions">here</a>.)</p>
+</li>
+<li><p>After writing a few paragraphs, click the Go button to compile your game and test your work. Test all of the silly commands you can think of, and watch how your game handles the commands. Then rewrite and test some more. Don&#x2019;t wait until you&#x2019;ve written great swaths of source text before compiling; failing to compile often is just a way to give yourself lots of needless headaches.</p>
+</li>
+<li><p>Write an intro to your game (using a When Play Begins rule &#x2014; see Chapter 8 <a href="../chapter_8_time_&amp;_scenes/passing_time.html#passing_time">here</a>) that gives players a clear idea about two or three things: Where the story takes place, what character they&#x2019;re supposed to be, and what that character is trying to do.</p>
+</li>
+<li><p>If you plan to have anyone outside your immediate circle of family and friends play the game, you&#x2019;ll want to enlist at least two beta-testers, as described <a href="testing_your_game.html#testing_your_game">here</a>.</p>
+</li>
+</ol>
+<p>Even before you write the first sentence of your story, Inform contains a great mass of rules that will allow your game to do some sophisticated things automatically. The game can, for instance, construct sentences that you never wrote, in order to describe situations that may come up during the story. The rules that are included in I7 are called the <strong>Standard Rules</strong>.You can use them without knowing anything about them. In fact, you will be using them in every game, unless you explicitly switch some of them off. Just about every rule in the library can be individually disabled (switched off) if it produces results that you don&#x2019;t want. Switching off portions of the library is an advanced programming topic, but the basic technique is illustrated <a href="../appendix_b_updating_older_extensions.html#new-rule">here</a>.</p>
+<p>If you&#x2019;re curious about what the Standard Rules look like, you can open them from the Inform IDE. In the Macintosh, choose File &gt; Open Extension &gt; Graham Nelson &gt; Standard Rules.</p>
+<p>Please be careful not to make any changes in this file! If you do accidentally make changes, be sure to close the file without saving. Changing the Standard Rules could mess up Inform so that the games you write won&#x2019;t work properly, or at all. (If this happens, you can always download and reinstall Inform. Reinstalling will not affect the game you&#x2019;re working on.)</p>
+<h3 id="from-the-top">From the Top </h3>
+<p>To start your game, you need to create at least one room, where the story will start. Chapter 2 of this book is all about how to create rooms. Before you start writing your first room, though, you may want to do a couple of preliminary things. I recommend starting your game as shown below. First, the game should have a title and a byline. (These will be created automatically by Inform when you start a new project, but you can change them at any time just by editing the first line in the Source page.) After the title and byline, skip a line and write a Use sentence, like this:</p>
+<pre><code class="lang-inform7">Use American dialect and the serial comma.
+</code></pre>
+<p>Inform was written by an Englishman, so it uses British spellings for a few words unless you instruct otherwise. &#x201C;Use American dialect&#x201D; switches the spelling from British to American. If you want the game to start out in brief mode, do it this way:</p>
+<pre><code class="lang-inform7">Use American dialect, brief <span class="hljs-keyword">room</span> descriptions, and the serial comma.
+</code></pre>
+<p>Prior to version 6E59, Inform&#x2019;s default for room descriptions was brief mode, but the default has been changed to verbose mode. Here&#x2019;s the difference: When the game is in verbose mode, the player will read the complete description of each room each time she enters the room. If the game is in brief mode, the room description will be printed out in full only the first time the player enters a room; after that, the room name will be printed more or less by itself. (Any movable objects or people in the room will still be mentioned.) The player can switch full-length room descriptions on and off using the VERBOSE and BRIEF commands, which are built into Inform, so telling Inform that you want to use brief room descriptions only controls how your game will start out, not what may happen after that. If the solution of a puzzle relies on the game being in verbose mode, but the player has switched to brief mode, you&#x2019;ve written an unfair puzzle! (Here&#x2019;s a <strong>bonus tip</strong>: If the room description has changed as a result of some action the player has taken, and you want to make sure the player sees the new description, make the room <em>unvisited</em> when the player takes that action. For more on how to do this, see &#x201C;When Is a Room &#x2018;Visited&#x2019;?&#x201D; <a href="../chapter_2_rooms_&amp;_scenery/when_is_a_room_visited.html#when-is-a-room-visited">here</a>.)</p>
+<p>The serial comma is the final comma in lists of items. If the serial comma is switched on, your game might report this:</p>
+<p><code>You can see an apple, a pear, and a banana here.</code></p>
+<p>If the serial comma is <em>not</em> being used, the output is just slightly different:</p>
+<p><code>You can see an apple, a pear and a banana here.</code></p>
+<p>Most games also need an introduction &#x2014; some text that will &#x201C;set the stage&#x201D; for the story. You can create an introduction by writing a When Play Begins rule, perhaps something like this:</p>
+<pre><code class="lang-inform7">When play begins, say &quot;Lord Triffid has invited you to spend your week&apos;s vacation in his castle. Upon arriving, though, you begin to feel a bit uneasy. Perhaps it&apos;s the bats flying in and out of the attic window that put a damper on your mood, or perhaps it&#x2019;s the sound of barking, snarling guard dogs....&quot;
+</code></pre>
+<h3 id="the-detail-trap">The Detail Trap </h3>
+<p>When writing your first interactive fiction, there&#x2019;s a pitfall you may want to watch out for &#x2014; the detail trap. Let&#x2019;s suppose you want your story to start in the kitchen of the main character&#x2019;s house. So you start putting things in the kitchen &#x2014; appliances and so on. (By the way, <strong>p. 8.5</strong> of the <em>Recipe Book</em>, &#x201C;Kitchen and Bathroom,&#x201D; has some great tips on how to make appliances.) Now, a kitchen is a complicated place! The stove can be switched on, and touching it when it&#x2019;s switched on will burn you. The hot and cold water taps in the sink can also be turned on, and when one of them is on, there&#x2019;s some water that the player might want to interact with. In the refrigerator is some moldy cheese, so you need to figure out how Inform handles the smelling action.</p>
+<p>And so on. Two months later, you&#x2019;re still trying to work out the details of a realistic kitchen. (What if the glass in the cupboard is half-full of water instead of completely full? If you empty a half-full glass on the floor will it only make a small puddle instead of a large puddle?) Meanwhile, your story has gone nowhere, and your enthusiasm for interactive fiction has taken a nosedive. That&#x2019;s the detail trap.</p>
+<p>A better approach, I&#x2019;ve found, is to start by creating a bunch of rooms and putting perhaps a couple of major scenery items in each room. (Scenery is discussed in Chapter 2.) Then create a few simple puzzles. Then add one or two important characters &#x2014; but only in a basic way. Don&#x2019;t worry about the nuances of conversation yet. (Characters and conversation are covered in Chapter 5.)</p>
+<p>I like to write descriptions when I&#x2019;m starting out, because I like to get a concrete feeling for the places and objects in the story. To start with, though, write basic descriptions of rooms and important objects without worrying about how the objects may change during the course of the game. You can always edit the descriptions later to allow them to change dynamically, or to take account of details that are added to the code later.</p>
+<p>There&#x2019;s a lot to learn in Inform. So start with simple things and build up your game in an orderly way. Put off the complex and tricky stuff for a later stage in the development.</p>
+<h3 id="title-trickery">Title Trickery </h3>
+<p>We&#x2019;re going to take a little detour into more sophisticated Inform programming here &#x2014; nothing that&#x2019;s tricky to write or understand, but we&#x2019;ll use a couple of Inform&#x2019;s deeper features without bothering to explain them. The reason we&#x2019;re going to do it here is because of what happens at the very beginning of the game.</p>
+<p>After your intro, Inform will print the banner text. (Don&#x2019;t confuse the banner text, which is printed only once, with the status line, which looks like a banner and usually runs across the top of the interpreter window throughout the game.) If you&#x2019;ve given your game a title and subtitle, they&#x2019;ll appear in the banner text, which might look something like this:</p>
+<pre><code class="lang-inform7">A Screw Loose
+
+A Digital Dalliance by Jim Aikin
+
+Release 1 / Serial number 150215 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+</code></pre>
+<p>Wondering how to put a cool subhead underneath the game&#x2019;s title, like the one shown above? That text is called the story headline. You do it like this:</p>
+<pre><code class="lang-inform7">The story headline <span class="hljs-keyword">is</span> <span class="hljs-string">&quot;Digital Dalliance&quot;</span>.
+</code></pre>
+<p>Providing the release number, serial number, and so on as part of the banner is not anything you need to set up; it&#x2019;s done automatically, as a courtesy to players. Among other things, it will help you keep track of different versions of your game, if you release more than one version. But there may be games in which displaying this text is not desirable. You may want to replace the default banner text with your own text, or suppress it entirely. To do this, you could add code like this near the top of your game:</p>
+<pre><code class="lang-inform7">Rule for printing the banner text: <span class="hljs-keyword">say</span> <span class="hljs-string">&quot;<span class="hljs-subst">[bold type]</span>I&apos;m a lumberjack and I&apos;m okay!<span class="hljs-subst">[roman type]</span><span class="hljs-subst">[line break]</span><span class="hljs-subst">[line break]</span>&quot;</span>
+</code></pre>
+<p>Whatever you write as a rule for printing the banner text will be printed out as the banner. Instead of using a &#x201C;say&#x201D; phrase as shown above, you can write &#x201C;do nothing&#x201D; here, which will suppress the banner text entirely. If you&#x2019;re replacing the banner text, you might want to include your own version number. (Inform&#x2019;s version numbering doesn&#x2019;t allow decimal points, which makes it a bit nonstandard in the computer world, so writing a banner text such as &#x201C;A Screw Loose, version 1.01&#x201D; might be worth considering.)</p>
+<p>Writing a new rule for printing the banner text, however, will <em>also</em> change the banner text information when the player types the VERSION command. The release number, serial number, build number, and compiler number will be unavailable. This is less desirable. If you want to suppress the banner text at the beginning of the game but keep the information available in response to the VERSION command, you can do it this way:</p>
+<pre><code class="lang-inform7">The display banner <span class="hljs-keyword">rule</span> <span class="hljs-keyword">is</span> not listed in the startup rulebook.
+</code></pre>
+<p>This will eliminate the opening banner but leave the version information intact, so the player will be able to display it with the VERSION command. Substituting your own banner text when play begins while keeping the existing text in response to the VERSION command is possible but tricky, so we won&#x2019;t get into it here.</p>
+<p>Before we move on, we need to pause for a quick cautionary note: The title of an Inform game can&#x2019;t contain quotation marks. That is, if you want your story&#x2019;s title to be displayed this way:</p>
+<p><code>&#x201C;Repent,&#x201D; Said the Tick-Tock Man</code></p>
+<p>&#x2026; you just plain can&#x2019;t. You can, however, use single quotes (apostrophes), producing this title:</p>
+<p><code>&#x2018;Repent,&#x2019; Said the Tick-Tock Man</code></p>
+<p>A problem that used to crop up more often has now been fixed. In some previous versions of I7, it was impossible to use an apostrophe in the title if the apostrophe fell at the end of a word. That is, you couldn&#x2019;t call your story &#x201C;Goin&#x2019; Home&#x201D;. This is now allowed. You can just type an apostrophe at any point in the title, either in the middle of a word or at the end, and it will be displayed properly.</p>
+<h3 id="telling-a-story">Telling a Story </h3>
+<p>Maybe the most basic way to look at a story &#x2014; any story, be it interactive, written on paper, or told out loud &#x2014; is that a story is about a person who has a <em>problem</em>. The reason for looking at stories this way is simple: If the main character in the story doesn&#x2019;t have a problem, the story will be extremely boring. When we read a story, we want to enjoy the suspense of wondering how the lead character will solve the problem, and then at the end we want the satisfaction of seeing how the problem was resolved. In interactive fiction, the player usually <em>is</em> the lead character, which can add to the suspenseful emotions your reader/players will feel.</p>
+<p>The problem in a story can be as small as finding a lost kitten, or as large as saving Earth from alien invaders. As long as the problem is emotionally important to the lead character, it will work in a story.</p>
+<p>If the problem is too easily solved, the reader (or player) will feel cheated. So the author needs to make sure the problem is not only important to the character, but not too easy.</p>
+<p>In interactive fiction, solving the main story problem usually means solving a variety of puzzles. This <em>Handbook</em> has a whole chapter (Chapter 6) on designing puzzles.</p>
+<blockquote>
+<p><strong>What&#x2019;s a WIP?</strong></p>
+<p>As you read discussion of interactive fiction programming in Internet forums and newsgroups, you&#x2019;ll often find somebody talking about &#x201C;my WIP.&#x201D; This is an abbreviation for &#x201C;work in progress.&#x201D; Large games can be &#x201C;in progress&#x201D; for months or years. As long as you&#x2019;re still working on an unfinished game, or even thinking about it once in a while, it&#x2019;s a WIP.</p>
+</blockquote>
+<h3 id="managing-your-project-s">Managing Your Project(s) </h3>
+<p>It&#x2019;s a good idea to always save your project to some specific folder on your hard drive. In Windows, this would probably be My Documents &gt; Inform &gt; Projects. If you care about your creative work (and you should!), it&#x2019;s a very good idea to <em>back up</em> your project to a separate location after you&#x2019;ve done any new work on it. USB memory sticks are cheap and convenient. Always use a separate <em>physical</em> location for backup, not just a different partition on the same physical hard drive. The point of making a backup copy is to protect you against the possibility of a hard drive crash or system failure.</p>
+<p>Every few days, I like to save a project using a new, numbered filename. After working on Flustered Duck 05 for a few days, I&#x2019;ll use the Save As command and save the project as Flustered Duck 06, and so on. (The final release version of &#x201C;A Flustered Duck&#x201D; was project version 21). Here&#x2019;s why that&#x2019;s a good idea: If you should change your mind about a design decision that you&#x2019;ve made, or if you should accidentally delete or change something without meaning to, you can open up an older version of your project and copy a portion of the source code from the old version into the new one. Doing this actually saved me from a serious problem when I was writing this <em>Handbook.</em> I recommend it highly.</p>
+<h3 id="about-inform-source-code">About Inform Source Code </h3>
+<p>One of the strong attractions of Inform 7 for new authors who would like to try writing IF is its use of natural language syntax. In many simple situations, both writing Inform source code and reading it is easier than wrapping your brains around a more conventionally structured programming language (such as TADS 3 or Javascript). Unfortunately, there&#x2019;s a downside to this apparent ease of use, which will become more apparent as you get deeper into writing your game. Inform&#x2019;s programming language contains a lot of one-off syntax &#x2014; phrases that make sense if you know them, but that are hard to guess if you don&#x2019;t know them. If you can&#x2019;t remember how a given line should be written, your game probably won&#x2019;t compile, and the compiler&#x2019;s error message may not be very helpful. And if you can&#x2019;t remember the phrase to use, searching the Documentation for it may not work either.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="downloading_&_playing_games.html" class="navigation navigation-prev " aria-label="Previous page: Downloading & Playing Games">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="all_about_bugs.html" class="navigation navigation-next " aria-label="Next page: All About Bugs">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Writing Your First Game","level":"1.3.6","depth":2,"next":{"title":"All About Bugs","level":"1.3.7","depth":2,"path":"chapter_1_getting_started/all_about_bugs.md","ref":"chapter_1_getting_started/all_about_bugs.md","articles":[]},"previous":{"title":"Downloading & Playing Games","level":"1.3.5","depth":2,"path":"chapter_1_getting_started/downloading_&_playing_games.md","ref":"chapter_1_getting_started/downloading_&_playing_games.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["intopic-toc","collapsible-menu","code"],"pluginsConfig":{"collapsible-menu":{},"intopic-toc":{"isCollapsed":true,"isScrollspyActive":true,"label":"In this article","maxDepth":6,"mode":"nested","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6","visible":true},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css"}},"file":{"path":"chapter_1_getting_started/writing_your_first_game.md","mtime":"2021-07-28T10:28:20.648Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-08-01T19:41:45.199Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-intopic-toc/anchor.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-intopic-toc/gumshoe.polyfills.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-intopic-toc/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-collapsible-menu/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

@@ -1,0 +1,5 @@
+## Enigmas {#enigmas}
+
+A commentator on rec.arts.int-fiction (I’ve forgotten who) made an interesting distinction between puzzles and problems. Problems, he maintained, are difficulties that are intrinsic or sensible in the world of the story. By that definition, most of what we’ve been looking at in this chapter are problems, not puzzles. A puzzle-type puzzle, in contrast, is something that doesn’t have any business being in the world of the story: It’s there strictly to give the player some mental gymnastics. If we’re going to keep using the word “puzzle” in a broader sense, to refer to all of the problems that the PC may face during the story, we might call this type of puzzle an enigma.
+
+The ultimate example of an enigma is the game “Gostak” by Carl Muckenhaupt. In this game, _all_ of the nouns and verbs, including the ones you use in commands, have been replaced by nonsense words of the author’s own devising. The puzzle is to figure out how to read the text of the game and issue commands. Roger Firth’s “Letters from Home” is also an enigma-based game, with only a thin veneer of story.

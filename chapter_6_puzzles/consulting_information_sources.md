@@ -1,0 +1,9 @@
+## Consulting Information Sources {#consulting-information-sources}
+
+In many games, key pieces of information are hidden in a large book, or possibly in a computer terminal of some sort. To get at the information, the player uses a syntax like LOOK UP KING HENRY IN HISTORY BOOK or LOOK UP POISONS IN COMPUTER. The solution to this sort of puzzle is to keep trying topics until you find an input that the information source responds to. Or the player may need to find another piece of information somewhere that says, in essence, “King Henry is listed on page 447 of the history book.” Once the player is in possession of this information, TURN TO PAGE 447 should reveal the information.
+
+Alternatively, the information may simply be written on a piece of paper in the game, or scrawled on a blackboard, and the puzzle is to find it. In some games, the information on the paper or blackboard is incomplete or difficult to understand. It may be written in code, or the paper on which it’s written may have been torn up, forcing the player to collect the scraps in order to decipher the complete message.
+
+Not all of the information sources in games are in the form of encyclopedias, computers, and carelessly dropped notes. If you see any murals, mosaics, paintings, or tapestries in a game, pay close attention to the images depicted on them. Likewise carvings. Sound and video playback devices are a bit less often used, but they do show up from time to time. The player may need to TURN ON TAPE PLAYER, for instance, followed by an esoteric command like FAST-FORWARD TO 447.
+
+With an informal type of information source, it’s usual that you won’t know immediately whether you’re getting useful information or just background on the story. This is especially true of NPCs, who may ramble on about all sorts of topics, their conversation containing disguised or ambiguous information.

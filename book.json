@@ -1,0 +1,15 @@
+{
+  "plugins": [
+    "intopic-toc",
+    "collapsible-menu",
+    "code"
+  ],
+  "pluginsConfig": {
+    "code": {
+      "copyButtons": true
+    }
+  },
+  "styles": {
+        "website": "styles/website.css"
+    }
+}

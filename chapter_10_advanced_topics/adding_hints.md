@@ -1,0 +1,11 @@
+## Adding Hints {#adding-hints}
+
+My personal belief (some people don’t agree) is that almost any work of IF that includes puzzles should have a complete set of built-in hints. The bad thing about hints is that they can make it too easy for the player. Instead of exercising her brain-power, she can just look up a hint, slam through the puzzle, and move on to the next part of the game.
+
+On the other hand, a player who gets stuck in the middle of a game and has no way of getting unstuck may just set the game aside and never come back to it. If you care about having players enjoy your game from start to finish, I hope you’ll at least consider providing a hint menu. It’s a little extra work, but many players will appreciate it.
+
+A well-written series of hints will first nudge the player gently toward the solution of each puzzle. If the player asks for more hints, they’ll become broader and more obvious. The last hint in each list should provide a complete, step-by-step solution to the puzzle. If you’re tempted to write just a couple of hints for each puzzle and then stop by saying something like, “Well, it should be obvious to you by now,” I hope you’ll consider that some of your players may want to shoot you. This can’t be viewed as a desirable outcome.
+
+On the other hand, it’s sporting to offer the player a chance to disable the hints so as not to be tempted.
+
+A good extension to use for adding hints to your game is Adaptive Hints by Eric Eve. While the commands the player uses to navigate the hint system are clumsy, the functionality is there. The documentation for this extension is thorough and easy to follow, so there’s no reason to discuss it here. One nice thing about Adaptive Hints is that the contents of the Hint menu can be changed during the course of the game. This helps prevent “spoilers.” For instance, if the player consults the hints early in the game, it would be a terrible spoiler to find a hint listed as “How do I get the jewels out of the stomach of the shark?” before the player has encountered a shark or knows about the jewels. Using Adaptive Hints, you can cause that hint to appear only after the player has reached a point in the game where it makes sense for the hint to be available. To keep track of whether the player has seen the shark or knows about the jewels, Epistemology by Eric Eve is the tool of choice.
