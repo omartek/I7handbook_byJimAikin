@@ -8,6 +8,10 @@ version 2.0 (May 2015)
 
 valid for 6L38
 
+![Inform 7 webpage](cover.jpeg)
+
+# Use & license
+
 _The Inform 7 Handbook_ is copyright (c) 2015 by Jim Aikin. _The Inform 7 Handbook_ has been released under and is subject to the terms of the Creative Commons Public License, the terms of which are hereby incorporated by reference. Please see Appendix C of this book and read it before using this material. Your use of this material signifies your agreement to the terms of the License.
 
 You are free to copy, distribute, and transmit this work, and you are free to excerpt and adapt it, in whole or in part, subject to the following conditions:

@@ -1,4 +1,4 @@
-# I7Handbook v2.0 (May 2015) by Jim Aikin
+# Inform 7 Handbook v2.0 (May 2015) by Jim Aikin
 
 Web version of Jim AIkin's handbook about Inform7, the natural programming language for IF (interactive fiction).
 

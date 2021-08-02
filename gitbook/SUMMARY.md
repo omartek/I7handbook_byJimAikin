@@ -2,10 +2,10 @@
 
 * [I7Handbook](README.md)
 * [](.md)
-* [Introduction](foreword/cover_text.md)
-  * [Foreword](foreword/foreword.md)
+* [Foreword](foreword/foreword.md)
   * [Acknowledgments](foreword/acknowledgments.md)
   * [About the Author](foreword/about_the_author.md)
+  * [Use & License](foreword/i7handbook.md)
 * [Chapter 1: Getting Started](chapter_1_getting_started/getting_started.md)
   * [Downloading & Installing](chapter_1_getting_started/downloading_&_installing.md)
   * [The Inform 7 Program](chapter_1_getting_started/the_inform_7_program.md)
