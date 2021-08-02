@@ -1,3 +1,9 @@
 site_name: I7 Handbook
 site_url: https://github.com/omartek/I7handbook_byJimAikin
 docs_dir: gitbook/
+theme:
+    name: readthedocs
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - inform7
