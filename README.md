@@ -9,4 +9,4 @@ To create the structure and html files, I've used gitbook.
 
 [Here you can find **READTHEDOCS** version.](https://i7handbook.readthedocs.io/)
 
-[Original .PDF and .ODT version are on J.Aikin web pages](http://www.musicwords.net/if/i7hb.htm)
+[Original .PDF and .ODT version are on **J.Aikin web pages**](http://www.musicwords.net/if/i7hb.htm)
