@@ -8,7 +8,7 @@ theme:
         - yaml
         - inform7
 nav:
-    - Getting started: '/chapter_1_getting_started/getting_started'
+    - Getting started: './chapter_1_getting_started/getting_started.md'
     - Chapter 1 - Getting started:
-                - Getting started: '/chapter_1_getting_started/getting_started.md'
-                - Downloading & installing: '/chapter_1_getting_started/downloading_&_installing.md'
+                - Getting started: './chapter_1_getting_started/getting_started.md'
+                - Downloading & installing: './chapter_1_getting_started/downloading_&_installing.md'
