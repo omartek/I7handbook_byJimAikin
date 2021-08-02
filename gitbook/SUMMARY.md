@@ -2,7 +2,8 @@
 
 * [I7Handbook](README.md)
 * [](.md)
-* [Foreword](foreword/foreword.md)
+* [Introduction](foreword/cover_text.md)
+  * [Foreword](foreword/foreword.md)
   * [Acknowledgments](foreword/acknowledgments.md)
   * [About the Author](foreword/about_the_author.md)
 * [Chapter 1: Getting Started](chapter_1_getting_started/getting_started.md)
