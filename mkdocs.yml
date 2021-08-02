@@ -1,7 +1,3 @@
 site_name: I7 Handbook
 site_url: https://github.com/omartek/I7handbook_byJimAikin
 docs_dir: gitbook/
-nav:
-    - Home: '../'
-    - 'User Guide': 'README.md'
-    - 'Bug Tracker': '/chapter_1_getting_started/'
