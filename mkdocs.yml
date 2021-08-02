@@ -9,10 +9,10 @@ theme:
         - inform7
 nav:
     - ' Inform7 - I7Handbook':
-        - 'Info & Licence': 'about_the_author.md'
-        - 'Foreword': 'foreword.md'
-        - 'Acknowledgments': 'acknowledgments.md'
-        - 'About the Author': 'about_the_author.md'
+        - 'Info & Licence': 'README.md'
+        - 'Foreword': './foreword/foreword.md'
+        - 'Acknowledgments': './foreword/acknowledgments.md'
+        - 'About the Author': './foreword/about_the_author.md'
     - 'Chapter 1 - Getting started':
         - 'Getting started': './chapter_1_getting_started/getting_started.md'
         - 'Downloading & installing': './chapter_1_getting_started/downloading_&_installing.md'
