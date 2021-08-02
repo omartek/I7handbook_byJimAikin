@@ -155,7 +155,7 @@ nav:
         - 'Indenting': './chapter_9_phrasing_&_punctuation/indenting.md'
         - 'Headings': './chapter_9_phrasing_&_punctuation/headings.md'
         - 'Loops': './chapter_9_phrasing_&_punctuation/loops.md'
-      - 'Chapter 10: Advanced Topics':
+    - 'Chapter 10: Advanced Topics':
         - 'Advanced Topics': './chapter_10_advanced_topics/advanced_topics.md'
         - 'Story Tense and Viewpoint': './chapter_10_advanced_topics/story_tense_and_viewpoint.md'
         - 'Code Optimization': './chapter_10_advanced_topics/code_optimization.md'
