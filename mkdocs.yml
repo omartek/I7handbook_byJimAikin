@@ -4,6 +4,7 @@ docs_dir: gitbook/
 theme:
     name: readthedocs
     highlightjs: true
+    collapse_navigation: true
     hljs_languages:
         - yaml
         - inform7
