@@ -8,7 +8,7 @@ theme:
         - yaml
         - inform7
 nav:
-    - ' Inform7 - I7Handbook': 'README.md'
+    - ' Inform7 - I7Handbook':
         - 'Info & Licence': 'about_the_author.md'
         - 'Foreword': 'foreword.md'
         - 'Acknowledgments': 'acknowledgments.md'
