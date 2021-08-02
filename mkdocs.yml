@@ -73,7 +73,7 @@ nav:
         - 'Smelling & Listening': './chapter_3_things/smelling_&_listening.md'
         - 'Transforming One Thing into Another': './chapter_3_things/transforming_one_thing_into_another.md'
         - 'New Ways to Use Things': './chapter_3_things/new_ways_to_use_things.md'
-    - 'Chapter 4: Actions': './chapter_4_actions/actions.md'
+    - 'Chapter 4: Actions':
         - 'Actions': './chapter_4_actions/actions.md'
         - 'Built-In Actions': './chapter_4_actions/built-in_actions.md'
         - 'Using “Instead”': './chapter_4_actions/using_instead.md'
