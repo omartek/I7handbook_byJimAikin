@@ -4,6 +4,7 @@ Web version of Jim AIkin's handbook about Inform7, the natural programming langu
 
 Github repository contains markdown files of every section of the handbook and a web version hosted with github pages.
 To create the structure and html files, I've used gitbook.
+The same file are used to create a version on Readthedocs using Mkdocs.
 
 [Here you can find **GITBOOK HTML** version.](https://omartek.github.io/I7handbook_byJimAikin/)
 
