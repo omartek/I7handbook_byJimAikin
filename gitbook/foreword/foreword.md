@@ -1,4 +1,4 @@
-# Foreword {#foreword}
+# Foreword
 
 Somebody once said that if you ask five poets to define poetry, you’ll get seven definitions. I’m sure I’m misquoting wildly — the original version may not have been about poetry at all — but the point should be clear. There are undoubtedly more good ways to explain the intricacies of the Inform 7 programming language than there are people who have written tutorials on the subject.
 

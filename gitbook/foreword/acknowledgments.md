@@ -1,4 +1,4 @@
-## Acknowledgments {#acknowledgments}
+## Acknowledgments
 
 Thanks go first and foremost to Graham Nelson for the monumental task of creating, developing, and maintaining Inform. Emily Short is tireless in her assistance and support for Inform authors. David Kinder maintains the Windows IDE (Integrated Development Environment) software for Inform 7, and Andrew Hunter the MacOS IDE. Andrew Plotkin’s Glulx system allows large games and games with extra features to be written in Inform; without Glulx, Inform would be a much less attractive proposition for game designers.
 

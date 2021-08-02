@@ -1,4 +1,4 @@
-# I7Handbook {#i7handbook}
+# I7Handbook
 
 Inform 7 Handbook
 
