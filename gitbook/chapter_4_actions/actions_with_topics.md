@@ -1,4 +1,4 @@
-## Actions with Topics {#actions-with-topics}
+## Actions with Topics
 
 Inform provides an action called consulting it about. By default, this does nothing except print out a message that says, “You discover nothing of interest in [the noun].” The results, if the player tries LOOK UP EXPLOSIVES IN MRS SMITH, are rather comical, because Inform seems to be implying that there is actually a way of looking things up in Mrs. Smith. We’ll want to fix that. Nonetheless, we can use this action to create an encyclopedia — or for that matter, a computer terminal — in which the player can look up whatever topics we like. Here’s an encyclopedia:
 

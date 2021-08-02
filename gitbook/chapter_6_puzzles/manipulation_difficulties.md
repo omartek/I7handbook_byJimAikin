@@ -1,4 +1,4 @@
-## Manipulation Difficulties {#manipulation-difficulties}
+## Manipulation Difficulties
 
 Many games include objects that are too heavy to lift, too hot, too slippery, or difficult to handle for some other reason. This type of puzzle offers many opportunities for the author. Providing a handy oven mitt for picking up the hot object might be too obvious: you might want to give the player a baseball glove instead.
 

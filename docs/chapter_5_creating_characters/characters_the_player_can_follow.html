@@ -142,6 +142,19 @@
             
         </li>
     
+        <li class="chapter " data-level="1.2.3" data-path="../foreword/use_&_license.html">
+            
+                <a href="../foreword/use_&_license.html">
+            
+                    
+                    Use & License
+            
+                </a>
+            
+
+            
+        </li>
+    
 
             </ul>
             
@@ -2338,7 +2351,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="characters-the-player-can-follow">Characters the Player Can Follow </h2>
+                                <h2 id="characters-the-player-can-follow">Characters the Player Can Follow</h2>
 <p>There are at least two ways (and maybe more) to set up a game so that the player needs to follow another character. First, the NPC may be standing in the room, saying, &#x201C;Come on, follow me!&#x201D; or something of the sort, in which case the command FOLLOW BOB would likely be implemented so as to move both the PC and the NPC to whatever room the NPC has in mind. Second, the NPC may just have left the room, and the player may now be wanting to follow the NPC to see whither he is bound.</p>
 <p>The second situation is trickier than the first. This is because of the way Inform handles scope. As explained <a href="../chapter_2_rooms_&amp;_scenery/creating_your_first_room.html#creating-your-first-room">here</a>, the player can normally only refer to objects that are in the same room (and also visible &#x2014; an object in a closed container is invisible, for instance, unless the container is transparent). If the NPC has left the room, he won&#x2019;t be in scope, so FOLLOW BOB will produce the unhelpful output &#x201C;You can&#x2019;t see any such thing.&#x201D; Well, duh &#x2014; that was why I wanted to follow him!</p>
 <p>Example 302, &#x201C;Actaeon&#x201D; (found on <strong>p. 7.13</strong> of the <em>Recipe Book</em>), shows how to allow the PC to follow an NPC who has left the room. This example is easy to customize, but it&#x2019;s worth including some of the code here to point out a couple of features. We&#x2019;ll start with the setup from <a href="moving_characters_around.html#moving-characters-around">here</a>, in which Bob is meandering around a featureless grid of nine rooms. This time, though, we&#x2019;ll start him in Room 1, so the player can start following him immediately.</p>
@@ -2418,7 +2431,7 @@ To move (pawn - a person) tidily to (target - a room):
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Characters the Player Can Follow","level":"1.7.13","depth":2,"next":{"title":"Stage Business","level":"1.7.14","depth":2,"path":"chapter_5_creating_characters/stage_business.md","ref":"chapter_5_creating_characters/stage_business.md","articles":[]},"previous":{"title":"Characters Who Follow the Player","level":"1.7.12","depth":2,"path":"chapter_5_creating_characters/characters_who_follow_the_player.md","ref":"chapter_5_creating_characters/characters_who_follow_the_player.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["intopic-toc","collapsible-menu","code"],"pluginsConfig":{"collapsible-menu":{},"intopic-toc":{"isCollapsed":true,"isScrollspyActive":true,"label":"In this article","maxDepth":6,"mode":"nested","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6","visible":true},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css"}},"file":{"path":"chapter_5_creating_characters/characters_the_player_can_follow.md","mtime":"2021-08-01T10:45:33.979Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-08-01T19:41:45.199Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Characters the Player Can Follow","level":"1.7.13","depth":2,"next":{"title":"Stage Business","level":"1.7.14","depth":2,"path":"chapter_5_creating_characters/stage_business.md","ref":"chapter_5_creating_characters/stage_business.md","articles":[]},"previous":{"title":"Characters Who Follow the Player","level":"1.7.12","depth":2,"path":"chapter_5_creating_characters/characters_who_follow_the_player.md","ref":"chapter_5_creating_characters/characters_who_follow_the_player.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["intopic-toc","collapsible-menu","code"],"pluginsConfig":{"collapsible-menu":{},"intopic-toc":{"isCollapsed":true,"isScrollspyActive":true,"label":"In this article","maxDepth":6,"mode":"nested","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6","visible":true},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css"}},"file":{"path":"chapter_5_creating_characters/characters_the_player_can_follow.md","mtime":"2021-08-02T21:11:27.056Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-08-02T21:18:49.184Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

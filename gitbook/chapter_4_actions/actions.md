@@ -1,4 +1,4 @@
-# Chapter 4: Actions {#chapter-4-actions}
+# Chapter 4: Actions
 
 ![](../assets/graphics11.png)
 

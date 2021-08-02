@@ -1,4 +1,4 @@
-## Creating an NPC {#creating-an-npc}
+## Creating an NPC
 
 Creating a new non-player character is easy. Assuming we’ve created a room called the Billiard Room, we can then write:
 

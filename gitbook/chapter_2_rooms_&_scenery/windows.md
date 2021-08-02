@@ -1,4 +1,4 @@
-## Windows {#windows}
+## Windows
 
 Real rooms often have windows. Windows have some interesting features. When you look through a window, you’ll normally see what’s on the other side. If the window is open, you may also be able to climb through it. (Or not.) A window is normally in two rooms, like a door. And if the room on one side of a window is lighted, it’s very unlikely that the room on the other side will be a dark room. (For more on dark rooms, [here](../chapter_2_rooms_&_scenery/dark_rooms.md#dark-rooms))
 

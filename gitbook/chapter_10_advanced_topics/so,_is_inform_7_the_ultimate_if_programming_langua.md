@@ -1,4 +1,4 @@
-## So, Is Inform 7 the Ultimate IF Programming Language? {#so-is-inform-7-the-ultimate-if-programming-language}
+## So, Is Inform 7 the Ultimate IF Programming Language?
 
 Given the popularity of Inform 7 and the ease with which newcomers can use it to start creating their own interactive fiction, it wouldn’t be surprising if people get the impression it’s the best IF development system that could ever be imagined. It would be wrong for this _Handbook_ to draw to a close without commenting on that impression.
 

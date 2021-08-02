@@ -1,4 +1,4 @@
-## Assembly Required {#assembly-required}
+## Assembly Required
 
 ![](../assets/graphics32.jpg)
 

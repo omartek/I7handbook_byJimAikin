@@ -1,4 +1,4 @@
-## Achievements {#achievements}
+## Achievements
 
 Some authors feel that keeping a numerical score trivializes a serious game, or isn’t interesting from a literary standpoint. Even so, it would be nice to let the player know what kind of progress he or she is making. Instead of producing a numerical score in response to the SCORE command, we can give the player a list of achievements. To do this, we’ll use a table. Tables are one of Inform’s more advanced features, and the syntax for using them is not entirely intuitive. At the end of this example, so as to give you a better grasp of tables, we’ll take a look at how the code works.
 

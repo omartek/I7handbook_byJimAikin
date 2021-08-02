@@ -1,4 +1,4 @@
-## Creating Things {#creating-things}
+## Creating Things
 
 The most basic way to create a new thing is to tell Inform that it exists:
 

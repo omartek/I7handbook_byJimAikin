@@ -1,4 +1,4 @@
-## Duplicate Exits &amp; Twisty Connections {#duplicate-exits-twisty-connections}
+## Duplicate Exits &amp; Twisty Connections
 
 Let’s suppose we’ve created a room that’s described like this:
 
@@ -55,7 +55,7 @@ An even more twisty and confusing map connection is to have one of the exits of 
 East of Deeper in the Cellar is Deeper in the Cellar.
 ```
 
-### Hallways with Lots of Doors {#hallways-with-lots-of-doors}
+### Hallways with Lots of Doors
 
 A different type of mapping challenge arises when the story calls for a long hallway from which several doors lead off in the same direction. If the hallway runs from east to west, for example, there may be four or five doors that are notionally to the north, and four or five more that are to the south. There are a couple of ways to deal with this challenge, each with its own strengths and limitations.
 

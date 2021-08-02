@@ -1,4 +1,4 @@
-## The Lurking Critter {#the-lurking-critter}
+## The Lurking Critter
 
 This example, which was inspired by an answer that Mike Gentry gave on the newsgroup to a question from S. John Ross, is included principally to show a way of changing the state of an object (the sword) and of reporting that change in certain conditions — namely, if the player is carrying the sword. The idea that the sword glows if the lurking critter is nearby is borrowed from Zork.
 

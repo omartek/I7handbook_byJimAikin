@@ -1,4 +1,4 @@
-## [Any Thing] {#any-thing}
+## [Any Thing]
 
 Earlier in this chapter, I explained that the first step in processing an action is to make sure the object or objects that the player is talking about are in scope — that is, that they’re visible in the room. This happens because the grammar for actions (the Understand rule) normally uses the token “[something]”. The code for the new action called paint-applying, a page or two back, gives a good example.
 

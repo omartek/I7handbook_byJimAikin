@@ -1,4 +1,4 @@
-## Writing on Things {#writing-on-things}
+## Writing on Things
 
 A few years back, when I was teaching an IF programming class to some younger students, One of them asked how to create a notepad that the player could write things on. A real software notepad, in which you could select words and sentences with the mouse, would be almost impossible to create in an Inform game. But creating an in-game object, such as a piece of paper or an old-fashioned slate, that the player can write on is not terribly difficult.
 

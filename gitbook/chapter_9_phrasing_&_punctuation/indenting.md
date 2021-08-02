@@ -1,4 +1,4 @@
-## Indenting {#indenting}
+## Indenting
 
 Computer programmers (including Inform authors) often need to write blocks of code that will be run, line by line, in a certain order. Such blocks often need to branch based on whether a logical test is true or false. The keyword “if” is used in many programming languages, including Inform, to write a statement that will allow the code to branch. In pseudo-code, a short version look be something like this:
 
@@ -95,7 +95,7 @@ Note that the statement that begins “say “You close your eyes for a moment..
 
 Nothing in the Instead rule shown above actually changes the model world; all it does is print out one of three different messages, all of which are more or less equivalent to saying, “You can try that, but it won’t do any good.” But if the rule also included a line like “now the blindfold is transparent;” the organization of the code into outer and inner blocks would be the same.
 
-### Too Many Indents {#too-many-indents}
+### Too Many Indents
 
 If you’re writing an extremely complex, embedded set of if-tests, it’s easy to lose track of where you are in the logical structure. In this case, you’ll probably want to reorganize your code in some other way, so as to make it easier to read and debug.
 

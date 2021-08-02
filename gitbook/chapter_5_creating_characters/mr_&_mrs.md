@@ -1,4 +1,4 @@
-## Mr. & Mrs. {#mr-mrs}
+## Mr. & Mrs.
 
 In the U.S., we always put a period after abbreviations like Mr., Mrs., Ms., and Dr. In Britain no periods are used. But even if Graham Nelson weren’t British, the period has some uses in Inform that would make it tricky to handle those abbreviations.
 

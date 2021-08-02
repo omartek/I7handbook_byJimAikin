@@ -1,4 +1,4 @@
-## Initial Appearance {#initial-appearance}
+## Initial Appearance
 
 When you create a new object and put it in a room, it will be mentioned right after the room description, but in a very basic way. If we’ve created a banjo, for instance, the room description will end with a paragraph that reads, “You can see a banjo here.”
 

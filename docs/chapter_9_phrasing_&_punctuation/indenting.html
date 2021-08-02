@@ -142,6 +142,19 @@
             
         </li>
     
+        <li class="chapter " data-level="1.2.3" data-path="../foreword/use_&_license.html">
+            
+                <a href="../foreword/use_&_license.html">
+            
+                    
+                    Use & License
+            
+                </a>
+            
+
+            
+        </li>
+    
 
             </ul>
             
@@ -2338,7 +2351,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="indenting">Indenting </h2>
+                                <h2 id="indenting">Indenting</h2>
 <p>Computer programmers (including Inform authors) often need to write blocks of code that will be run, line by line, in a certain order. Such blocks often need to branch based on whether a logical test is true or false. The keyword &#x201C;if&#x201D; is used in many programming languages, including Inform, to write a statement that will allow the code to branch. In pseudo-code, a short version look be something like this:</p>
 <pre><code>    if A, do X; otherwise, do Y.
 </code></pre><p>Here, &#x201C;X&#x201D; and &#x201C;Y&#x201D; would be entire lines or multiple lines of code. A more complex (and more realistic) example might look more like this:</p>
@@ -2404,7 +2417,7 @@ Instead of closing the eyes:
 <p>This Instead rule will run when the player types CLOSE EYES. The outer block of code in the rule begins with the colon at the end of the first line. There are three lines in the outer block of code. The first line begins &#x201C;if Elliott wears...&#x201D;, the second begins &#x201C;otherwise if the location...&#x201D;, and the third is &#x201C;otherwise:&#x201D;. These lines are indented with one Tab. After &#x201C;if Elliott wears the black blindfold:&#x201D;, we need to indent by two Tabs to create an inner block of code. This happens to have only one line in it, a say statement &#x2014; but it could have many more lines.</p>
 <p>Note that the statement that begins &#x201C;say &#x201C;You close your eyes for a moment...&#x201D; is only a single line as far as Inform is concerned. It happens to flow down onto the next line, but the fact that the next line isn&#x2019;t indented doesn&#x2019;t matter, because there&#x2019;s no <em>carriage return</em> character before it. In the IDE, long lines like this have what&#x2019;s called a &#x201C;hanging indent,&#x201D; which makes it easy to see that they&#x2019;re all part of a single code statement.</p>
 <p>Nothing in the Instead rule shown above actually changes the model world; all it does is print out one of three different messages, all of which are more or less equivalent to saying, &#x201C;You can try that, but it won&#x2019;t do any good.&#x201D; But if the rule also included a line like &#x201C;now the blindfold is transparent;&#x201D; the organization of the code into outer and inner blocks would be the same.</p>
-<h3 id="too-many-indents">Too Many Indents </h3>
+<h3 id="too-many-indents">Too Many Indents</h3>
 <p>If you&#x2019;re writing an extremely complex, embedded set of if-tests, it&#x2019;s easy to lose track of where you are in the logical structure. In this case, you&#x2019;ll probably want to reorganize your code in some other way, so as to make it easier to read and debug.</p>
 <p>There are several ways to reduce the number of indentation levels. For instance, these two Instead rules are functionally identical, but one uses two indent levels, while the other uses only one:</p>
 <pre><code class="lang-inform7">Instead of eating the pretzel:
@@ -2474,7 +2487,7 @@ To sound the alarm:
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Indenting","level":"1.11.15","depth":2,"next":{"title":"Headings","level":"1.11.16","depth":2,"path":"chapter_9_phrasing_&_punctuation/headings.md","ref":"chapter_9_phrasing_&_punctuation/headings.md","articles":[]},"previous":{"title":"Creating New Phrases","level":"1.11.14","depth":2,"path":"chapter_9_phrasing_&_punctuation/creating_new_phrases.md","ref":"chapter_9_phrasing_&_punctuation/creating_new_phrases.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["intopic-toc","collapsible-menu","code"],"pluginsConfig":{"collapsible-menu":{},"intopic-toc":{"isCollapsed":true,"isScrollspyActive":true,"label":"In this article","maxDepth":6,"mode":"nested","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6","visible":true},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css"}},"file":{"path":"chapter_9_phrasing_&_punctuation/indenting.md","mtime":"2021-08-01T12:31:26.555Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-08-01T19:41:45.199Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Indenting","level":"1.11.15","depth":2,"next":{"title":"Headings","level":"1.11.16","depth":2,"path":"chapter_9_phrasing_&_punctuation/headings.md","ref":"chapter_9_phrasing_&_punctuation/headings.md","articles":[]},"previous":{"title":"Creating New Phrases","level":"1.11.14","depth":2,"path":"chapter_9_phrasing_&_punctuation/creating_new_phrases.md","ref":"chapter_9_phrasing_&_punctuation/creating_new_phrases.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["intopic-toc","collapsible-menu","code"],"pluginsConfig":{"collapsible-menu":{},"intopic-toc":{"isCollapsed":true,"isScrollspyActive":true,"label":"In this article","maxDepth":6,"mode":"nested","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6","visible":true},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css"}},"file":{"path":"chapter_9_phrasing_&_punctuation/indenting.md","mtime":"2021-08-02T21:15:48.088Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-08-02T21:18:49.184Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

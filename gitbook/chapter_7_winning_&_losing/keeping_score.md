@@ -1,4 +1,4 @@
-## Keeping Score {#keeping-score}
+## Keeping Score
 
 In a game whose story is serious in tone, awarding points might seem too frivolous, so you might want to use no scoring. Inform allows the author, however, to give the player points for doing certain actions. A way to do this is explained on **p. 9.2** of _Writing with Inform_, “Awarding points.” The first step is to put this line near the top of your source code, along with whatever other Use or Include options you’ve selected:
 
@@ -48,7 +48,7 @@ If your game has scoring, it’s a good idea to keep a list somewhere of how man
 The maximum score is 12.
 ```
 
-### A Treasure Chest {#a-treasure-chest}
+### A Treasure Chest
 
 Awarding points when an object is picked up or a room entered is the usual thing to do in a game. But some classic games require that the player put the objects that have been found in a treasure chest or trophy case. Awarding points for this action is slightly tricky, because the treasure chest might be a closed openable container. If it happens to be closed the first time the player tries to put a given treasure into it, the points will never be awarded. Consider this code:
 

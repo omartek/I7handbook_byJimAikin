@@ -1,4 +1,4 @@
-## The Names of Things {#the-names-of-things}
+## The Names of Things
 
 When creating objects, it’s a good idea to add an adjective to the name. When possible, the adjective should be unique, not a word that can also be used with other objects. This is not required, but failing to do it can get you into trouble. Here’s a simple example that shows why:
 

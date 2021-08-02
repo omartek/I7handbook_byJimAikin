@@ -1,4 +1,4 @@
-## Vehicles {#vehicles}
+## Vehicles
 
 ![](../assets/graphics27.jpg)
 

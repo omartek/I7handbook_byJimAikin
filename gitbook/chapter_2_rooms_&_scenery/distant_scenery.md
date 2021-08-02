@@ -1,4 +1,4 @@
-## Distant Scenery {#distant-scenery}
+## Distant Scenery
 
 It often happens, as you write a room description of an outdoor “room,” that you’ll want to mention things that are far away — visible, but not something that can be interacted with. Inform has no built-in way to handle this situation, but we can easily create one.
 

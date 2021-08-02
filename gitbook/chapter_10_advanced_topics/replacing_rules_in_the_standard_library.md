@@ -1,4 +1,4 @@
-## Replacing Rules in the Standard Library {#replacing-rules-in-the-standard-library}
+## Replacing Rules in the Standard Library
 
 If you open up the extension called the Standard Rules, you’ll find the guts of Inform 7\. Or at least, the higher-level guts; there’s a lower level, as explained at the end of this Chapter, in the section “What does Inform 6 Have to Do with Inform 7?” The Standard Rules are not exactly light reading, but you can start to get a better idea of what’s going on in Inform by skimming them. You’ll find, for instance, this bit of code:
 

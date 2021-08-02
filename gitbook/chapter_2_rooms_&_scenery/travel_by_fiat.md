@@ -1,4 +1,4 @@
-## Travel by Fiat {#travel-by-fiat}
+## Travel by Fiat
 
 Normally, the player moves from room to room under his own steam, by typing GO NORTH (or simply N) and so on. Once in a while, you may want to create a puzzle in which the player will be magically whisked from one room to another by taking some other action. This is easy to do. For example:
 

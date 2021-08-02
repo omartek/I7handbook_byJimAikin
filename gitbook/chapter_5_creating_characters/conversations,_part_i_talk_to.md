@@ -1,4 +1,4 @@
-## Conversations, Part I: talk to {#conversations-part-i-talk-to}
+## Conversations, Part I: talk to
 
 ![](../assets/graphics13.jpg)
 

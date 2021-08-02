@@ -1,4 +1,4 @@
-## Story Tense and Viewpoint {#story-tense-and-viewpoint}
+## Story Tense and Viewpoint
 
 Present tense and second person viewpoint are very widely used in interactive fiction. For instance:
 

@@ -1,4 +1,4 @@
-## Moving Things Around {#moving-things-around}
+## Moving Things Around
 
 You can expect that during the game, the player will pick things up, carry them around, and drop them. But sometimes you need to move them yourself, in your own code. For instance, if the player rubs the magic lamp, you would probably want to move the genie into the room. The keyword for doing this is “now”:
 

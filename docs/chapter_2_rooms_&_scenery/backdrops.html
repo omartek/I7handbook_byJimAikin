@@ -142,6 +142,19 @@
             
         </li>
     
+        <li class="chapter " data-level="1.2.3" data-path="../foreword/use_&_license.html">
+            
+                <a href="../foreword/use_&_license.html">
+            
+                    
+                    Use & License
+            
+                </a>
+            
+
+            
+        </li>
+    
 
             </ul>
             
@@ -2338,7 +2351,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="backdrops">Backdrops </h2>
+                                <h2 id="backdrops">Backdrops</h2>
 <p>Rooms in Inform are not built out of anything &#x2014; they&#x2019;re just empty, featureless containers that you can move objects into and out of. In particular, you might expect that a room would have a ceiling, walls, and a floor. But if you try X CEILING, X FLOOR, or X WALL in your game, you&#x2019;ll be told, &#x201C;You can&#x2019;t see any such thing.&#x201D; Likewise, in an outdoor setting, X SKY and X GROUND won&#x2019;t work. Most players will probably understand this convention, and won&#x2019;t even think to try interacting with the walls, ceiling, and floor. But if you mention a wall, ceiling, floor, sky, or ground in the room description, creating it as scenery would be a polite thing to do, since players will usually try to examine (or pick up) anything that&#x2019;s mentioned.</p>
 <p>Scenery is always in one specific room, but Inform also provides a special kind of scenery called a <em>backdrop.</em> A backdrop object is unusual because it can be in several places at once.</p>
 <p>An easy way to add a little realism to your game is to use backdrops to create sky, ground, ceiling, floor, and so on only where they&#x2019;re needed:</p>
@@ -2347,7 +2360,7 @@ The ground <span class="hljs-keyword">is</span> a <span class="hljs-keyword">bac
 </span></code></pre>
 <p>Now if the player types X SKY in any room in the Great Outdoors, the game will reply, &#x201C;A clear and cloudless blue.&#x201D; That&#x2019;s a definite improvement! (Note that &#x201C;The description is&#x201D; is not required for the descriptions of backdrops.) As we add indoor rooms, perhaps in a castle, they won&#x2019;t be in the Great Outdoors region, so a player who tries X SKY while in the castle will be told, very appropriately, &#x201C;You can&#x2019;t see any such thing.&#x201D;</p>
 <p>Backdrops are more versatile than you might expect. A backdrop could be used, for instance, to create a river that&#x2019;s present in several rooms. In one game I wanted a windowsill (a supporter &#x2014; see p. 99) that could be reached from both inside and outside the room. At Emily Short&#x2019;s suggestion, I created the window as a backdrop, so that it could be in two rooms at once, and then made the windowsill a part of the window.</p>
-<h3 id="removing-a-backdrop">Removing a Backdrop </h3>
+<h3 id="removing-a-backdrop">Removing a Backdrop</h3>
 <p>Getting rid of a backdrop entirely during play is easy. If we&#x2019;ve created, for instance, some thick fog, when the player does something to cause the wind to blow, we can write:</p>
 <pre><code class="lang-inform7">remove the fog from play;
 </code></pre>
@@ -2422,7 +2435,7 @@ Instead of pumping the giant bellows:
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Backdrops","level":"1.4.14","depth":2,"next":{"title":"Dark Rooms","level":"1.4.15","depth":2,"path":"chapter_2_rooms_&_scenery/dark_rooms.md","ref":"chapter_2_rooms_&_scenery/dark_rooms.md","articles":[]},"previous":{"title":"Regions","level":"1.4.13","depth":2,"path":"chapter_2_rooms_&_scenery/regions.md","ref":"chapter_2_rooms_&_scenery/regions.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["intopic-toc","collapsible-menu","code"],"pluginsConfig":{"collapsible-menu":{},"intopic-toc":{"isCollapsed":true,"isScrollspyActive":true,"label":"In this article","maxDepth":6,"mode":"nested","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6","visible":true},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css"}},"file":{"path":"chapter_2_rooms_&_scenery/backdrops.md","mtime":"2021-07-29T20:42:35.664Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-08-01T19:41:45.199Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Backdrops","level":"1.4.14","depth":2,"next":{"title":"Dark Rooms","level":"1.4.15","depth":2,"path":"chapter_2_rooms_&_scenery/dark_rooms.md","ref":"chapter_2_rooms_&_scenery/dark_rooms.md","articles":[]},"previous":{"title":"Regions","level":"1.4.13","depth":2,"path":"chapter_2_rooms_&_scenery/regions.md","ref":"chapter_2_rooms_&_scenery/regions.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["intopic-toc","collapsible-menu","code"],"pluginsConfig":{"collapsible-menu":{},"intopic-toc":{"isCollapsed":true,"isScrollspyActive":true,"label":"In this article","maxDepth":6,"mode":"nested","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6","visible":true},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css"}},"file":{"path":"chapter_2_rooms_&_scenery/backdrops.md","mtime":"2021-08-02T20:51:03.232Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-08-02T21:18:49.184Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

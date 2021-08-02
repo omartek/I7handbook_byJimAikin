@@ -1,4 +1,4 @@
-# Chapter 7: Winning &amp; Losing {#chapter-7-winning-losing}
+# Chapter 7: Winning &amp; Losing
 
 ![](../assets/graphics14.png)
 

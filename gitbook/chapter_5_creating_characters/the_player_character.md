@@ -1,4 +1,4 @@
-## The Player Character {#the-player-character}
+## The Player Character
 
 Pleasantly little needs to be said about creating the player character (PC). Your PC can have any identity you might like, from a mile-high evil robot to a small, cuddly bunny rabbit. Or the PC could be a sort of blank — a shadow character that the actual player can project his or her own personality into.
 

@@ -1,4 +1,4 @@
-## Doors {#doors}
+## Doors
 
 In the real world, most indoor rooms are separated by doors. In Inform, a door is a special type of object because it’s in two rooms at once and connects the two. In this section but we’ll look at a couple of ways to improve on the default doors.
 
@@ -58,7 +58,7 @@ After throwing the brass lever:
 
 Second, unlike most other objects in your Inform code, a door object is in two rooms at once. This makes sense, but it can lead to a problem. If you put an ornate silver door knocker on one side of the front door, the knocker will be visible on the inside of the door, even when the door is closed! A simple solution in this case is to use the extension Deluxe Doors by Emily Short. This extension allows you to create “half-doors,” each of which represents only one side of the door, and to keep them in sync, so that when the player opens or closes one of the half-doors, the other opens or closes as well.
 
-### Locked Doors {#locked-doors}
+### Locked Doors
 
 ![](../assets/graphics26.jpg)
 
@@ -99,7 +99,7 @@ Instead of unlocking the gold amulet with the banana:
 
 If you create the oak door as shown on the previous page, the oak door will automatically be unlocked and then opened if the player carries the key. The only downside of this code is that it assumes the player _knows_ the brass key unlocks the oak door. If you want to force the player to discover that fact, you’ll have to work out a way to track what the player knows. Keeping track of the player’s (or the player character’s) knowledge is not difficult to manage, but the details may differ from one game to the next. The extension Epistemology by Eric Eve is designed to make it easy to track the player’s knowledge.
 
-### Secret Doors {#secret-doors}
+### Secret Doors
 
 More interesting in a game than a locked door is a secret door — something that doesn’t appear to be a door at all until its presence is revealed. Secret Doors by Andrew Owen is a simple extension that allows you to create secret doors. This extension is available on the Inform 7 website, but there are two problems with it. First, the word “when” is repeated in two of its rules. This is easily fixed by editing. The other is that it relies on an outmoded method for printing error messages. To learn how to fix this, see Appendix B.
 
@@ -144,7 +144,7 @@ Small Windowless Room
 It smells dusty in here, as if the secret door hasn't been opened in ages.
 ```
 
-### Dangerous Doors {#dangerous-doors}
+### Dangerous Doors
 
 When I was teaching some younger students the basics of IF, one them asked how to create a door that would slam shut behind the player. I thought this might make an interesting puzzle, so I wrote it up. The example below shows how to use an After rule to affect what happens when the player travels from one room to another:
 

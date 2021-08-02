@@ -1,4 +1,4 @@
-## Downloading &amp; Playing Games {#downloading-playing-games}
+## Downloading &amp; Playing Games
 
 One of the best ways to learn about game design is to download and play a few games. A good place to start looking for games is the Interactive Fiction Database (https://ifdb.org/). On this site you can read reviews of games, search for games by a particular author, and click links to download the games themselves. Some games on this site can be played online, in your browser, without downloading.
 

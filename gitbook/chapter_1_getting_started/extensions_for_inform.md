@@ -1,4 +1,4 @@
-## Extensions for Inform {#extensions-for-inform}
+## Extensions for Inform
 
 A number of people in the Inform 7 community (which exists almost entirely on the Internet, though local meet-ups have popped up here and there) have written _extensions_ for Inform. An extension is a file containing code that can be used by authors to do something specific — something that’s not included in the standard version of Inform.
 

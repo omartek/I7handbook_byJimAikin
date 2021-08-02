@@ -142,6 +142,19 @@
             
         </li>
     
+        <li class="chapter " data-level="1.2.3" data-path="../foreword/use_&_license.html">
+            
+                <a href="../foreword/use_&_license.html">
+            
+                    
+                    Use & License
+            
+                </a>
+            
+
+            
+        </li>
+    
 
             </ul>
             
@@ -2338,7 +2351,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="duplicate-exits-twisty-connections">Duplicate Exits &amp; Twisty Connections </h2>
+                                <h2 id="duplicate-exits--twisty-connections">Duplicate Exits &amp; Twisty Connections</h2>
 <p>Let&#x2019;s suppose we&#x2019;ve created a room that&#x2019;s described like this:</p>
 <pre><code class="lang-inform7">The Cellar <span class="hljs-keyword">is</span> down from the Kitchen. <span class="hljs-string">&quot;The low ceiling of this little room is festooned with cobwebs, and the floor is dirt. A rough doorway leads east, and the stairs up to the kitchen are built into the north wall.&quot;</span>
 </code></pre>
@@ -2370,7 +2383,7 @@ South <span class="hljs-keyword">of</span> the Cellar <span class="hljs-keyword"
 <p>An even more twisty and confusing map connection is to have one of the exits of a room lead back into the same room. To do that, you would write something like this:</p>
 <pre><code class="lang-inform7">East <span class="hljs-keyword">of</span> Deeper in the Cellar <span class="hljs-keyword">is</span> Deeper in the Cellar.
 </code></pre>
-<h3 id="hallways-with-lots-of-doors">Hallways with Lots of Doors </h3>
+<h3 id="hallways-with-lots-of-doors">Hallways with Lots of Doors</h3>
 <p>A different type of mapping challenge arises when the story calls for a long hallway from which several doors lead off in the same direction. If the hallway runs from east to west, for example, there may be four or five doors that are notionally to the north, and four or five more that are to the south. There are a couple of ways to deal with this challenge, each with its own strengths and limitations.</p>
 <p>First, you can break the long hallway up into several separate &#x201C;rooms&#x201D; (East End of Hallway, Center of Hallway, and West End of Hallway, for instance), each of which has its own exits to the north and south. If you do this, you&#x2019;ll probably want to consider what happens if the player drops something large at one end of the hallway and then walks down to the other end. As explained earlier in this chapter, it&#x2019;s possible to make objects visible from a distance, so this is not a huge challenge, it&#x2019;s just extra work to set it up.</p>
 <p>Alternatively, you can skip (in this one room) the notion of N/S/E/W travel commands. If you give each door a distinctive appearance, you can invite the player to GO THROUGH DOOR 16 as a method of traveling. Here is an example that shows how to do precisely that:</p>
@@ -2446,7 +2459,7 @@ Instead of going north in the Hallway:
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Duplicate Exits & Twisty Connections","level":"1.4.11","depth":2,"next":{"title":"Changing the Map During the Game","level":"1.4.12","depth":2,"path":"chapter_2_rooms_&_scenery/changing_the_map_during_the_game.md","ref":"chapter_2_rooms_&_scenery/changing_the_map_during_the_game.md","articles":[]},"previous":{"title":"“You can’t go that way.”","level":"1.4.10","depth":2,"path":"chapter_2_rooms_&_scenery/you_cant_go_that_way.md","ref":"chapter_2_rooms_&_scenery/you_cant_go_that_way.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["intopic-toc","collapsible-menu","code"],"pluginsConfig":{"collapsible-menu":{},"intopic-toc":{"isCollapsed":true,"isScrollspyActive":true,"label":"In this article","maxDepth":6,"mode":"nested","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6","visible":true},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css"}},"file":{"path":"chapter_2_rooms_&_scenery/duplicate_exits_&_twisty_connections.md","mtime":"2021-07-29T20:37:31.472Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-08-01T19:41:45.199Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Duplicate Exits & Twisty Connections","level":"1.4.11","depth":2,"next":{"title":"Changing the Map During the Game","level":"1.4.12","depth":2,"path":"chapter_2_rooms_&_scenery/changing_the_map_during_the_game.md","ref":"chapter_2_rooms_&_scenery/changing_the_map_during_the_game.md","articles":[]},"previous":{"title":"“You can’t go that way.”","level":"1.4.10","depth":2,"path":"chapter_2_rooms_&_scenery/you_cant_go_that_way.md","ref":"chapter_2_rooms_&_scenery/you_cant_go_that_way.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["intopic-toc","collapsible-menu","code"],"pluginsConfig":{"collapsible-menu":{},"intopic-toc":{"isCollapsed":true,"isScrollspyActive":true,"label":"In this article","maxDepth":6,"mode":"nested","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6","visible":true},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css"}},"file":{"path":"chapter_2_rooms_&_scenery/duplicate_exits_&_twisty_connections.md","mtime":"2021-08-02T21:05:54.624Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-08-02T21:18:49.184Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

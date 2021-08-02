@@ -1,4 +1,4 @@
-## Breaking Up Paragraphs {#breaking-up-paragraphs}
+## Breaking Up Paragraphs
 
 If you write a description (most likely, a room description) that runs on for several paragraphs, you can separate the paragraphs within a single double-quoted block by using two Return/Enter key presses, like this:
 

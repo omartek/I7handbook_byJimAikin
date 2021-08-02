@@ -1,4 +1,4 @@
-## Using the Built-In Documentation {#using-the-built-in-documentation}
+## Using the Built-In Documentation
 
 Many people use Inform’s built-in Documentation as a combined tutorial and reference guide. When starting out, you’ll probably want to use it more as a tutorial. To do this, read Chapters 2 through 7 and try out the Examples. The examples can easily be copied into a test game so you can try them out and experiment with them.
 

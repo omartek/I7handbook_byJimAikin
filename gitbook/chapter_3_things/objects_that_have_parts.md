@@ -1,4 +1,4 @@
-## Objects That Have Parts {#objects-that-have-parts}
+## Objects That Have Parts
 
 In real life, most objects are made up of various parts. For instance, an electric stove has heating elements (burners), perhaps an oven built into it, and knobs for turning the burners on and off. Inform lets us model a complex object like a stove by defining the other objects that are its parts.
 

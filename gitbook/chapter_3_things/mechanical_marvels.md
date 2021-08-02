@@ -1,4 +1,4 @@
-## Mechanical Marvels {#mechanical-marvels}
+## Mechanical Marvels
 
 Inform provides a kind of thing called a device. The idea is, if you want to create something that can be switched on or off, you can call it a device. Inform will then understand that the commands SWITCH ON and SWITCH OFF can be applied to it (along with a few synonyms, such as TURN ON and TURN OFF). A device keeps track of whether it’s switched on or switched off, so this property can be tested in your code:
 

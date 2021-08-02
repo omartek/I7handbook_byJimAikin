@@ -1,4 +1,4 @@
-## Mr Potato Head {#mr-potato-head}
+## Mr Potato Head
 
 ![](../assets/graphics28.gif)
 

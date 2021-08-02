@@ -1,4 +1,4 @@
-## Overview {#overview}
+## Overview
 
 To begin with, your players will probably want to be able to talk to the other characters. There are several ways to set up a conversation system. Each method has advantages, and also weaknesses, as we’ll see.
 

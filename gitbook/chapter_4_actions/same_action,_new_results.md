@@ -1,4 +1,4 @@
-## Same Action, New Results {#same-action-new-results}
+## Same Action, New Results
 
 Some puzzles are designed to force the player to take a given action several times. For instance, the player might be required to knock on a door three times before someone will open the door. To do this in Inform, you would most likely use Instead rules and the phrases “for the first time,” “for the second time,” “for the third time,” and so on. It’s important also to write a default rule for handling the action if it’s attempted more often than you’ve explicitly allowed for. In the example below, the Report rule for our new knocking on action takes care of this.
 

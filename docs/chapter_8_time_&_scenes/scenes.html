@@ -142,6 +142,19 @@
             
         </li>
     
+        <li class="chapter " data-level="1.2.3" data-path="../foreword/use_&_license.html">
+            
+                <a href="../foreword/use_&_license.html">
+            
+                    
+                    Use & License
+            
+                </a>
+            
+
+            
+        </li>
+    
 
             </ul>
             
@@ -2338,7 +2351,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="scenes">Scenes </h2>
+                                <h2 id="scenes">Scenes</h2>
 <p>One of the more powerful features of Inform is its ability to organize the story into scenes. An entire chapter of <em>Writing with Inform</em> (Chapter 10, &#x201C;Scenes&#x201D;) is devoted to scenes. If you haven&#x2019;t read this chapter yet, give it a look. Some games won&#x2019;t need scenes at all, but scenes can be very handy for giving your story some structure. Almost any time you need to create a complex, well-coordinated set of changes in the model world, defining a scene is a good tool for the job.</p>
 <p>To create a scene, you simply give it a name, and then tell Inform when it starts &#x2014; that is, what set of events or circumstances triggers it. You can also, optionally, tell Inform when the scene ends. By default, a scene will happen only once. If you want it to be able to happen over and over, you need to create it as a <em>recurring</em> scene.</p>
 <p>Why might you want to use a scene? Here are some random ideas:</p>
@@ -2362,7 +2375,7 @@ Guard-evasion <span class="hljs-keyword">is</span> a scene. Guard-evasion begins
 <p>Having set it up this way, you can start the scene whenever or wherever you like by writing:</p>
 <pre><code class="lang-inform7">now guard-evasion-flag <span class="hljs-keyword">is</span> true;
 </code></pre>
-<h3 id="chaining-scenes">Chaining Scenes </h3>
+<h3 id="chaining-scenes">Chaining Scenes</h3>
 <p><strong>Page 10.5</strong> of <em>Writing with Inform</em>, &#x201C;Linking scenes together,&#x201D; gives this simple example of how to chain two scenes:</p>
 <pre><code class="lang-inform7">Train Stop <span class="hljs-keyword">is</span> a scene. Brief Encounter <span class="hljs-keyword">is</span> a scene. Brief Encounter begins when Train Stop ends.
 </code></pre>
@@ -2389,7 +2402,7 @@ Test me with <span class="hljs-string">&quot;scenes / n / z / z / z&quot;</span>
 <pre><code class="lang-inform7">Lunch begins when the player has been in the Wine Shop for three turns.
 </code></pre>
 <p>But if we do it that way, the player will have to remain in the Wine Shop for three turns in a row. If the player leaves the Wine Shop too soon, the Lunch scene won&#x2019;t begin.</p>
-<h3 id="using-scenes-to-control-action">Using Scenes to Control Action </h3>
+<h3 id="using-scenes-to-control-action">Using Scenes to Control Action</h3>
 <p>Here&#x2019;s a rather convoluted but interesting example of how useful scenes can be. At the beginning of this little game, the player carries the crown jewels. If the player goes into the boudoir, where the princess is waiting, the princess won&#x2019;t let the player leave until the jewels have been handed over. This situation is similar to the example on p. 195, in which Wyatt Earp demands that the player hand over his six-gun, but we&#x2019;ll set it up using a different kind of code.</p>
 <pre><code class="lang-inform7">The Antechamber <span class="hljs-keyword">is</span> a <span class="hljs-keyword">room</span>. <span class="hljs-string">&quot;The princess&apos;s boudoir lies to the south.&quot;</span>
 
@@ -2501,7 +2514,7 @@ Instead of going during Princess Still Demanding:
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Scenes","level":"1.10.3","depth":2,"next":{"title":"Every Turn Rules","level":"1.10.4","depth":2,"path":"chapter_8_time_&_scenes/every_turn_rules.md","ref":"chapter_8_time_&_scenes/every_turn_rules.md","articles":[]},"previous":{"title":"Future Events","level":"1.10.2","depth":2,"path":"chapter_8_time_&_scenes/future_events.md","ref":"chapter_8_time_&_scenes/future_events.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["intopic-toc","collapsible-menu","code"],"pluginsConfig":{"collapsible-menu":{},"intopic-toc":{"isCollapsed":true,"isScrollspyActive":true,"label":"In this article","maxDepth":6,"mode":"nested","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6","visible":true},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css"}},"file":{"path":"chapter_8_time_&_scenes/scenes.md","mtime":"2021-08-01T11:12:05.334Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-08-01T19:41:45.199Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Scenes","level":"1.10.3","depth":2,"next":{"title":"Every Turn Rules","level":"1.10.4","depth":2,"path":"chapter_8_time_&_scenes/every_turn_rules.md","ref":"chapter_8_time_&_scenes/every_turn_rules.md","articles":[]},"previous":{"title":"Future Events","level":"1.10.2","depth":2,"path":"chapter_8_time_&_scenes/future_events.md","ref":"chapter_8_time_&_scenes/future_events.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["intopic-toc","collapsible-menu","code"],"pluginsConfig":{"collapsible-menu":{},"intopic-toc":{"isCollapsed":true,"isScrollspyActive":true,"label":"In this article","maxDepth":6,"mode":"nested","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6","visible":true},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css"}},"file":{"path":"chapter_8_time_&_scenes/scenes.md","mtime":"2021-08-02T21:14:04.084Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-08-02T21:18:49.184Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

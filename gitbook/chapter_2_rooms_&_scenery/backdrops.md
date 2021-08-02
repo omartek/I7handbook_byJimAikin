@@ -1,4 +1,4 @@
-## Backdrops {#backdrops}
+## Backdrops
 
 Rooms in Inform are not built out of anything — they’re just empty, featureless containers that you can move objects into and out of. In particular, you might expect that a room would have a ceiling, walls, and a floor. But if you try X CEILING, X FLOOR, or X WALL in your game, you’ll be told, “You can’t see any such thing.” Likewise, in an outdoor setting, X SKY and X GROUND won’t work. Most players will probably understand this convention, and won’t even think to try interacting with the walls, ceiling, and floor. But if you mention a wall, ceiling, floor, sky, or ground in the room description, creating it as scenery would be a polite thing to do, since players will usually try to examine (or pick up) anything that’s mentioned.
 
@@ -15,7 +15,7 @@ Now if the player types X SKY in any room in the Great Outdoors, the game will r
 
 Backdrops are more versatile than you might expect. A backdrop could be used, for instance, to create a river that’s present in several rooms. In one game I wanted a windowsill (a supporter — see p. 99) that could be reached from both inside and outside the room. At Emily Short’s suggestion, I created the window as a backdrop, so that it could be in two rooms at once, and then made the windowsill a part of the window.
 
-### Removing a Backdrop {#removing-a-backdrop}
+### Removing a Backdrop
 
 Getting rid of a backdrop entirely during play is easy. If we’ve created, for instance, some thick fog, when the player does something to cause the wind to blow, we can write:
 

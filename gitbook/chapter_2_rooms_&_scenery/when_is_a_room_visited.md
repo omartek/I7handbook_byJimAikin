@@ -1,4 +1,4 @@
-## When Is a Room “visited”? {#when-is-a-room-visited}
+## When Is a Room “visited”?
 
 In Chapter 1 we introduced the idea of verbose and brief mode. When a game is in verbose mode, the text of each room’s description property is printed each time the player enters the room. In brief mode, however, the description is printed only the first time the player enters a room. Thereafter, the description is printed only if the player uses the LOOK command. (Note that other aspects of the room’s full description, namely a list of the non-scenery objects that are in the room, will always be printed when the player enters a visited room, even if the game is in brief mode.)
 

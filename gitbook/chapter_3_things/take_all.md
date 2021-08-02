@@ -1,4 +1,4 @@
-## Take All {#take-all}
+## Take All
 
 Since the TAKE ALL command came up in the section on “Looking Under &amp; Looking Behind,” we may as well take a quick look at how to deal with it. Experienced IF players have a tendency to type TAKE ALL whenever they enter a new room, just to see what’s lying around that isn’t nailed down. This is a useful command, and many players feel it’s their right to be able to use it. If you disable it entirely, some players may not be happy with your game. Earlier versions of Inform tried to let the player take even scenery objects (after which the player would learn that the scenery objects were not portable) and people (leading to a report that the person wouldn’t care for that). This was all rather silly. In the current version of Inform (and most likely in the future as well), TAKE ALL does not include people or scenery. This is described on **p. 18.36** (“Deciding whether all includes”) of _Writing with Inform._
 

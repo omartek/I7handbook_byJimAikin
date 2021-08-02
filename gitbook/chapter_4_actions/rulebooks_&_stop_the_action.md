@@ -1,4 +1,4 @@
-## Rulebooks &amp; “Stop the Action” {#rulebooks-stop-the-action}
+## Rulebooks &amp; “Stop the Action”
 
 When a game is running, Inform processes actions using **rulebooks**. A rulebook is, as you might guess, a collection of rules. You can create your own rulebooks for any purpose at all if you want to, but that’s an advanced programming concept, and it isn’t covered in this _Handbook_. For many games, you won’t need to. The rulebooks built into Inform can handle most types of action.
 

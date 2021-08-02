@@ -1,4 +1,4 @@
-## The Uncooperative Character {#the-uncooperative-character}
+## The Uncooperative Character
 
 People and animals can function as puzzles in several different ways. Guards and guard dogs, for instance, can be relied on not to let the player pass through a tempting doorway. The door isn’t locked, but it might as well be. The player has to figure out a way to distract or make friends with the guard. Almost any character can act as a guard — a fussy librarian, for instance, who won’t let the player into the computer room until the player shows her a library card.
 

@@ -1,4 +1,4 @@
-## Combat {#combat}
+## Combat
 
 I’ve never used the extension called Armed by David Ratliff, but a couple of my students have found it useful. The version on the Inform 7 website doesn’t work with current versions of Inform, as it was written in 2008\. Fixing it is not terribly difficult. The phrase “end the game” has to be changed to “end the story”, instances of “change … to” have to be changed to “now … is”, and you may want to fix a misspelled word or two. The biggest stumbling block is that one of the Check rules in Armed, called the can’t take it with you rule, uses the word “ignore”. This feature is no longer supported. I was able to work around the problem by replacing that rule with this new code:
 

@@ -1,4 +1,4 @@
-## Testing Conditions {#testing-conditions}
+## Testing Conditions
 
 Many of the examples in this book test conditions in the model world and produce a different result depending on the conditions. The keyword in each case is “if”. **Page 11.6** of _Writing with Inform_ (“If”) explains how to create and test conditions. The point of testing a condition is for the game to make a decision about what to do next. If the condition is true, we want the game to do one thing; if the condition isn’t true, we want something different to happen. Here’s a simple example:
 

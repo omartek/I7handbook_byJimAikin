@@ -1,4 +1,4 @@
-## Smelling &amp; Listening {#smelling-listening}
+## Smelling &amp; Listening
 
 Inform includes the commands “smell [something]” and “listen to [something]”, but they don’t do anything. The output is “You smell nothing unexpected” or “You hear nothing unexpected.”
 

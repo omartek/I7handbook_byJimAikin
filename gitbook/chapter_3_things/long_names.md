@@ -1,4 +1,4 @@
-## Long Names {#long-names}
+## Long Names
 
 Normally, Inform looks only at the first nine letters in each word. The rest of the letters are ignored. This is true both for the names of things in your code and for the words in commands that the player types. Normally nine letters are plenty. (In the very first text-based games, only the first five or six letters in the player’s commands were read, and six letters weren’t really enough.) But as **p. 3.1** (“Descriptions”) of the Documentation points out, if you happen to put a superhero and a superheroine in the same room, the player will quite likely get the wrong result from the command KISS SUPERHEROINE.
 

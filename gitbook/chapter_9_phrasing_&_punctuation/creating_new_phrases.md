@@ -1,4 +1,4 @@
-## Creating New Phrases {#creating-new-phrases}
+## Creating New Phrases
 
 Sometimes you may need to have your game do several things at once. A good way to take care of this is to write what other programming languages would call a _function_. This feature of Inform is introduced on **pp. 11.2 and 11.3** of _Writing with Inform._ Writing a function in Inform is easy — just use the word “To”, like this:
 

@@ -1,10 +1,10 @@
-## Things Can Have Properties {#things-can-have-properties}
+## Things Can Have Properties
 
 Often, an object can stay the same from the beginning of the game to the end. If the player finds a rock, for instance, that can be used to hammer a nail, probably not too much will happen to the rock during the course of the game. But it sometimes happens that we want to create an object whose state can change during the course of the game because of the player’s action. To keep track of what state the object is in, we need to give it a _property._ “Property” is simply computer programming jargon for an attribute or characteristic. To put it another way, the properties of an object are variables that are stored within the object — variables that may change depending on what the player does with or to the object.
 
 Properties can be of two types. Some of them are numbers, while others are words or groups of words. They’re similar in some ways, but let’s look at them one at a time.
 
-### Number Properties {#number-properties}
+### Number Properties
 
 Attaching a named number to an object (making it a property of the object) is very simple. To show how it works, we’ll create a lamp that will run out of fuel after a certain number of turns:
 
@@ -48,7 +48,7 @@ Instead of refilling the lamp:
 
 This code is oversimplified in several ways. For one thing, I’ve ignored the fact that the player would need a lighted match in order to re-light an oil lamp after it had burned out. Also, we would expect that the player would have to be holding the oil can in order to refill the lamp. The main thing this example is designed to show is the properties fuel-remaining (of the lamp) and full or empty (of the oil can).
 
-### Word Properties {#word-properties}
+### Word Properties
 
 The easiest way to add word properties to an object is by simply listing the words. In this case, what we have is an anonymous (nameless) property. For instance:
 

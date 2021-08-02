@@ -1,4 +1,4 @@
-## The Great Outdoors {#the-great-outdoors}
+## The Great Outdoors
 
 Earlier in this chapter, in the section “Distant Scenery,” we looked at how to make distant scenery items that could be examined but not interacted with in any other way. But it’s also possible that when you’re creating an outdoors area, you’ll want the player to be able to use commands like ‘look north’ to be able to inspect what’s in the distance. And if there are any objects in the game that are large enough to be seen from a distance, it would be natural to want the output of a ‘look north’ command to mention them.
 

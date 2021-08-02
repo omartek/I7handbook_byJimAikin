@@ -1,4 +1,4 @@
-## Action Processing — Summary {#action-processing-summary}
+## Action Processing — Summary
 
 The table below (which was suggested by Michael Callaghan) shows all of the stages Inform goes through when processing a player’s command — or rather, all of the stages Inform normally goes through. The action processing can be stopped at every stage. If it’s stopped at a given stage, none of the later stages will be reached.
 

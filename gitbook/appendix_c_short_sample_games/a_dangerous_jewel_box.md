@@ -1,5 +1,4 @@
-## A Dangerous Jewel Box {#a-dangerous-jewel-box}
-
+## A Dangerous Jewel Box
 The next example shows a way of printing out a single message when the player tries to take several items and is prevented from doing so. There are three jewels in the jewel box, and if the box is in its dangerous state, we want the player character’s fingers to be zapped by an electric shock if he tries to get the jewels from the box. But what we don’t want is an output that looks like this:
 
 ```

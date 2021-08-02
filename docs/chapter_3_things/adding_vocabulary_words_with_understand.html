@@ -142,6 +142,19 @@
             
         </li>
     
+        <li class="chapter " data-level="1.2.3" data-path="../foreword/use_&_license.html">
+            
+                <a href="../foreword/use_&_license.html">
+            
+                    
+                    Use & License
+            
+                </a>
+            
+
+            
+        </li>
+    
 
             </ul>
             
@@ -2338,7 +2351,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="adding-vocabulary-words-with-understand">Adding Vocabulary Words with &#x201C;Understand&#x201D; </h2>
+                                <h2 id="adding-vocabulary-words-with-understand">Adding Vocabulary Words with &#x201C;Understand&#x201D;</h2>
 <p>When you create an object, such as the paintbrush we created earlier in this chapter, Inform is smart enough to understand two things at once. First: you, the author, can refer to the object in your code as a paintbrush, and the compiler will know what you mean. Second: the player who is playing your game can also call it a paintbrush, and the parser will know what the player means.</p>
 <p>When you first start learning Inform, these two facts may seem to be almost the same &#x2014; the object is a paintbrush, and that&#x2019;s what it&#x2019;s called. What could be complicated about that? But in reality, the name of an object for internal purposes (that is, when you&#x2019;re writing code) is not at all the same thing as the word(s) the player can use to refer to the object or the words that are printed out by Inform as the story unfolds for the player. They&#x2019;re often the same, but they don&#x2019;t have to be. In fact, Inform allows you to make them completely different if you need to. (See the section on &#x201C;The Names of Things&#x201D; in Chapter 8 of the <em>Handbook</em>.)</p>
 <p>After creating an object, you&#x2019;ll almost always want to add extra vocabulary words to it &#x2014; words that the player can use to refer to it. With a paintbrush, for instance, the player will quite often want to call it a brush. But the parser won&#x2019;t understand that word unless you tell it to:</p>
@@ -2350,7 +2363,7 @@
 </code></pre>
 <p>If you also have a can of paint in your game (which wouldn&#x2019;t be surprising if you&#x2019;ve created a paintbrush), the word &#x201C;paint&#x201D; will end up being ambiguous. It will be able to refer either to the brush or to the paint can (and possibly to the paint <em>in</em> the can as well), and also to the command PAINT. Handling all of the possibilities in a case like this can get a little tricky. We&#x2019;re not going to go through the whole troubleshooting process here, but it&#x2019;s certainly something to be aware of when you start creating objects whose names and vocabulary words overlap.</p>
 <p>Inform will attempt to keep track of what you mean when writing the game, and the parser will try to figure out what the player means when entering the word PAINT. If the parser can&#x2019;t figure out what the player meant, it will ask questions. You can help the parser by writing &#x201C;does the player mean&#x201D; rules (see <strong>p. 17.19</strong> of <em>Writing with Inform</em>, &#x201C;Does the player mean...&#x201D;).</p>
-<h3 id="conditional-vocabulary">Conditional Vocabulary </h3>
+<h3 id="conditional-vocabulary">Conditional Vocabulary</h3>
 <p>Most of the objects in a game will likely have the same vocabulary words from one end of the game to the other. But there are situations in which you may want to switch certain words on or off. For instance, if the vase gets broken during the game, the player should be able to refer to it as BROKEN VASE &#x2014; but not otherwise.</p>
 <p>The simplest way to do this is to refer to properties of the object when listing the vocabulary words:</p>
 <pre><code class="lang-inform7">The porcelain vase <span class="hljs-keyword">is</span> in the Museum Lobby. The vase can be broken or unbroken. <span class="hljs-keyword">Understand</span> <span class="hljs-string">&quot;broken&quot;</span> and <span class="hljs-string">&quot;shattered&quot;</span> as the vase when the vase <span class="hljs-keyword">is</span> broken.
@@ -2410,7 +2423,7 @@ Instead of attacking the vase:
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Adding Vocabulary Words with “Understand”","level":"1.5.6","depth":2,"next":{"title":"Containers & Supporters","level":"1.5.7","depth":2,"path":"chapter_3_things/containers_&_supporters.md","ref":"chapter_3_things/containers_&_supporters.md","articles":[]},"previous":{"title":"Initial Appearance","level":"1.5.5","depth":2,"path":"chapter_3_things/initial_appearance.md","ref":"chapter_3_things/initial_appearance.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["intopic-toc","collapsible-menu","code"],"pluginsConfig":{"collapsible-menu":{},"intopic-toc":{"isCollapsed":true,"isScrollspyActive":true,"label":"In this article","maxDepth":6,"mode":"nested","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6","visible":true},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css"}},"file":{"path":"chapter_3_things/adding_vocabulary_words_with_understand.md","mtime":"2021-07-30T10:33:37.021Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-08-01T19:41:45.199Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Adding Vocabulary Words with “Understand”","level":"1.5.6","depth":2,"next":{"title":"Containers & Supporters","level":"1.5.7","depth":2,"path":"chapter_3_things/containers_&_supporters.md","ref":"chapter_3_things/containers_&_supporters.md","articles":[]},"previous":{"title":"Initial Appearance","level":"1.5.5","depth":2,"path":"chapter_3_things/initial_appearance.md","ref":"chapter_3_things/initial_appearance.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["intopic-toc","collapsible-menu","code"],"pluginsConfig":{"collapsible-menu":{},"intopic-toc":{"isCollapsed":true,"isScrollspyActive":true,"label":"In this article","maxDepth":6,"mode":"nested","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6","visible":true},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css"}},"file":{"path":"chapter_3_things/adding_vocabulary_words_with_understand.md","mtime":"2021-08-02T21:08:20.676Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-08-02T21:18:49.184Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

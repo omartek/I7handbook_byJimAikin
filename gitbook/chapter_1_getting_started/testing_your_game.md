@@ -1,4 +1,4 @@
-## Testing Your Game {#testing-your-game}
+## Testing Your Game
 
 Testing a game, or any other piece of software, happens in two stages. In the first (alpha) stage, you test your work as you’re developing it. The best way to do this is to write the game one small piece at a time. For instance, when you add a couple of new rooms (as explained in Chapter 2), click the Go! button to run the game and try walking back and forth from the new rooms to the rooms that were already in place. Even with something as simple as adding rooms, it’s possible to make a mistake in the compass directions or inadvertently create a room when you think you’re creating a door, so you need to test your work.
 

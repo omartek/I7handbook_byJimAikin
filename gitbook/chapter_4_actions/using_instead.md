@@ -1,4 +1,4 @@
-## Using “Instead” {#using-instead}
+## Using “Instead”
 
 The easiest way to start customizing how Inform handles actions is to write a few Instead rules. We’re going to create a bubbling beaker of magic potion and then use a couple of Instead rules on it. Inform already has actions for drinking and taking. The command DRINK POTION, however, produces the output, “There’s nothing suitable to drink here,” which is not what we want in this particular case. TAKE POTION will allow the player to pick up the potion, and that might not be what we want either, if the potion is a liquid in a container. Here’s how to customize Inform’s default behavior using Instead rules:
 

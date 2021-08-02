@@ -1,10 +1,10 @@
-## What Happens in a Game {#what-happens-in-a-game}
+## What Happens in a Game
 
 If you’ve played a few parser-based interactive fiction games, you won’t need to be told how IF works. But for the benefit of those who may just be getting started, we’ll cover the basics here. Parser-based IF is a bit different from hypertext stories in which you move through the story by clicking or tapping links; we’ll have little more to say in the _Handbook_ about this type of user interface, though in fact some extensions to Inform (notably Keyword Interface by Aaron Reed) have been created that add the ability to insert clickable links in your story.
 
 In a game, you play the part of a character in a story. The story may have a simple concept, or it may be quite complex, involving many characters, locations, and events. In a simple story, you (the character) might be wandering around in a cave, collecting treasures. In a complex story, you’ll most likely meet other characters, and you may need to outwit them or make friends with them. The story may have several different endings, some of them happy and others not so happy. One of your tasks as a player/reader will be to figure out which actions lead to a happy ending. But until you start taking actions, you won’t know which choices lead to which endings.
 
-### Entering Commands {#entering-commands}
+### Entering Commands
 
 To play the game, you type _commands_ (instructions to the computer) when you see the command prompt. The command prompt generally looks like this:
 

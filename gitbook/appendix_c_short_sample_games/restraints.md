@@ -1,4 +1,4 @@
-## Restraints {#restraints}
+## Restraints
 
 Preventing the player from performing certain actions in certain situations is a standard type of puzzle. For instance, if the player is wearing handcuffs, picking things up (that is, using the TAKE or GET command) probably shouldn’t work. I’ll leave it up to your imagination to figure out how the player character might be able to remove a pair of handcuffs while unable to pick up the key. In the example below, a simple workaround is used — the player is allowed to pick up the key, but nothing else.
 

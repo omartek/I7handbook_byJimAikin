@@ -1,4 +1,4 @@
-## Tables {#tables}
+## Tables
 
 Tables are Inform’s way of organizing complicated blocks of data. **Chapter 16** of _Writing with Inform_, “Tables,” will tell you a great deal about tables, but it won’t, at first glance, give you a very clear idea why you might want to use a table. I’m pretty sure you can write a complete and satisfying game without ever using tables. They’re a specialized tool, used mainly when you have long lists of stuff that you want to be able to organize and then get at during the game. Tables are used in creating hint menus and conversation menus, for instance.
 

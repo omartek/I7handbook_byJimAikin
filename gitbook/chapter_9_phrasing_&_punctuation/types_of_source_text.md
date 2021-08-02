@@ -1,4 +1,4 @@
-## Types of Source Text {#types-of-source-text}
+## Types of Source Text
 
 There are three main kinds of writing in Inform. First, some of your writing will be between double quotation marks, “Like this.” There are two types of things that you put between quotation marks: what you want your game to print out to the computer screen (at some point or other) when the game is played, and words and phrases that you want Inform to understand when the player types them. Here’s a quick example that shows both of these types:
 

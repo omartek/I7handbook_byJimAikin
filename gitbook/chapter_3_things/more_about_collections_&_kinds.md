@@ -1,4 +1,4 @@
-## More about Collections &amp; Kinds {#more-about-collections-kinds}
+## More about Collections &amp; Kinds
 
 Inform lets you make either unique objects or kinds of objects. One reason to make several objects of a given kind is because they’re indistinguishable from one another, like the pennies in the section “Plurals &amp; Collective Objects,” above. But sometimes we want to make several objects of a single kind that are similar, yet different — for example, the various kinds of fruit in the section “Things vs. Kinds,” which starts [here](../chapter_3_things/things_vs_kinds.md#things-vs-kinds). When we do this, the player may very reasonably want to perform an action on all of the members of the kind at once (or at least, on all of the members that are available at that point in the game). Persuading Inform to report the action in a graceful way is not guaranteed to be simple.
 

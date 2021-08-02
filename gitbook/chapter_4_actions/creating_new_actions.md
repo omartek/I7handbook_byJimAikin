@@ -1,4 +1,4 @@
-## Creating New Actions {#creating-new-actions}
+## Creating New Actions
 
 To create a new action, we need to do three things:
 

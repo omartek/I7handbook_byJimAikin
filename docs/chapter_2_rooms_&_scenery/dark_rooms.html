@@ -142,6 +142,19 @@
             
         </li>
     
+        <li class="chapter " data-level="1.2.3" data-path="../foreword/use_&_license.html">
+            
+                <a href="../foreword/use_&_license.html">
+            
+                    
+                    Use & License
+            
+                </a>
+            
+
+            
+        </li>
+    
 
             </ul>
             
@@ -2338,7 +2351,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="dark-rooms">Dark Rooms </h2>
+                                <h2 id="dark-rooms">Dark Rooms</h2>
 <p>The very first interactive fiction, a game called Adventure, was set in a cave. Like most caves, it was dark. As long as the player was carrying a lantern, the game could be played in what we now consider the normal way. But any room where there wasn&#x2019;t a light source would be pitch-dark.</p>
 <p>In a dark room the player can&#x2019;t examine anything, won&#x2019;t be able to see things lying on the floor, won&#x2019;t be able to LOOK to read the room description, most likely can&#x2019;t read what&#x2019;s written in books and on pieces of paper, and may not be able to find an exit reliably so as to go back to a lighted room. You should still be able to take an inventory of the objects you&#x2019;re carrying while in a dark room, and (depending on how the game is written) you may be able to touch things in the room.</p>
 <p><img src="../assets/graphics29.jpg" alt=""></p>
@@ -2391,7 +2404,7 @@ Test me with <span class="hljs-string">&quot;look / switch switch&quot;</span>.
 </code></pre>
 <p>If you look closely at the code above, you&#x2019;ll see a couple of other refinements as well. The game starts in the Library (since there&#x2019;s only one room), and we don&#x2019;t want the message about groping around and finding the light switch to appear at the very beginning of the game. So we create a counter (a variable) called &#x201C;library darkness count.&#x201D; At the beginning of the game, this is 0 &#x2014; but the first time the description of a dark room is printed, the counter is increased to 1. Thereafter, when the player uses the LOOK command in the Library, she&#x2019;ll discover the light switch.</p>
 <p>I also used an Instead rule so that if the player tries SWITCH OFF LAMP, the command will be redirected to SWITCH OFF LIGHT-SWITCH. This keeps all of the handling of the lamp&#x2019;s on/off condition in one place &#x2014; in the switch. The switch is an Inform <strong>device</strong> (<a href="../chapter_3_things/mechanical_marvels.html#mechanical-marvels">here</a>), which as explained in Chapter 3 is one of the kinds of object that Inform allows you to create.</p>
-<h3 id="backdrops-in-dark-rooms">Backdrops in Dark Rooms </h3>
+<h3 id="backdrops-in-dark-rooms">Backdrops in Dark Rooms</h3>
 <p>Inform assumes, by default, that a backdrop is something that a player will want to look at. For that reason, backdrops are not present in dark rooms, even when you&#x2019;ve written code that states the backdrop is everywhere. If your game includes a backdrop that the player may want to smell, you&#x2019;ll need to do a little extra work. Here&#x2019;s how to create a backdrop that can be smelled even in a dark room:</p>
 <pre><code class="lang-inform7">The Forest <span class="hljs-keyword">is</span> a <span class="hljs-keyword">room</span>. <span class="hljs-string">&quot;All around you stretches the Great Northern Forest. To the east is a cave.&quot;</span>
 
@@ -2452,7 +2465,7 @@ After deciding the scope of the player when in darkness:
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Dark Rooms","level":"1.4.15","depth":2,"next":{"title":"Seemingly Identical Rooms","level":"1.4.16","depth":2,"path":"chapter_2_rooms_&_scenery/seemingly_identical_rooms.md","ref":"chapter_2_rooms_&_scenery/seemingly_identical_rooms.md","articles":[]},"previous":{"title":"Backdrops","level":"1.4.14","depth":2,"path":"chapter_2_rooms_&_scenery/backdrops.md","ref":"chapter_2_rooms_&_scenery/backdrops.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["intopic-toc","collapsible-menu","code"],"pluginsConfig":{"collapsible-menu":{},"intopic-toc":{"isCollapsed":true,"isScrollspyActive":true,"label":"In this article","maxDepth":6,"mode":"nested","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6","visible":true},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css"}},"file":{"path":"chapter_2_rooms_&_scenery/dark_rooms.md","mtime":"2021-07-29T20:47:25.684Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-08-01T19:41:45.199Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Dark Rooms","level":"1.4.15","depth":2,"next":{"title":"Seemingly Identical Rooms","level":"1.4.16","depth":2,"path":"chapter_2_rooms_&_scenery/seemingly_identical_rooms.md","ref":"chapter_2_rooms_&_scenery/seemingly_identical_rooms.md","articles":[]},"previous":{"title":"Backdrops","level":"1.4.14","depth":2,"path":"chapter_2_rooms_&_scenery/backdrops.md","ref":"chapter_2_rooms_&_scenery/backdrops.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["intopic-toc","collapsible-menu","code"],"pluginsConfig":{"collapsible-menu":{},"intopic-toc":{"isCollapsed":true,"isScrollspyActive":true,"label":"In this article","maxDepth":6,"mode":"nested","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6","visible":true},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css"}},"file":{"path":"chapter_2_rooms_&_scenery/dark_rooms.md","mtime":"2021-08-02T20:51:24.620Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-08-02T21:18:49.184Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

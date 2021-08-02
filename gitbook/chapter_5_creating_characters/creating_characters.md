@@ -1,4 +1,4 @@
-# Chapter 5: Creating Characters {#chapter-5-creating-characters}
+# Chapter 5: Creating Characters
 
 ![](../assets/graphics12.jpg)
 

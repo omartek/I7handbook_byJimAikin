@@ -1,4 +1,4 @@
-## Scenery {#scenery}
+## Scenery
 
 Inform allows us to create many kinds of objects. The standard library includes containers, mechanical devices, doors, people, and so on. (See Chapter 4 of the Documentation, “Kinds,” to learn more about kinds.) The word “kind” is a technical term in Inform: It’s used to define new types of objects when the game will include several of them, and we want them to behave in similar ways. For instance, if a puzzle involves spelling words with alphabet blocks, we might do this:
 
@@ -44,7 +44,7 @@ The phrase “The description is” is optional with scenery and rooms, but it�
 The tall old trees are scenery in the Forest Path. “Ancient oaks stretch out their heavy branches overhead, blocking the sun.”
 ```
 
-### The Names of Things {#the-names-of-things}
+### The Names of Things
 
 If you try out this code, you’ll soon discover two problems. First, you can X TREES, X TALL TREES, or X OLD TREES, because the scenery object was created with the name “tall old trees,” but you can’t X OAKS or X ANCIENT OAKS. The parser will reply, “You can’t see any such thing,” which is fairly silly. It happens — and this is important — because Inform never looks inside of double-quoted text to see what words you used there. Second, if you should try something like TAKE TREES, the parser will complain, “That’s hardly portable.” The word “trees” is plural, so the correct output would be “Those are hardly portable.” But the parser doesn’t know that the trees object is plural. We have to help it out a little.
 
@@ -100,7 +100,7 @@ The actual result in the game is the same as before: Nothing has happened. The p
 >
 >The _Handbook_ is also available online in the form of .odt (OpenOffice text) files. If you find yourself copying a lot of example code, it will probably be more convenient to download one of these files and use it as a source for copying.
 
-### How Much Scenery Is Enough? {#how-much-scenery-is-enough}
+### How Much Scenery Is Enough?
 
 As noted in Chapter 1, in the section “The Detail Trap,” it’s easy to get sidetracked by trying to cram too much scenery into a room. If your story is set in a modern house, the house will probably have a bathroom. You may be tempted to add a toilet, toilet paper, a sink with faucets, a bar of soap, towels and washcloths on a towel rack, a mirror that opens to reveal a medicine cabinet stocked with pill containers, a bathtub with a showerhead and a drain. This level of detail is probably not necessary, and may even be a bad thing. It’s a lot of extra work — and if you include these objects, the player will expect that manipulating them will have something to do with the story. If they’re just scenery, the player will be disappointed not to be able to look at herself in the mirror, turn the faucets on and off, and so forth.
 

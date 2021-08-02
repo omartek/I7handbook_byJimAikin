@@ -1,4 +1,4 @@
-## Consulting Information Sources {#consulting-information-sources}
+## Consulting Information Sources
 
 In many games, key pieces of information are hidden in a large book, or possibly in a computer terminal of some sort. To get at the information, the player uses a syntax like LOOK UP KING HENRY IN HISTORY BOOK or LOOK UP POISONS IN COMPUTER. The solution to this sort of puzzle is to keep trying topics until you find an input that the information source responds to. Or the player may need to find another piece of information somewhere that says, in essence, “King Henry is listed on page 447 of the history book.” Once the player is in possession of this information, TURN TO PAGE 447 should reveal the information.
 

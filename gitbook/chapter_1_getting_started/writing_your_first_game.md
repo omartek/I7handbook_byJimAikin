@@ -1,4 +1,4 @@
-## Writing Your First Game {#writing-your-first-game}
+## Writing Your First Game
 
 There are no rules at all that dictate what you can put in a game. One of the great things about interactive fiction is that you’re free to write whatever sort of story you’d like, and put whatever story elements in it you think would be fun.
 
@@ -8,7 +8,7 @@ Your first game may be just something that you put together for fun, or as a sur
 
 2.  When creating objects, always add all of the vocabulary words you can think of that players might use to refer to the objects. (See “Adding Vocabulary Words” in Chapter 3, [here](../chapter_3_things/adding_vocabulary_words_with_understand.md#adding_vocabulary_words_with_understand), to learn how to do this.)
 
-3.  When creating new actions that will work on your objects, always add all of the verb synonyms you can think of. Forcing the player to guess what verb you had in mind is considered extremely poor form. (The techniques for creating new actions are explained in Chapter 4, starting [here](../chapter_4_actions/creating_new_actions.md/#creating_new_actions).)
+3.  When creating new actions that will work on your objects, always add all of the verb synonyms you can think of. Forcing the player to guess what verb you had in mind is considered extremely poor form. (The techniques for creating new actions are explained in Chapter 4, starting [here](../chapter_4_actions/creating_new_actions.md#creating_new_actions).)
 
 4.  After writing a few paragraphs, click the Go button to compile your game and test your work. Test all of the silly commands you can think of, and watch how your game handles the commands. Then rewrite and test some more. Don’t wait until you’ve written great swaths of source text before compiling; failing to compile often is just a way to give yourself lots of needless headaches.
 
@@ -22,7 +22,7 @@ If you’re curious about what the Standard Rules look like, you can open them f
 
 Please be careful not to make any changes in this file! If you do accidentally make changes, be sure to close the file without saving. Changing the Standard Rules could mess up Inform so that the games you write won’t work properly, or at all. (If this happens, you can always download and reinstall Inform. Reinstalling will not affect the game you’re working on.)
 
-### From the Top {#from-the-top}
+### From the Top
 
 To start your game, you need to create at least one room, where the story will start. Chapter 2 of this book is all about how to create rooms. Before you start writing your first room, though, you may want to do a couple of preliminary things. I recommend starting your game as shown below. First, the game should have a title and a byline. (These will be created automatically by Inform when you start a new project, but you can change them at any time just by editing the first line in the Source page.) After the title and byline, skip a line and write a Use sentence, like this:
 
@@ -40,11 +40,15 @@ Prior to version 6E59, Inform’s default for room descriptions was brief mode, 
 
 The serial comma is the final comma in lists of items. If the serial comma is switched on, your game might report this:
 
-``You can see an apple, a pear, and a banana here.``
+```ìnform7
+You can see an apple, a pear, and a banana here.
+```
 
 If the serial comma is _not_ being used, the output is just slightly different:
 
-``You can see an apple, a pear and a banana here.``
+```ìnform7
+You can see an apple, a pear and a banana here.
+```
 
 Most games also need an introduction — some text that will “set the stage” for the story. You can create an introduction by writing a When Play Begins rule, perhaps something like this:
 
@@ -53,7 +57,7 @@ When play begins, say "Lord Triffid has invited you to spend your week's vacatio
 ```
 
 
-### The Detail Trap {#the-detail-trap}
+### The Detail Trap
 
 When writing your first interactive fiction, there’s a pitfall you may want to watch out for — the detail trap. Let’s suppose you want your story to start in the kitchen of the main character’s house. So you start putting things in the kitchen — appliances and so on. (By the way, **p. 8.5** of the _Recipe Book_, “Kitchen and Bathroom,” has some great tips on how to make appliances.) Now, a kitchen is a complicated place! The stove can be switched on, and touching it when it’s switched on will burn you. The hot and cold water taps in the sink can also be turned on, and when one of them is on, there’s some water that the player might want to interact with. In the refrigerator is some moldy cheese, so you need to figure out how Inform handles the smelling action.
 
@@ -65,7 +69,7 @@ I like to write descriptions when I’m starting out, because I like to get a co
 
 There’s a lot to learn in Inform. So start with simple things and build up your game in an orderly way. Put off the complex and tricky stuff for a later stage in the development.
 
-### Title Trickery {#title-trickery}
+### Title Trickery
 
 We’re going to take a little detour into more sophisticated Inform programming here — nothing that’s tricky to write or understand, but we’ll use a couple of Inform’s deeper features without bothering to explain them. The reason we’re going to do it here is because of what happens at the very beginning of the game.
 
@@ -103,15 +107,19 @@ This will eliminate the opening banner but leave the version information intact,
 
 Before we move on, we need to pause for a quick cautionary note: The title of an Inform game can’t contain quotation marks. That is, if you want your story’s title to be displayed this way:
 
-``“Repent,” Said the Tick-Tock Man``
+```
+“Repent,” Said the Tick-Tock Man
+```
 
 … you just plain can’t. You can, however, use single quotes (apostrophes), producing this title:
 
-``‘Repent,’ Said the Tick-Tock Man``
+```
+‘Repent,’ Said the Tick-Tock Man
+```
 
 A problem that used to crop up more often has now been fixed. In some previous versions of I7, it was impossible to use an apostrophe in the title if the apostrophe fell at the end of a word. That is, you couldn’t call your story “Goin’ Home”. This is now allowed. You can just type an apostrophe at any point in the title, either in the middle of a word or at the end, and it will be displayed properly.
 
-### Telling a Story {#telling-a-story}
+### Telling a Story
 
 Maybe the most basic way to look at a story — any story, be it interactive, written on paper, or told out loud — is that a story is about a person who has a _problem_. The reason for looking at stories this way is simple: If the main character in the story doesn’t have a problem, the story will be extremely boring. When we read a story, we want to enjoy the suspense of wondering how the lead character will solve the problem, and then at the end we want the satisfaction of seeing how the problem was resolved. In interactive fiction, the player usually _is_ the lead character, which can add to the suspenseful emotions your reader/players will feel.
 
@@ -125,12 +133,12 @@ In interactive fiction, solving the main story problem usually means solving a v
 >
 > As you read discussion of interactive fiction programming in Internet forums and newsgroups, you’ll often find somebody talking about “my WIP.” This is an abbreviation for “work in progress.” Large games can be “in progress” for months or years. As long as you’re still working on an unfinished game, or even thinking about it once in a while, it’s a WIP.
 
-### Managing Your Project(s) {#managing-your-project-s}
+### Managing Your Project(s)
 
 It’s a good idea to always save your project to some specific folder on your hard drive. In Windows, this would probably be My Documents &gt; Inform &gt; Projects. If you care about your creative work (and you should!), it’s a very good idea to _back up_ your project to a separate location after you’ve done any new work on it. USB memory sticks are cheap and convenient. Always use a separate _physical_ location for backup, not just a different partition on the same physical hard drive. The point of making a backup copy is to protect you against the possibility of a hard drive crash or system failure.
 
 Every few days, I like to save a project using a new, numbered filename. After working on Flustered Duck 05 for a few days, I’ll use the Save As command and save the project as Flustered Duck 06, and so on. (The final release version of “A Flustered Duck” was project version 21). Here’s why that’s a good idea: If you should change your mind about a design decision that you’ve made, or if you should accidentally delete or change something without meaning to, you can open up an older version of your project and copy a portion of the source code from the old version into the new one. Doing this actually saved me from a serious problem when I was writing this _Handbook._ I recommend it highly.
 
-### About Inform Source Code {#about-inform-source-code}
+### About Inform Source Code
 
 One of the strong attractions of Inform 7 for new authors who would like to try writing IF is its use of natural language syntax. In many simple situations, both writing Inform source code and reading it is easier than wrapping your brains around a more conventionally structured programming language (such as TADS 3 or Javascript). Unfortunately, there’s a downside to this apparent ease of use, which will become more apparent as you get deeper into writing your game. Inform’s programming language contains a lot of one-off syntax — phrases that make sense if you know them, but that are hard to guess if you don’t know them. If you can’t remember how a given line should be written, your game probably won’t compile, and the compiler’s error message may not be very helpful. And if you can’t remember the phrase to use, searching the Documentation for it may not work either.

@@ -1,4 +1,4 @@
-## Adding More Rooms to the Map {#adding-more-rooms-to-the-map}
+## Adding More Rooms to the Map
 
 ![](../assets/graphics34.jpg)
 

@@ -1,4 +1,4 @@
-## Enterable Scenery {#enterable-scenery}
+## Enterable Scenery
 
 When the “room” is an outdoor location and a building is nearby, making the exterior of the building scenery is a good idea. This is not hard to do, but it can lead to two small problems that we need to look at.
 

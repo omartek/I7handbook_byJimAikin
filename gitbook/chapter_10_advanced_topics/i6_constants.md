@@ -1,4 +1,4 @@
-## I6 Constants {#i6-constants}
+## I6 Constants
 
 As your game is compiled, Inform goes through two processes. First, your source text and all of the extensions you’re using (plus the Standard Rules) are turned into Inform 6 (I6) code. The I6 compiler then runs, producing a playable .z8 or glulx game, depending on which format you have chosen in the Settings tab. Occasionally, the compilation process will stop at the second stage. This can happen for several reasons, but one of the more common and less troublesome reasons is because you’re using too much of something, and I6 thinks it’s running out of room.
 

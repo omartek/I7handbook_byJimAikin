@@ -1,4 +1,4 @@
-# Appendix B: Updating Older Extensions {#appendix-b-updating-older-extensions}
+# Appendix B: Updating Older Extensions
 
 Extensions are an important and convenient way of extending the functionality of Inform 7. Many of them are available. Older extensions are archived on the Inform 7 website, and can be downloaded from there — but they won’t necessarily work with 6L38. In fact, they probably won’t. If you want to try, find your Inform Extensions folder (in Windows it’s in My Documents), add a folder named after the author of the extension, and put the .i7x file in this folder. The next time you launch Inform, the extension will appear in the Extensions pane.
 

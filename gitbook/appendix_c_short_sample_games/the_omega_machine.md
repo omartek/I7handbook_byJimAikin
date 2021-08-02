@@ -1,4 +1,4 @@
-## The Omega Machine {#the-omega-machine}
+## The Omega Machine
 
 This sophisticated example showed up back in 2009 on the intfiction.org forum. The author, who goes by the handle SJ_43, was responding to a question from someone named Eudoxia about how to make a device that the player can give commands to — for instance, a command like COMPUTER, CHECK THE STABILIZERS. The game below doesn’t implement anything quite that complicated, but it provides a framework with which you could easily do it. The sneaky Inform 6 trick in this code is the line, “Include (- has talkable, -) when defining a computer.” The parentheses and dashes are used (as described [here](../chapter_10_advanced_topics/special_features_in_glulx.md#special-features-in-glulx)) to drop the code out of I7 and down into I6. “has talkable” is I6 code that means, more or less, “This is an object the player may want to be able to talk to.”
 

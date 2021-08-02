@@ -1,4 +1,4 @@
-## Clearing the Screen {#clearing-the-screen}
+## Clearing the Screen
 
 Some authors like to clear the screen when a new section of the story begins. This can be a nice effect if the player is teleported to an entirely new time or place, for instance. Here’s how to get that effect:
 

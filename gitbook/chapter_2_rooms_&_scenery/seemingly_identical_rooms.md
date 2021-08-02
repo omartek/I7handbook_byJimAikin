@@ -1,4 +1,4 @@
-## Seemingly Identical Rooms {#seemingly-identical-rooms}
+## Seemingly Identical Rooms
 
 Once in a while, you might want to design an area of the map in which there are several rooms that have the same name and description (such as “You are in a maze of twisty little passages, all different.”). Internally, in your code, each of your rooms has to have a unique name of its own. But it’s easy enough to give several rooms the same printed name and description:
 

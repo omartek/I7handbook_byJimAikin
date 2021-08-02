@@ -1,4 +1,4 @@
-## Flea Market {#flea-market}
+## Flea Market
 
 We’ll start with a simple scenario that was suggested by Jay in a post on the newsgroup rec.arts.int-fiction, back in the day when it was still a go-to place for IF info. Jay’s goal was to make NPCs respond at random to items carried by the player. Each time the player takes inventory, one of the other shoppers in the flea market will notice some random thing the player carries, and comment on it.
 

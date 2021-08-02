@@ -1,4 +1,4 @@
-# Appendix D: License {#appendix-d-license}
+# Appendix D: License
 
 The Inform 7 Handbook is provided for your use under the terms of the Creative Commons Public License (“CCPL” or “License”). This work is protected by copyright and/or other applicable law. Any use of the work other than as authorized under this License or copyright law is prohibited.
 

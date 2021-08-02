@@ -1,4 +1,4 @@
-## Loops {#loops}
+## Loops
 
 Sometimes a computer program needs to perform a certain operation over and over. If it needs to do the same operation 50 times, there’s no sense in writing out the same block of code 50 times. Instead, we write it out once and then execute it over and over until we’re done. The process of doing this is called a loop.
 

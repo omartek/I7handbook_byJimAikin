@@ -142,6 +142,19 @@
             
         </li>
     
+        <li class="chapter " data-level="1.2.3" data-path="../foreword/use_&_license.html">
+            
+                <a href="../foreword/use_&_license.html">
+            
+                    
+                    Use & License
+            
+                </a>
+            
+
+            
+        </li>
+    
 
             </ul>
             
@@ -2338,7 +2351,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="using-the-debugging-commands">Using the Debugging Commands </h2>
+                                <h2 id="using-the-debugging-commands">Using the Debugging Commands</h2>
 <p>Inform includes a good set of commands that can be used for speeding up your testing process and tracking down bugs in your game. These commands are available only during the development process; when you release your finished game, other players won&#x2019;t be able to use them. These commands don&#x2019;t actually find bugs; what they do is help you see what&#x2019;s going on in your game while it&#x2019;s running, and/or take shortcuts that will speed up the testing process.</p>
 <p>The commands you can use while your game is running in the Inform IDE include ACTIONS, RULES, PURLOIN, GONEAR, and SHOWME. Also, for testing a series of commands quickly, you can write a TEST ME script. The Replay button can be used to rerun your most recent sequence of commands, which is a very useful way to find out if you&#x2019;ve succeeded in fixing a problem that you had in the last run-through. The Skein window contains all of your earlier run-throughs, and you can use it to replay just about any series of commands you used earlier.</p>
 <p>With the PURLOIN command, you can instantly &#x201C;grab&#x201D; any object in your model world. Objects in distant rooms and locked containers can be purloined &#x2014; and you can also purloin things that can&#x2019;t be picked up at all in the ordinary way, such as people and scenery. There&#x2019;s no reason to purloin people or scenery, other than for fun. But by purloining the rusty iron key that&#x2019;s hidden in the oak cask in the wine cellar, you can quickly test whether the key works to unlock the door of the princess&#x2019;s chamber. You don&#x2019;t need to go down to the wine cellar and break open the cask; just PURLOIN the key.</p>
@@ -2365,7 +2378,7 @@ Test me with <span class="hljs-string">&quot;test suitcase / test dynamite&quot;
 </code></pre>
 <p>Now the commands TEST SUITCASE and TEST DYNAMITE can be used independently, or they can be combined by typing TEST ME.</p>
 <p>The RULES command can be used while testing your game to find out what rules Inform is using to process other commands. This is a fairly advanced technique &#x2014; the first few times you try it you may not understand what you&#x2019;re seeing &#x2014; but it can sometimes be very useful. If the game is producing an output that you don&#x2019;t want, you may be able to figure out what rule is producing that output by using RULES and then trying the command that isn&#x2019;t working correctly. Most often, the last rule that is displayed before the offending output text is the rule that&#x2019;s producing the text.</p>
-<h3 id="another-way-to-debug">Another Way to Debug </h3>
+<h3 id="another-way-to-debug">Another Way to Debug</h3>
 <p>One of the easiest traditional ways to debug a computer program is to add print statements. A print statement (which in Inform would be in the form of a &#x201C;say&#x201D; statement) prints a text output to the screen. You can put whatever you want in a print statement. For instance, you could do something like this:</p>
 <pre><code class="lang-inform7">To demolish the dungeon:
         <span class="hljs-keyword">say</span> <span class="hljs-string">&quot;Now entering the dungeon-demolishing code.&quot;</span>;
@@ -2448,7 +2461,7 @@ To debug (T - a text):
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Using the Debugging Commands","level":"1.3.9","depth":2,"next":{"title":"Puzzles","level":"1.3.10","depth":2,"path":"chapter_1_getting_started/puzzles.md","ref":"chapter_1_getting_started/puzzles.md","articles":[]},"previous":{"title":"Testing Your Game","level":"1.3.8","depth":2,"path":"chapter_1_getting_started/testing_your_game.md","ref":"chapter_1_getting_started/testing_your_game.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["intopic-toc","collapsible-menu","code"],"pluginsConfig":{"collapsible-menu":{},"intopic-toc":{"isCollapsed":true,"isScrollspyActive":true,"label":"In this article","maxDepth":6,"mode":"nested","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6","visible":true},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css"}},"file":{"path":"chapter_1_getting_started/using_the_debugging_commands.md","mtime":"2021-07-28T11:16:28.289Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-08-01T19:41:45.199Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Using the Debugging Commands","level":"1.3.9","depth":2,"next":{"title":"Puzzles","level":"1.3.10","depth":2,"path":"chapter_1_getting_started/puzzles.md","ref":"chapter_1_getting_started/puzzles.md","articles":[]},"previous":{"title":"Testing Your Game","level":"1.3.8","depth":2,"path":"chapter_1_getting_started/testing_your_game.md","ref":"chapter_1_getting_started/testing_your_game.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["intopic-toc","collapsible-menu","code"],"pluginsConfig":{"collapsible-menu":{},"intopic-toc":{"isCollapsed":true,"isScrollspyActive":true,"label":"In this article","maxDepth":6,"mode":"nested","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6","visible":true},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css"}},"file":{"path":"chapter_1_getting_started/using_the_debugging_commands.md","mtime":"2021-08-02T20:51:03.232Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-08-02T21:18:49.184Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

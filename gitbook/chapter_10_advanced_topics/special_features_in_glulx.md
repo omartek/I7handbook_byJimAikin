@@ -1,4 +1,4 @@
-## Special Features in Glulx {#special-features-in-glulx}
+## Special Features in Glulx
 
 In **Chapter 23** of _Writing with Inform_, “Figures, Sounds and Files,” you’ll find a good discussion of how to add graphics files (digital photos or clip art in .jpg or .png format) to your game. To do so, you’ll need to compile to glulx, not to .z8.
 

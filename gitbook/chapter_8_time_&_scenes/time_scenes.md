@@ -1,4 +1,4 @@
-# Chapter 8: Time &amp; Scenes {#chapter-8-time-scenes}
+# Chapter 8: Time &amp; Scenes
 
 ![](../assets/graphics15.jpg)
 

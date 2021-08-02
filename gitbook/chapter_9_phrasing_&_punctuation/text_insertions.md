@@ -1,4 +1,4 @@
-## Text Insertions {#text-insertions}
+## Text Insertions
 
 It’s extremely common for the game to need to make some decisions about what to print while the game is being played. The ways to do this are well described in **Chapter 5** of _Writing with Inform_, “Text,” but we’ll look at a couple of examples here.
 
@@ -126,7 +126,7 @@ To say Alexander-less-friendly:
 
 In this example, the text output “Alexander laughs at you” includes a call to a To Say rule that prints nothing. It has only one effect: it causes Alexander to become less friendly by adjusting one of his properties. In this case, you could get the same result using a To phrase, as shown earlier in this section, by adding a line like “crank up Alexander’s hostility” in the Instead rule — but there are times (such as when printing text that’s stored in a table) when using a To Say statement is really the best way to do it.
 
-### Switchable Markup {#switchable-markup}
+### Switchable Markup
 
 As explained on **page 5.9** of _Writing with Inform_, you can switch bold and italic type on and off within the quoted text in a “say” statement. You might want to do this, for instance, to draw the player’s attention to items in a room description if the item can be examined or otherwise manipulated. This effect can be helpful to new players, but it can annoy experienced players. So we’d like to let the player switch it on or off.
 
@@ -162,7 +162,7 @@ The Patio is a room. "In the pavement is set a small iron [b]grate[\b]."
 
 The key to understanding this code is in the blocks that begin “To say b:” and “To say \b:” These test whether the truth state using-bold is true or false. Once we’ve set things up properly, we can use the text insertions “[b]” and “[\b]” to mark any item that we want highlighted with boldface type — and the player will be able to control the effect using a simple utility command.
 
-### Quotes Within Quotes {#quotes-within-quotes}
+### Quotes Within Quotes
 
 When you start writing NPC conversations, it’s easy to forget that the quotation marks surrounding your text won’t be printed out. This, for instance, is an error:
 

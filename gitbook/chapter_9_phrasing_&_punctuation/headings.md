@@ -1,4 +1,4 @@
-## Headings {#headings}
+## Headings
 
 Another difference between Inform and traditional programming languages is that, with some important exceptions, Inform doesn’t care where you place rules and assertions. If you want to mix up your source code, leaving related bits strewn out all over everywhere, Inform will let you. If you’re working on the section of the story that has to do with the swords, and you suddenly realize that you need to make sure the men in the tower are wearing chain mail, you can just hit a couple of Returns to start a new paragraph and create the chain mail on the spot. There’s no need to go find the men in the tower (they could be five hundred lines earlier or later in the file) and put the chain mail in their part of the code.
 

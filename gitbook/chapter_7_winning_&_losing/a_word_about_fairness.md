@@ -1,4 +1,4 @@
-## A Word About Fairness {#a-word-about-fairness}
+## A Word About Fairness
 
 In the early days of interactive fiction, numerous games were released that would kill the player without warning. That was part of the fun (?) — when you opened a door, maybe an ogre would jump out at you and hit you with his club, and the game was over. If you had been smart enough to save your game position not too long before, you could restore the saved game and try to be more careful about the ogre the second time. If you hadn’t been smart, you might have to spend hours getting back to that game position again.
 

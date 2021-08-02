@@ -1,4 +1,4 @@
-## All About Bugs {#all-about-bugs}
+## All About Bugs
 
 ![](../assets/graphics6.png)
 

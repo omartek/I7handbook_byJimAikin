@@ -1,4 +1,4 @@
-## Darkness {#darkness}
+## Darkness
 
 The need to bring a light source into a dark room or rooms is a puzzle that dates clear back to “Adventure,” which of course was set in a system of caves. See the section on “Dark Rooms” in Chapter 2, [here](../chapter_2_rooms_&_scenery/dark_rooms.md#dark-rooms). To solve a dark room puzzle, the player has to find and carry an object that provides light. Today, most rooms in most games are lighted by default, but dark rooms still show up in quite a few games. The light source that’s needed may be unusual, or may last for only a limited number of turns — a burning match, for instance — making the dark room a timed puzzle. (See “Timed Puzzles,” below.)
 

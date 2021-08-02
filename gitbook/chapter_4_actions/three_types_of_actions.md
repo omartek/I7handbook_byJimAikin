@@ -1,4 +1,4 @@
-## Three Types of Actions {#three-types-of-actions}
+## Three Types of Actions
 
 We can separate actions into three main categories, depending on how many nouns (objects) the action applies to. Some actions take no nouns, some take one noun, and some take two. Another type of action take **topics** (that is, simple text) instead of a noun. (See “Actions with Topics” on [here](../chapter_4_actions/actions_with_topics.md#action-with-topics))
 

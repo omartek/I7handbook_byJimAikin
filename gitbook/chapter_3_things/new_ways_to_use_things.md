@@ -1,4 +1,4 @@
-## New Ways to Use Things {#new-ways-to-use-things}
+## New Ways to Use Things
 
 Inform’s model of how things exist (and can be used) in the world is very simple. Sometimes you’ll want the player to be able to do something new or unexpected with a thing. In this section we’ll borrow some ideas from Chapter 4, “Actions,” and show you how to allow new kinds of actions with the objects in your game. For details on how Check, Carry Out, Report, and Instead rules work, consult Chapter 4. The main purpose of the section you’re now reading is to show how to do interesting things with the new objects you’ve created.
 
@@ -6,7 +6,7 @@ This section was inspired by an old post on rec.arts.int-fiction, which I spotte
 
 The number of new things you might want players to be able to do is probably infinite. Some of them will turn out to be easy to set up; others may be surprisingly tricky for you to implement. The key, in each case, is to think logically and try to handle all of the things a player might do. You’ll also need to consider all of the states that your objects might get themselves into. For example, you may know that you only want your new tipping action to apply to one object in the game — but once players know that the TIP command works, they’ll surely try it on anything and everything. So you need to write a check rule for your new action that will handle any and all of players’ attempts with a sensible-sounding refusal message. You may also want to write an in-game clue to suggest that tipping something might be a good action to try. For instance, in a description of an object: “It looks as if it might tip over in a strong breeze.”
 
-### Holding Something Up in the Air {#holding-something-up-in-the-air}
+### Holding Something Up in the Air
 
 The player might very reasonably want to hold an object up in the air so as to make it visible to an NPC who is far away. (If the NPC is in the same room, a standard command of the form SHOW JEWEL TO PRINCESS should do the job.) You might want to hold up a white sheet, for instance, if you’re marooned on an island and trying to attract the attention of a passing ship. Below is a simple example game that implements this action. Notice the long list of input grammar that is allowed. You’d probably want to add even more grammar lines to this list if you’re using this action in a game.
 

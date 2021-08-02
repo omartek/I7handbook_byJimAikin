@@ -1,4 +1,4 @@
-## Enterable Containers &amp; Supporters {#enterable-containers-supporters}
+## Enterable Containers &amp; Supporters
 
 Some containers and supporters might be big enough that the player could reasonably enter them — a chair or bed, for instance. Here is a simple example that includes both:
 

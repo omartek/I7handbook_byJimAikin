@@ -1,4 +1,4 @@
-## Body Parts {#body-parts}
+## Body Parts
 
 Giving your characters body parts is not always necessary, but if the character’s description mentions something prominently (Janet’s blue eyes, the duke’s hawklike nose, or whatever), you can easily use Inform’s ability to create parts of objects (as discussed in Chapter 3 of this _Handbook_) to make the body parts. In some games, you might want to give all of your characters body parts. In this case, you would make the part a kind of thing, like this:
 

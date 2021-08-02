@@ -1,4 +1,4 @@
-## More About Room Descriptions {#more-about-room-descriptions}
+## More About Room Descriptions
 
 We’ve already seen (in the section on “Backdrops,” earlier in this chapter) a few examples of rooms whose description can change. These changes were produced by using square brackets to insert bits of code in the room description itself. This can be done with an if-test, as shown above in the example of the Throne Room, or with a [one of] insertion. There are other possibilities as well. These techniques are discussed in more detail in the section on “Text Insertions” in Chapter 9 of the _Handbook_, “Phrasing &amp; Punctuation,” but here’s an example of each technique to get you started:
 

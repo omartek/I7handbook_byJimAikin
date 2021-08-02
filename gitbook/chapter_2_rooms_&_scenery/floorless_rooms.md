@@ -1,4 +1,4 @@
-## Floorless Rooms {#floorless-rooms}
+## Floorless Rooms
 
 As mentioned at the beginning of this chapter, when the player uses the DROP command to get rid of objects that are being carried, the convention of IF is that the objects end up on the floor. This is usually a sensible way for objects to behave — but what if the “room” is the top of a tree?
 

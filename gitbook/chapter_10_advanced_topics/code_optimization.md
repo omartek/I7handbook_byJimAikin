@@ -1,4 +1,4 @@
-## Code Optimization {#code-optimization}
+## Code Optimization
 
 In the 1970s, when the very first interactive fiction games were written, computers were (by today’s standards) incredibly slow, and had almost no memory. As a result, games — and every other type of software — had to be written very efficiently. If the software had to do a lot of churning, the user might issue a command and then have to wait ten or twenty seconds for the computer’s response. Or all afternoon. Issue a command, then go out for coffee, or come back tomorrow morning to find out if your program did what you expected it to. This was annoying, to say the least.
 
@@ -12,7 +12,7 @@ But there’s a bigger issue. Two new interpreters, Parchment (for .z5 and .z8 g
 
 For the following discussion, I’m relying on information from Ron Newcomb, Andrew Plotkin, and others. They know a lot more about Inform, and about programming in general, than I do. (Plotkin created Quixe, in fact.)
 
-### Instead of Instead {#instead-of-instead}
+### Instead of Instead
 
 As noted in the box on _Efficiency Tips_ [here](../chapter_4_actions/action_processing.md#action-processing), Inform’s mechanism for processing the player’s input by means of rulebooks called Before, Instead, and After is inefficient. This is because there’s only one of each of these rulebooks. On the other hand, each action (such as EXAMINE, TAKE, and DROP) has its own Check, Carry Out, and Report rulebooks. What this means is that each time the player enters a command, the game will consult _all_ of the Before, Instead, and After rules that you’ve written to see if any of them applies. In a large game, that could be hundreds of rules.
 
@@ -51,7 +51,7 @@ Before doing anything other than examining to the sky, say "The sky is too far a
 
 This type of construction (“anything other than...”) can’t be used in Check or Carry Out rules, simply because each action has its own set of rulebooks.
 
-### Every Turn Rules {#every-turn-rules}
+### Every Turn Rules
 
 In every turn, every Every Turn rule in your game will be consulted to see whether it’s relevant. As your Every Turn rules proliferate, the game will become less efficient. Fortunately, most of your Every Turn rules will probably be targeted at specific circumstances, such as when a certain scene is active or when the player is in a certain room. If you group all of the Every Turn rules that apply to a given situation as if-tests within a single rule, you’ll gain efficiency. For instance:
 
@@ -68,6 +68,6 @@ Every turn when in the Glue Factory:
 
 When the player is in the Glue Factory, the fact that the rules are grouped will change nothing — but whenever the player is _not_ in the Glue Factory, only one Every Turn rule will be consulted to see whether it applies, rather than several of them.
 
-### Other Ways to Streamline Your Code {#other-ways-to-streamline-your-code}
+### Other Ways to Streamline Your Code
 
 Occasionally, the “after reading a command” activity will prove very useful. But it runs each time the player types the Return key, so putting a lot of if-tests in it will slow the game down. I’ve run into one or two aspiring authors who thought it would be cool to basically reinvent the parser by putting a bunch of stuff in the “after reading a command” activity. To do this, they tried to write lots and lots of code to figure out whether the player’s command included specific words. That’s the parser’s job. If you can use an offstage object, a backdrop, or an invisible part of the player, any of which can be given vocabulary words, to direct the parser to the result you’re trying to create, that will be more efficient — and also friendlier to the player and less likely to include bugs.

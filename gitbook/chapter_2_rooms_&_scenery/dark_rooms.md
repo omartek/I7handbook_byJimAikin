@@ -1,4 +1,4 @@
-## Dark Rooms {#dark-rooms}
+## Dark Rooms
 
 The very first interactive fiction, a game called Adventure, was set in a cave. Like most caves, it was dark. As long as the player was carrying a lantern, the game could be played in what we now consider the normal way. But any room where there wasn’t a light source would be pitch-dark.
 
@@ -70,7 +70,7 @@ If you look closely at the code above, you’ll see a couple of other refinement
 
 I also used an Instead rule so that if the player tries SWITCH OFF LAMP, the command will be redirected to SWITCH OFF LIGHT-SWITCH. This keeps all of the handling of the lamp’s on/off condition in one place — in the switch. The switch is an Inform **device** ([here](../chapter_3_things/mechanical_marvels.md#mechanical-marvels)), which as explained in Chapter 3 is one of the kinds of object that Inform allows you to create.
 
-### Backdrops in Dark Rooms {#backdrops-in-dark-rooms}
+### Backdrops in Dark Rooms
 
 Inform assumes, by default, that a backdrop is something that a player will want to look at. For that reason, backdrops are not present in dark rooms, even when you’ve written code that states the backdrop is everywhere. If your game includes a backdrop that the player may want to smell, you’ll need to do a little extra work. Here’s how to create a backdrop that can be smelled even in a dark room:
 

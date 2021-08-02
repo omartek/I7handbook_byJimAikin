@@ -1,4 +1,4 @@
-# Chapter 3: Things {#chapter-3-things}
+# Chapter 3: Things
 
 ![](../assets/graphics10.jpg)
 

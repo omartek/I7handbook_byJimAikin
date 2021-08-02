@@ -1,4 +1,4 @@
-## Inadequate Implementation {#inadequate-implementation}
+## Inadequate Implementation
 
 This isn’t really a type of puzzle, except in the technical sense: It’s a design flaw ― and a serious one. In an inadequate implementation puzzle (which can be of almost any type), the player lacks necessary information because the author has neglected to include it, either in the output text or in the software code. The “puzzle” boils down to making random guesses or reading the author’s mind, which is pretty much the same thing.
 

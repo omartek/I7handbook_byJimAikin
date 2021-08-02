@@ -1,4 +1,4 @@
-# Chapter 6: Puzzles {#chapter-6-puzzles}
+# Chapter 6: Puzzles
 
 ![](../assets/graphics8.png)
 

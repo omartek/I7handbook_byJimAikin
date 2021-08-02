@@ -1,4 +1,4 @@
-## Deceptive Appearances & Unusual Usages {#deceptive-appearances-unusual-usages}
+## Deceptive Appearances & Unusual Usages
 
 An object with a deceptive appearance is different from an object whose description is poorly written (see “Inadequate Implementation,” below). The initial description of an object might be vague because the PC has never seen anything like it and doesn’t know what it is, or because only part of it is present, thus giving it an enigmatic shape, or because it is in an odd condition.
 

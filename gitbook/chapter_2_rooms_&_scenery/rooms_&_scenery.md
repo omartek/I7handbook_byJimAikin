@@ -1,4 +1,4 @@
-# Chapter 2: Rooms &amp; Scenery {#chapter-2-rooms-scenery}
+# Chapter 2: Rooms &amp; Scenery
 
 ![](../assets/graphics9.jpg)
 

@@ -1,4 +1,4 @@
-## Moods {#moods}
+## Moods
 
 Real people can get into a variety of moods — friendly, bored, hostile, romantic, frightened, twitchy, and so on. The extension Mood Variations by Emily Short provides an easy way to switch characters from one mood to another in the course of conversation. It’s meant to be used with a conversation package such as Eric Eve’s Conversation Framework, but you don’t need to actually use the features in Conversation Framework or Conversation Responses if you don’t want to; you just need to include one of them so that Mood Variations can make use of a variable called the current interlocutor. Mood Variations is set up to make it easy to switch a character’s mood in the course of conversation, using the syntax “[set hostile]” within a quote. This will always set the mood of the person the player is currently talking to. To change a character’s mood outside of quotes, you need to write something like, “now the current mood of Bob is hostile”.
 

@@ -1,4 +1,4 @@
-## Containers &amp; Supporters {#containers-supporters}
+## Containers &amp; Supporters
 
 Every object in your model world (except backdrops and doors, which operate in a slightly different way) is either in a room, or it’s off-stage. If an object is off-stage, it’s nowhere, at least at the moment. But even when something is off-stage, it’s still part of the game, and could be moved into play later on. (See the section “Moving Things Around,” below, to learn how to do this.) The question of where things are located is rather interesting, as we’ll discover in the section “Testing Where a Thing Is.” Before we dig into that question, we need to introduce two new kinds: containers and supporters. These were introduced briefly at the end of Chapter 2, in the section “Room Descriptions.” Now it’s time to take a closer look.
 
@@ -179,7 +179,7 @@ This output shows several things about how Inform handles containers and support
 
 3.  If a container is not scenery, Inform will normally add a paragraph about it after the room description (assuming it’s in the room — not if the player is holding it). If the container is openable and closed, Inform will add “(closed)” after mentioning it. If it’s open and contains something, Inform will list the contents. If it’s open and empty, Inform will say “(empty)”.
 
-### Stealthy Containers {#stealthy-containers}
+### Stealthy Containers
 
 The logic shown above is fine as a basic way of designing a game, but you may run into situations in which it doesn’t work well. For instance, you might want it to be less than obvious that a closed openable container is actually a container at all. Getting rid of the “(closed)” text would solve that. Here’s how:
 
@@ -341,7 +341,7 @@ To say list-table-stuff:
 
 Which of these forms you use is purely a matter of taste. I like the second one because it makes the logic easier to see at a glance.
 
-### Sneaky Supporters {#sneaky-supporters}
+### Sneaky Supporters
 
 There may be times when you’d like to force the player to examine a supporter before the game reveals what’s on it. By default, Inform _will_ list what’s on a scenery supporter in a room description. If you don’t like this effect, you can override it globally (that is, everywhere in your game) like this:
 

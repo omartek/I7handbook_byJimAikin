@@ -1,4 +1,4 @@
-## Future Events {#future-events}
+## Future Events
 
 **Page 9.11** of _Writing with Inform_, “Future events,” shows how to cue up events that will happen at a certain time in the future. For the next example, I’ll borrow some code from the chapter of the _Handbook_ on characters. When the player tries to take the spider, not only the game prevent the action, but there will be an after-effect — a sort of emotional echo of the intended action:
 

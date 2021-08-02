@@ -1,4 +1,4 @@
-## Adding Vocabulary Words with “Understand” {#adding-vocabulary-words-with-understand}
+## Adding Vocabulary Words with “Understand”
 
 When you create an object, such as the paintbrush we created earlier in this chapter, Inform is smart enough to understand two things at once. First: you, the author, can refer to the object in your code as a paintbrush, and the compiler will know what you mean. Second: the player who is playing your game can also call it a paintbrush, and the parser will know what the player means.
 
@@ -22,7 +22,7 @@ If you also have a can of paint in your game (which wouldn’t be surprising if 
 
 Inform will attempt to keep track of what you mean when writing the game, and the parser will try to figure out what the player means when entering the word PAINT. If the parser can’t figure out what the player meant, it will ask questions. You can help the parser by writing “does the player mean” rules (see **p. 17.19** of _Writing with Inform_, “Does the player mean...”).
 
-### Conditional Vocabulary {#conditional-vocabulary}
+### Conditional Vocabulary
 
 Most of the objects in a game will likely have the same vocabulary words from one end of the game to the other. But there are situations in which you may want to switch certain words on or off. For instance, if the vase gets broken during the game, the player should be able to refer to it as BROKEN VASE — but not otherwise.
 

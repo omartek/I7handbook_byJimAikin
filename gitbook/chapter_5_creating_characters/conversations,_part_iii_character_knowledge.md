@@ -1,4 +1,4 @@
-## Conversations, Part III: Character Knowledge {#conversations-part-iii-character-knowledge}
+## Conversations, Part III: Character Knowledge
 
 During the course of a game, an NPC might learn something, and what the NPC knows might change how he or she responds during a conversation. For instance, let’s suppose the PC has witnessed Aunt Mary’s house burning down, and is now in conversation (in a different location) with Uncle Jack. Uncle Jack won’t know about the fire until the player tells him — so the command ASK JACK ABOUT MARY might need two different outputs, depending on whether or not Uncle Jack knows that Aunt Mary is now without a home.
 

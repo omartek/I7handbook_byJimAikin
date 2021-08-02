@@ -1,4 +1,4 @@
-## “You can’t go that way.” {#you-can-t-go-that-way}
+## “You can’t go that way.”
 
 A player who tries, in a certain room, to go in a direction for which there is no map connection in that room, will be told, “You can’t go that way.” This message has one advantage: It’s perfectly clear. The player knows not to bother any more trying to go that direction in that room. But it’s not very descriptive. Also, in an open outdoor setting such as a field, being told “You can’t go that way” is unrealistic and rather silly. Fortunately, it’s easy to write more interesting replacement messages:
 

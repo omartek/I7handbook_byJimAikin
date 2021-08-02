@@ -1,4 +1,4 @@
-## Transforming One Thing into Another {#transforming-one-thing-into-another}
+## Transforming One Thing into Another
 
 In a game that includes magic, you might want to turn an object into another object. (Maybe this would happen when you cast a spell on the object using my Spellcasting extension.) The easy way to do this in Inform is to create both objects but leave one of them offstage at the beginning of the game. When it’s time to transform the object, simply whisk it offstage and replace it with the other object. Here’s the classic story situation, more or less:
 

@@ -1,4 +1,4 @@
-## Relations {#relations}
+## Relations
 
 Relations are explained in **Chapter 13** of _Writing with Inform_. They give Inform some extra power, but seeing how best to use that power may not be easy. Relations can do at least two kinds of things, and probably others — I haven’t used them much, so I’m not sure.
 

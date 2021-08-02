@@ -1,4 +1,4 @@
-## Conversations, Part II: ask/tell/give/show {#conversations-part-ii-ask-tell-give-show}
+## Conversations, Part II: ask/tell/give/show
 
 Personally, I favor the ask/tell/give/show conversation system. (Other game authors disagree.) I feel it gives a good compromise between realism and challenging the player to figure out what’s important and therefore worth having a conversation about.
 

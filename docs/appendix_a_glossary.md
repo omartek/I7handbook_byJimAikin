@@ -1,4 +1,4 @@
-# Appendix A: Glossary {#appendix-a-glossary}
+# Appendix A: Glossary
 
 **After:** One of the rulebooks used in processing player commands. (See p. 148.)
 

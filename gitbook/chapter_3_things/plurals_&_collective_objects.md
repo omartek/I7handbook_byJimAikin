@@ -1,4 +1,4 @@
-## Plurals &amp; Collective Objects {#plurals-collective-objects}
+## Plurals &amp; Collective Objects
 
 As mentioned earlier (in Chapter 2), some objects need to be plural — for example, the tall old trees standing beside the forest path, or the cows grazing in a nearby field. It’s usually not necessary to make every tree a separate object. Instead, we make a single scenery object, and give it the property plural-named. We can do this ourselves, by writing “The tall old trees are plural-named”, or we can let Inform figure it out, by using the word “some”. Let’s create a plural-named object that isn’t scenery:
 

@@ -142,6 +142,19 @@
             
         </li>
     
+        <li class="chapter " data-level="1.2.3" data-path="../foreword/use_&_license.html">
+            
+                <a href="../foreword/use_&_license.html">
+            
+                    
+                    Use & License
+            
+                </a>
+            
+
+            
+        </li>
+    
 
             </ul>
             
@@ -2338,7 +2351,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="scenery">Scenery </h2>
+                                <h2 id="scenery">Scenery</h2>
 <p>Inform allows us to create many kinds of objects. The standard library includes containers, mechanical devices, doors, people, and so on. (See Chapter 4 of the Documentation, &#x201C;Kinds,&#x201D; to learn more about kinds.) The word &#x201C;kind&#x201D; is a technical term in Inform: It&#x2019;s used to define new types of objects when the game will include several of them, and we want them to behave in similar ways. For instance, if a puzzle involves spelling words with alphabet blocks, we might do this:</p>
 <pre><code class="lang-inform7">An alphabet block <span class="hljs-keyword">is</span> a <span class="hljs-keyword">kind</span> <span class="hljs-keyword">of</span> <span class="hljs-keyword">thing</span>.
 </code></pre>
@@ -2362,7 +2375,7 @@ The tall old trees <span class="hljs-keyword">are</span> <span class="hljs-keywo
 <p>The phrase &#x201C;The description is&#x201D; is optional with scenery and rooms, but it&#x2019;s <em>required</em> with objects that can be picked up and moved around (as described in Chapter 3). If you don&#x2019;t use &#x201C;The description is&#x201D; with scenery, you should be sure to always put the description in the very next sentence after you&#x2019;ve created the scenery object. The code below works exactly like what was shown above &#x2014; but only with scenery, not with ordinary things.</p>
 <pre><code class="lang-inform7">The tall old trees <span class="hljs-keyword">are</span> <span class="hljs-keyword">scenery</span> in the Forest Path. &#x201C;Ancient oaks stretch out their heavy branches overhead, blocking the sun.&#x201D;
 </code></pre>
-<h3 id="the-names-of-things">The Names of Things </h3>
+<h3 id="the-names-of-things">The Names of Things</h3>
 <p>If you try out this code, you&#x2019;ll soon discover two problems. First, you can X TREES, X TALL TREES, or X OLD TREES, because the scenery object was created with the name &#x201C;tall old trees,&#x201D; but you can&#x2019;t X OAKS or X ANCIENT OAKS. The parser will reply, &#x201C;You can&#x2019;t see any such thing,&#x201D; which is fairly silly. It happens &#x2014; and this is important &#x2014; because Inform never looks inside of double-quoted text to see what words you used there. Second, if you should try something like TAKE TREES, the parser will complain, &#x201C;That&#x2019;s hardly portable.&#x201D; The word &#x201C;trees&#x201D; is plural, so the correct output would be &#x201C;Those are hardly portable.&#x201D; But the parser doesn&#x2019;t know that the trees object is plural. We have to help it out a little.</p>
 <p>To solve the first problem, we&#x2019;ll add an Understand rule to the trees. You&#x2019;ll soon find that most of the objects you create in your games will need Understand rules of this type. Their main purpose is to add vocabulary &#x2014; extra words that the player can use to refer to the objects. (The concept of rules is vital to Inform. You&#x2019;ll write many rules in your own code, and you&#x2019;ll see them used throughout this <em>Handbook</em>. For more details, consult Chapter 19 of <em>Writing with Inform.</em>)</p>
 <p>To solve the second problem, we need to make sure the parser understands that the tall old trees object is <strong>plural-named</strong>. There are two ways to do this. We can do it explicitly, by adding the sentence, &#x201C;The tall old trees are plural-named&#x201D; to our source. Or we can do it implicitly, by changing the sentence where we create the trees so that it refers to &#x201C;Some tall old trees&#x201D;. The second method is easier. Inform knows that when things are created using the word &#x201C;some&#x201D;, they&#x2019;re plural-named. When we put it all together, the trees will look like this in our source code:</p>
@@ -2392,7 +2405,7 @@ I don&#x2019;t think much is to be achieved by that.
 <p>If you block-copy from the end of one page of the <em>Handbook</em> onto the beginning of the next page, the page number will be copied along with the code. You&#x2019;ll have to delete it in Inform.</p>
 <p>The <em>Handbook</em> is also available online in the form of .odt (OpenOffice text) files. If you find yourself copying a lot of example code, it will probably be more convenient to download one of these files and use it as a source for copying.</p>
 </blockquote>
-<h3 id="how-much-scenery-is-enough">How Much Scenery Is Enough? </h3>
+<h3 id="how-much-scenery-is-enough">How Much Scenery Is Enough?</h3>
 <p>As noted in Chapter 1, in the section &#x201C;The Detail Trap,&#x201D; it&#x2019;s easy to get sidetracked by trying to cram too much scenery into a room. If your story is set in a modern house, the house will probably have a bathroom. You may be tempted to add a toilet, toilet paper, a sink with faucets, a bar of soap, towels and washcloths on a towel rack, a mirror that opens to reveal a medicine cabinet stocked with pill containers, a bathtub with a showerhead and a drain. This level of detail is probably not necessary, and may even be a bad thing. It&#x2019;s a lot of extra work &#x2014; and if you include these objects, the player will expect that manipulating them will have something to do with the story. If they&#x2019;re just scenery, the player will be disappointed not to be able to look at herself in the mirror, turn the faucets on and off, and so forth.</p>
 <p>All the same, it&#x2019;s jarring, if the game includes a bathroom, to see this kind of output:</p>
 <pre><code>Bathroom
@@ -2461,7 +2474,7 @@ Instead of doing anything other than examining with the fixtures:
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Scenery","level":"1.4.2","depth":2,"next":{"title":"Distant Scenery","level":"1.4.3","depth":2,"path":"chapter_2_rooms_&_scenery/distant_scenery.md","ref":"chapter_2_rooms_&_scenery/distant_scenery.md","articles":[]},"previous":{"title":"Creating Your First Room","level":"1.4.1","depth":2,"path":"chapter_2_rooms_&_scenery/creating_your_first_room.md","ref":"chapter_2_rooms_&_scenery/creating_your_first_room.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["intopic-toc","collapsible-menu","code"],"pluginsConfig":{"collapsible-menu":{},"intopic-toc":{"isCollapsed":true,"isScrollspyActive":true,"label":"In this article","maxDepth":6,"mode":"nested","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6","visible":true},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css"}},"file":{"path":"chapter_2_rooms_&_scenery/scenery.md","mtime":"2021-07-29T12:17:49.127Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-08-01T19:41:45.199Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Scenery","level":"1.4.2","depth":2,"next":{"title":"Distant Scenery","level":"1.4.3","depth":2,"path":"chapter_2_rooms_&_scenery/distant_scenery.md","ref":"chapter_2_rooms_&_scenery/distant_scenery.md","articles":[]},"previous":{"title":"Creating Your First Room","level":"1.4.1","depth":2,"path":"chapter_2_rooms_&_scenery/creating_your_first_room.md","ref":"chapter_2_rooms_&_scenery/creating_your_first_room.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["intopic-toc","collapsible-menu","code"],"pluginsConfig":{"collapsible-menu":{},"intopic-toc":{"isCollapsed":true,"isScrollspyActive":true,"label":"In this article","maxDepth":6,"mode":"nested","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6","visible":true},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css"}},"file":{"path":"chapter_2_rooms_&_scenery/scenery.md","mtime":"2021-08-02T21:05:54.628Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-08-02T21:18:49.184Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

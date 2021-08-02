@@ -1,4 +1,4 @@
-## Built-In Actions {#built-in-actions}
+## Built-In Actions
 
 From the moment you start writing your first interactive story, you’ll be able to use a handy set of actions that are built into Inform. To see the list of built-in actions, open up your game (or create a new game and add as little as a single room) and click the Go button. After the game compiles successfully, go to the Index tab and click on the Actions header. You’ll find a list of about 50 actions (see next page).
 

@@ -1,4 +1,4 @@
-## Stage Business {#stage-business}
+## Stage Business
 
 A character will seem more “alive” if she spontaneously does things on her own, or seems to. Sometimes the character will do something that changes the model world (see “Character Actions,” below). But sometimes we just want to print out a reminder to the player — a message that doesn’t actually do anything, but that makes the scene seem more lively. I call these reminder messages “stage business.”
 

@@ -1,4 +1,4 @@
-## Moving Characters Around {#moving-characters-around}
+## Moving Characters Around
 
 People don’t always stay in one place. In the real world, people do sometimes stay put for long periods of time — for instance, the librarian sitting behind her desk, who won’t leave for hours. Other times, though, people move from one place to another. There are several ways to imitate that behavior in interactive fiction.
 

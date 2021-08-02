@@ -142,6 +142,19 @@
             
         </li>
     
+        <li class="chapter " data-level="1.2.3" data-path="../foreword/use_&_license.html">
+            
+                <a href="../foreword/use_&_license.html">
+            
+                    
+                    Use & License
+            
+                </a>
+            
+
+            
+        </li>
+    
 
             </ul>
             
@@ -2338,7 +2351,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="text-insertions">Text Insertions </h2>
+                                <h2 id="text-insertions">Text Insertions</h2>
 <p>It&#x2019;s extremely common for the game to need to make some decisions about what to print while the game is being played. The ways to do this are well described in <strong>Chapter 5</strong> of <em>Writing with Inform</em>, &#x201C;Text,&#x201D; but we&#x2019;ll look at a couple of examples here.</p>
 <p>In our first example, a ceramic bowl can be broken or unbroken. If it&#x2019;s broken, the description should obviously change. You can use square brackets to embed if/otherwise tests in the description of the bowl, like this:</p>
 <pre><code class="lang-inform7">The ceramic bowl <span class="hljs-keyword">is</span> on the end table. The ceramic bowl can be broken or unbroken. The description <span class="hljs-keyword">is</span> <span class="hljs-string">&quot;The delicate ceramic bowl is <span class="hljs-subst">[if broken]</span>chipped and cracked<span class="hljs-subst">[otherwise]</span>a beautiful work of art<span class="hljs-subst">[end if]</span>.&quot;</span> <span class="hljs-keyword">Understand</span> <span class="hljs-string">&quot;delicate&quot;</span> as the ceramic bowl. <span class="hljs-keyword">Understand</span> <span class="hljs-string">&quot;chipped&quot;</span> and <span class="hljs-string">&quot;cracked&quot;</span> as the ceramic bowl when the bowl <span class="hljs-keyword">is</span> broken.
@@ -2423,7 +2436,7 @@ To say Alexander-less-friendly:
                 now Alexander <span class="hljs-keyword">is</span> hostile.
 </code></pre>
 <p>In this example, the text output &#x201C;Alexander laughs at you&#x201D; includes a call to a To Say rule that prints nothing. It has only one effect: it causes Alexander to become less friendly by adjusting one of his properties. In this case, you could get the same result using a To phrase, as shown earlier in this section, by adding a line like &#x201C;crank up Alexander&#x2019;s hostility&#x201D; in the Instead rule &#x2014; but there are times (such as when printing text that&#x2019;s stored in a table) when using a To Say statement is really the best way to do it.</p>
-<h3 id="switchable-markup">Switchable Markup </h3>
+<h3 id="switchable-markup">Switchable Markup</h3>
 <p>As explained on <strong>page 5.9</strong> of <em>Writing with Inform</em>, you can switch bold and italic type on and off within the quoted text in a &#x201C;say&#x201D; statement. You might want to do this, for instance, to draw the player&#x2019;s attention to items in a room description if the item can be examined or otherwise manipulated. This effect can be helpful to new players, but it can annoy experienced players. So we&#x2019;d like to let the player switch it on or off.</p>
 <p>The extension called Keyword Interface by Aaron Reed does this kind of thing, and a lot more besides. Here&#x2019;s a simple way to do it without Keyword Interface, which may be all you need:</p>
 <pre><code class="lang-inform7">Using-bold <span class="hljs-keyword">is</span> a truth state that varies. Using-bold <span class="hljs-keyword">is</span> false.
@@ -2453,7 +2466,7 @@ Carry out unbolding:
 The Patio <span class="hljs-keyword">is</span> a <span class="hljs-keyword">room</span>. <span class="hljs-string">&quot;In the pavement is set a small iron <span class="hljs-subst">[b]</span>grate<span class="hljs-subst">[\b]</span>.&quot;</span>
 </code></pre>
 <p>The key to understanding this code is in the blocks that begin &#x201C;To say b:&#x201D; and &#x201C;To say \b:&#x201D; These test whether the truth state using-bold is true or false. Once we&#x2019;ve set things up properly, we can use the text insertions &#x201C;[b]&#x201D; and &#x201C;[\b]&#x201D; to mark any item that we want highlighted with boldface type &#x2014; and the player will be able to control the effect using a simple utility command.</p>
-<h3 id="quotes-within-quotes">Quotes Within Quotes </h3>
+<h3 id="quotes-within-quotes">Quotes Within Quotes</h3>
 <p>When you start writing NPC conversations, it&#x2019;s easy to forget that the quotation marks surrounding your text won&#x2019;t be printed out. This, for instance, is an error:</p>
 <pre><code class="lang-inform7">Instead of asking Alexander Button for the will:
         <span class="hljs-keyword">say</span> <span class="hljs-string">&quot;I would never give it to you!&quot;</span>
@@ -2527,7 +2540,7 @@ I would never give it to you!
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Text Insertions","level":"1.11.2","depth":2,"next":{"title":"Breaking Up Paragraphs","level":"1.11.3","depth":2,"path":"chapter_9_phrasing_&_punctuation/breaking_up_paragraphs.md","ref":"chapter_9_phrasing_&_punctuation/breaking_up_paragraphs.md","articles":[]},"previous":{"title":"Types of Source Text","level":"1.11.1","depth":2,"path":"chapter_9_phrasing_&_punctuation/types_of_source_text.md","ref":"chapter_9_phrasing_&_punctuation/types_of_source_text.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["intopic-toc","collapsible-menu","code"],"pluginsConfig":{"collapsible-menu":{},"intopic-toc":{"isCollapsed":true,"isScrollspyActive":true,"label":"In this article","maxDepth":6,"mode":"nested","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6","visible":true},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css"}},"file":{"path":"chapter_9_phrasing_&_punctuation/text_insertions.md","mtime":"2021-08-01T12:00:16.603Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-08-01T19:41:45.199Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Text Insertions","level":"1.11.2","depth":2,"next":{"title":"Breaking Up Paragraphs","level":"1.11.3","depth":2,"path":"chapter_9_phrasing_&_punctuation/breaking_up_paragraphs.md","ref":"chapter_9_phrasing_&_punctuation/breaking_up_paragraphs.md","articles":[]},"previous":{"title":"Types of Source Text","level":"1.11.1","depth":2,"path":"chapter_9_phrasing_&_punctuation/types_of_source_text.md","ref":"chapter_9_phrasing_&_punctuation/types_of_source_text.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["intopic-toc","collapsible-menu","code"],"pluginsConfig":{"collapsible-menu":{},"intopic-toc":{"isCollapsed":true,"isScrollspyActive":true,"label":"In this article","maxDepth":6,"mode":"nested","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6","visible":true},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css"}},"file":{"path":"chapter_9_phrasing_&_punctuation/text_insertions.md","mtime":"2021-08-02T21:15:48.092Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-08-02T21:18:49.184Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

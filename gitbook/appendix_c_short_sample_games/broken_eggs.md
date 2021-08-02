@@ -1,4 +1,4 @@
-## Broken Eggs {#broken-eggs}
+## Broken Eggs
 
 This next example was originally written by Jason Travis and posted in the newsgroup, in response to a question from Rob Cowell about how to break a box full of eggs when the box was dropped. I’ve expanded the example quite a bit. It shows how to handle a collection of indistinguishable objects (the eggs) when any individual egg can be either broken or unbroken.
 
@@ -75,7 +75,7 @@ After dropping the eggbox:
                         				say "eggs.";
                   			otherwise:
                         				say "egg.";
-                  			now every egg in the eggbox is broken; 
+                  			now every egg in the eggbox is broken;
             		otherwise:
                   			let N be the number of broken eggs in the eggbox;
                   			say "The broken egg[if N is greater than 1]s slosh[otherwise] sloshes[end if] around viscously in the eggbox as it hits the floor."

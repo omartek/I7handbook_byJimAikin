@@ -1,4 +1,4 @@
-## Downloading &amp; Installing {#downloading-installing}
+## Downloading &amp; Installing
 
 To get the most current version of Inform, go to the Inform website and navigate to the Downloads page http://inform7.com/downloads/. Click on the link above the icon that shows your computer operating system (Macintosh, Windows, or some variety of Linux) and download the program. You can read instructions on how to install it on each of the operating systems on the same page.
 

@@ -1,4 +1,4 @@
-## Arithmetic {#arithmetic}
+## Arithmetic
 
 Traditionally, computer programming languages are well supplied with slick features for doing advanced mathematical calculations. Such calculations are very seldom needed in interactive fiction. Nonetheless, Inform has a surprising amount of power in this area, including the ability to use real numbers in scientific notation, to derive square roots, to utilize trigonometric functions such as sine and tangent, and so on. These features are explained in Chapter 15 of _Writing with Inform._
 

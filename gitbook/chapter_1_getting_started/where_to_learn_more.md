@@ -1,4 +1,4 @@
-## Where to Learn More {#where-to-learn-more}
+## Where to Learn More
 
 Once you’ve started writing with Inform, you’ll find the built-in Documentation extremely useful. Pages in the Documentation that may not have made much sense to begin with will turn out, after a month or two, to be very clearly written and easy to understand. In particular, the more than 400 Examples are a huge resource — but to get the most out of them, you’ll need to study the code line by line. The explanations that are included in the Examples are often brief and don’t mention interesting features. After reading portions of the Documentation, you’ll find the Search field in the IDE more and more useful. By typing a half-remembered phrase (such as “something new”), you can quickly locate a page that has the information you need.
 

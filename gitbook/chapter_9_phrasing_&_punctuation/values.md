@@ -1,4 +1,4 @@
-## Values {#values}
+## Values
 
 Values in Inform are pretty much like what other computer programming languages call _variables_. And in fact, when we create a value we can either call it a variable, or say that it varies:
 

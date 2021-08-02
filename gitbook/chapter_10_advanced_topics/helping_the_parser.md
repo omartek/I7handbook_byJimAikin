@@ -1,4 +1,4 @@
-## Helping the Parser {#helping-the-parser}
+## Helping the Parser
 
 Sometimes a word in your game will be ambiguous — that is, the parser will be able to interpret it in two or three different ways. When possible, you should use unique words to refer to every object in your game, but sometimes that’s just not possible.
 

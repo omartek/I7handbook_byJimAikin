@@ -1,4 +1,4 @@
-## The Skein {#the-skein}
+## The Skein
 
 As explained in **pages 1.7 and 1.8** of _Writing with Inform_ (“The Skein” and “A short Skein tutorial”), the Skein and Transcript panels are used to replay series of commands and examine the output. All the time you’re testing your game in the Game panel, Inform is quietly recording all of your commands and all of the output from the game. The commands are added to the Skein.
 

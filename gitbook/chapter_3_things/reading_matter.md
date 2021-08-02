@@ -1,4 +1,4 @@
-## Reading Matter {#reading-matter}
+## Reading Matter
 
 ![](../assets/graphics23.jpg)
 

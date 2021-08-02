@@ -1,4 +1,4 @@
-## Enigmas {#enigmas}
+## Enigmas
 
 A commentator on rec.arts.int-fiction (I’ve forgotten who) made an interesting distinction between puzzles and problems. Problems, he maintained, are difficulties that are intrinsic or sensible in the world of the story. By that definition, most of what we’ve been looking at in this chapter are problems, not puzzles. A puzzle-type puzzle, in contrast, is something that doesn’t have any business being in the world of the story: It’s there strictly to give the player some mental gymnastics. If we’re going to keep using the word “puzzle” in a broader sense, to refer to all of the problems that the PC may face during the story, we might call this type of puzzle an enigma.
 

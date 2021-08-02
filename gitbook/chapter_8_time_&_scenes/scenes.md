@@ -1,4 +1,4 @@
-## Scenes {#scenes}
+## Scenes
 
 One of the more powerful features of Inform is its ability to organize the story into scenes. An entire chapter of _Writing with Inform_ (Chapter 10, “Scenes”) is devoted to scenes. If you haven’t read this chapter yet, give it a look. Some games won’t need scenes at all, but scenes can be very handy for giving your story some structure. Almost any time you need to create a complex, well-coordinated set of changes in the model world, defining a scene is a good tool for the job.
 
@@ -41,7 +41,7 @@ Having set it up this way, you can start the scene whenever or wherever you like
 now guard-evasion-flag is true;
 ```
 
-### Chaining Scenes {#chaining-scenes}
+### Chaining Scenes
 
 **Page 10.5** of _Writing with Inform_, “Linking scenes together,” gives this simple example of how to chain two scenes:
 
@@ -81,7 +81,7 @@ Lunch begins when the player has been in the Wine Shop for three turns.
 
 But if we do it that way, the player will have to remain in the Wine Shop for three turns in a row. If the player leaves the Wine Shop too soon, the Lunch scene won’t begin.
 
-### Using Scenes to Control Action {#using-scenes-to-control-action}
+### Using Scenes to Control Action
 
 Here’s a rather convoluted but interesting example of how useful scenes can be. At the beginning of this little game, the player carries the crown jewels. If the player goes into the boudoir, where the princess is waiting, the princess won’t let the player leave until the jewels have been handed over. This situation is similar to the example on p. 195, in which Wyatt Earp demands that the player hand over his six-gun, but we’ll set it up using a different kind of code.
 

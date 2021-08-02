@@ -1,4 +1,4 @@
-## Objects vs. Rules {#objects-vs-rules}
+## Objects vs. Rules
 
 Many computer programming languages are firmly based on the idea of objects. Even if you’re creating something as abstract as an email program, every button or icon on the screen and every window that opens will probably be a separate object within the software. The technical definition of “object” doesn’t matter at the moment: You can just think of a software object as a bunch of related code.
 

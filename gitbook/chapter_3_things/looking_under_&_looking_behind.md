@@ -1,4 +1,4 @@
-## Looking Under &amp; Looking Behind {#looking-under-looking-behind}
+## Looking Under &amp; Looking Behind
 
 Experienced IF players know that authors like to hide things under other things — under a bed, for example. When a player enters a room and sees a bed, he’s bound to try LOOK UNDER BED before very long. Inform’s default response is, “You find nothing of interest.” Creating a non-default response is easy:
 

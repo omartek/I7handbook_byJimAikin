@@ -1,4 +1,4 @@
-## Creating Your First Room {#creating-your-first-room}
+## Creating Your First Room
 
 Every Inform game has to have at least one room. Creating a room is easy; you do it like this:
 

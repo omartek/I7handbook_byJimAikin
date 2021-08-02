@@ -1,4 +1,4 @@
-## Using the Index {#using-the-index}
+## Using the Index
 
 ![](../assets/graphics18.jpg)
 

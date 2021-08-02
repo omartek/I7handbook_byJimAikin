@@ -1,4 +1,4 @@
-## Giving Orders that Involve Going Elsewhere {#giving-orders-that-involve-going-elsewhere}
+## Giving Orders that Involve Going Elsewhere
 
 At times, you might want the player to be able to give an NPC an order that requires going somewhere else and doing something there. The basic difficulty in this case is, in effect, that once the NPC has gone somewhere else, he or she can’t “hear” the player character. A secondary difficulty, which will arise once we solve the first one, is that when the NPC is carrying out an action in a different location, the parser will report it to the player, even though the NPC is invisible. The solution to the latter requires the extension called Scope Control, by Ron Newcomb. (Ron also contributed to the development of this example.)
 

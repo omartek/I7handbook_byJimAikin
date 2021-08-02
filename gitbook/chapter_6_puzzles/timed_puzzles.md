@@ -1,4 +1,4 @@
-## Timed Puzzles {#timed-puzzles}
+## Timed Puzzles
 
 Generally speaking, time passes in IF only when you issue a command. (A few games include real-time events, but this is not common.) In a timed puzzle, something is happening, and you need to interact with it within a specified number of turns. You may need to figure out the proper command, or even issue a whole sequence of commands, within a fixed time-frame.
 

@@ -1,4 +1,4 @@
-## Redirecting an Action {#redirecting-an-action}
+## Redirecting an Action
 
 Situations can arise in which a game needs to respond to a particular command by turning it into a different command. The tool for this is, as you might guess, the Instead rule. When the player tries one command, an Instead rule intercepts it and turns it into a different command.
 

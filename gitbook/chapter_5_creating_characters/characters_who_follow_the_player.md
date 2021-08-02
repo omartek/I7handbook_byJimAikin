@@ -1,4 +1,4 @@
-## Characters Who Follow the Player {#characters-who-follow-the-player}
+## Characters Who Follow the Player
 
 Writing a character who will find the player and then follow the player around like a faithful puppy is not difficult. Example 39, “Van Helsing” (again on **p. 7.13** of the _Recipe Book_) shows how to do it. We can adapt this code slightly to the example above by getting rid of the code that allows the player to order Bob around, replacing it with this:
 

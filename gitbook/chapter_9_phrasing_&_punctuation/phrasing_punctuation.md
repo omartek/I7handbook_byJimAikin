@@ -1,4 +1,4 @@
-# Chapter 9: Phrasing &amp; Punctuation {#chapter-9-phrasing-punctuation}
+# Chapter 9: Phrasing &amp; Punctuation
 
 ![](../assets/graphics17.png)
 

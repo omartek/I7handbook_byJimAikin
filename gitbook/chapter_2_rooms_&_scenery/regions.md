@@ -1,4 +1,4 @@
-## Regions {#regions}
+## Regions
 
 As explained on p. 3.4 of _Writing with Inform_ (“Regions and the index map”), using regions is a nice way to keep a larger map organized. After you’ve defined some regions, you’ll also be able to use some of Inform’s world-building features more easily. This is because you can test what region the player is in, and do something with the information. For instance, after creating a region called Forest, you could do this:
 

@@ -1,4 +1,4 @@
-## Combination Locks {#combination-locks}
+## Combination Locks
 
 Either a door or a locked container may have a combination lock instead of a physical key. The most straightforward type of combination lock puzzle is, perhaps literally, a combination lock. It may have a single dial that needs to be turned to three or four numbers in succession, or a row of dials each of which needs to be set to a specific number. The number of possible combinations is likely to be large, so the only practical way to solve the puzzle is to find the piece of paper on which some thoughtful or absent-minded person has scribbled down the combination.
 

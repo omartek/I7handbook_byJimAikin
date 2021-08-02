@@ -142,6 +142,19 @@
             
         </li>
     
+        <li class="chapter " data-level="1.2.3" data-path="../foreword/use_&_license.html">
+            
+                <a href="../foreword/use_&_license.html">
+            
+                    
+                    Use & License
+            
+                </a>
+            
+
+            
+        </li>
+    
 
             </ul>
             
@@ -2338,7 +2351,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="containers-supporters">Containers &amp; Supporters </h2>
+                                <h2 id="containers--supporters">Containers &amp; Supporters</h2>
 <p>Every object in your model world (except backdrops and doors, which operate in a slightly different way) is either in a room, or it&#x2019;s off-stage. If an object is off-stage, it&#x2019;s nowhere, at least at the moment. But even when something is off-stage, it&#x2019;s still part of the game, and could be moved into play later on. (See the section &#x201C;Moving Things Around,&#x201D; below, to learn how to do this.) The question of where things are located is rather interesting, as we&#x2019;ll discover in the section &#x201C;Testing Where a Thing Is.&#x201D; Before we dig into that question, we need to introduce two new kinds: containers and supporters. These were introduced briefly at the end of Chapter 2, in the section &#x201C;Room Descriptions.&#x201D; Now it&#x2019;s time to take a closer look.</p>
 <p><img src="../assets/graphics21.jpg" alt=""></p>
 <p>A container is, as you can probably guess, an object that can contain other things. That is, the player can put things <em>in</em> a container. Most of the time, if you need a basket or a cupboard in your game, you&#x2019;d make the basket or cupboard a container.</p>
@@ -2481,7 +2494,7 @@ You can see a basket (empty) and a suitcase (empty) here.
 <li><p>If a container is not scenery, Inform will normally add a paragraph about it after the room description (assuming it&#x2019;s in the room &#x2014; not if the player is holding it). If the container is openable and closed, Inform will add &#x201C;(closed)&#x201D; after mentioning it. If it&#x2019;s open and contains something, Inform will list the contents. If it&#x2019;s open and empty, Inform will say &#x201C;(empty)&#x201D;.</p>
 </li>
 </ol>
-<h3 id="stealthy-containers">Stealthy Containers </h3>
+<h3 id="stealthy-containers">Stealthy Containers</h3>
 <p>The logic shown above is fine as a basic way of designing a game, but you may run into situations in which it doesn&#x2019;t work well. For instance, you might want it to be less than obvious that a closed openable container is actually a container at all. Getting rid of the &#x201C;(closed)&#x201D; text would solve that. Here&#x2019;s how:</p>
 <pre><code class="lang-inform7">Rule for printing room description details of a closed container: stop.
 </code></pre>
@@ -2584,7 +2597,7 @@ To say list-table-stuff:
                 <span class="hljs-keyword">say</span> <span class="hljs-string">&quot;. On the table you can see <span class="hljs-subst">[a list of things on the billiard table]</span>&quot;</span>.
 </code></pre>
 <p>Which of these forms you use is purely a matter of taste. I like the second one because it makes the logic easier to see at a glance.</p>
-<h3 id="sneaky-supporters">Sneaky Supporters </h3>
+<h3 id="sneaky-supporters">Sneaky Supporters</h3>
 <p>There may be times when you&#x2019;d like to force the player to examine a supporter before the game reveals what&#x2019;s on it. By default, Inform <em>will</em> list what&#x2019;s on a scenery supporter in a room description. If you don&#x2019;t like this effect, you can override it globally (that is, everywhere in your game) like this:</p>
 <pre><code class="lang-inform7">The describe what&apos;s on <span class="hljs-keyword">scenery</span> supporters in <span class="hljs-keyword">room</span> descriptions <span class="hljs-keyword">rule</span> <span class="hljs-keyword">is</span> not listed in any rulebook.
 </code></pre>
@@ -2643,7 +2656,7 @@ Rule for writing a paragraph about the billiard table:
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Containers & Supporters","level":"1.5.7","depth":2,"next":{"title":"Looking Under & Looking Behind","level":"1.5.8","depth":2,"path":"chapter_3_things/looking_under_&_looking_behind.md","ref":"chapter_3_things/looking_under_&_looking_behind.md","articles":[]},"previous":{"title":"Adding Vocabulary Words with “Understand”","level":"1.5.6","depth":2,"path":"chapter_3_things/adding_vocabulary_words_with_understand.md","ref":"chapter_3_things/adding_vocabulary_words_with_understand.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["intopic-toc","collapsible-menu","code"],"pluginsConfig":{"collapsible-menu":{},"intopic-toc":{"isCollapsed":true,"isScrollspyActive":true,"label":"In this article","maxDepth":6,"mode":"nested","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6","visible":true},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css"}},"file":{"path":"chapter_3_things/containers_&_supporters.md","mtime":"2021-07-30T11:11:08.874Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-08-01T19:41:45.199Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Containers & Supporters","level":"1.5.7","depth":2,"next":{"title":"Looking Under & Looking Behind","level":"1.5.8","depth":2,"path":"chapter_3_things/looking_under_&_looking_behind.md","ref":"chapter_3_things/looking_under_&_looking_behind.md","articles":[]},"previous":{"title":"Adding Vocabulary Words with “Understand”","level":"1.5.6","depth":2,"path":"chapter_3_things/adding_vocabulary_words_with_understand.md","ref":"chapter_3_things/adding_vocabulary_words_with_understand.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["intopic-toc","collapsible-menu","code"],"pluginsConfig":{"collapsible-menu":{},"intopic-toc":{"isCollapsed":true,"isScrollspyActive":true,"label":"In this article","maxDepth":6,"mode":"nested","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6","visible":true},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css"}},"file":{"path":"chapter_3_things/containers_&_supporters.md","mtime":"2021-08-02T21:08:20.676Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-08-02T21:18:49.184Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

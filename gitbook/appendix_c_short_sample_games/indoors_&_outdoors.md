@@ -1,4 +1,4 @@
-## Indoors &amp; Outdoors {#indoors-outdoors}
+## Indoors &amp; Outdoors
 
 Inform’s built-in library creates rooms in a basic way. They have no walls, floor, or ceiling. If outdoors, they have no ground or sky. Such objects can easily be created as backdrops. A more serious limitation is that even outdoor rooms are, by default, “sealed containers.” You can’t look from one outdoor room into another and see anything that’s there.
 

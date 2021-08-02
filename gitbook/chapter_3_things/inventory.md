@@ -1,4 +1,4 @@
-## Inventory {#inventory}
+## Inventory
 
 When the player types INVENTORY, INV, or simply I, Inform will print out a list of what the player is carrying or wearing. This list can be formatted in various ways — as a column, as a sentence, and so on. For details on how to do this, see **p.** 6.7 of the _Recipe Book,_ especially Example 177, “Equipment List.”
 

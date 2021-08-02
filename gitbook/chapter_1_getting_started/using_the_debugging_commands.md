@@ -1,4 +1,4 @@
-## Using the Debugging Commands {#using-the-debugging-commands}
+## Using the Debugging Commands
 
 Inform includes a good set of commands that can be used for speeding up your testing process and tracking down bugs in your game. These commands are available only during the development process; when you release your finished game, other players won’t be able to use them. These commands don’t actually find bugs; what they do is help you see what’s going on in your game while it’s running, and/or take shortcuts that will speed up the testing process.
 
@@ -47,7 +47,7 @@ Now the commands TEST SUITCASE and TEST DYNAMITE can be used independently, or t
 
 The RULES command can be used while testing your game to find out what rules Inform is using to process other commands. This is a fairly advanced technique — the first few times you try it you may not understand what you’re seeing — but it can sometimes be very useful. If the game is producing an output that you don’t want, you may be able to figure out what rule is producing that output by using RULES and then trying the command that isn’t working correctly. Most often, the last rule that is displayed before the offending output text is the rule that’s producing the text.
 
-### Another Way to Debug {#another-way-to-debug}
+### Another Way to Debug
 
 One of the easiest traditional ways to debug a computer program is to add print statements. A print statement (which in Inform would be in the form of a “say” statement) prints a text output to the screen. You can put whatever you want in a print statement. For instance, you could do something like this:
 

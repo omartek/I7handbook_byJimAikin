@@ -1,4 +1,4 @@
-## Assertions {#assertions}
+## Assertions
 
 As explained on p. 2.1 of _Writing with Inform_, “Creating the world,” an _assertion_ is a statement about something — usually about something in the model world you’re creating. A lot of your writing in Inform will consist of assertions. Here are some assertions:
 

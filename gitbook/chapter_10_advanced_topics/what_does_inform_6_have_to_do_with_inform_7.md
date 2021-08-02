@@ -1,4 +1,4 @@
-## What Does Inform 6 Have to Do with Inform 7? {#what-does-inform-6-have-to-do-with-inform-7}
+## What Does Inform 6 Have to Do with Inform 7?
 
 In this _Handbook_, I’ve deliberately avoided getting too far into the deep end of Inform programming. If you work with Inform 7 for a while, though, you’ll start to see occasional mentions of Inform 6.
 

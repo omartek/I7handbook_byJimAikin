@@ -1,4 +1,4 @@
-## The Names of Things {#the-names-of-things}
+## The Names of Things
 
 When you create a thing in your model world, the name you give it is understood by both the compiler and the parser. Most of the time, this is a convenient feature. But once in a while you may want to override it. You can do this using the **privately-named** and **printed name** properties. If you’ve read Chapter 2 of this Handbook, you may recall that we looked at a problem that can crop up if you try to name a room using a direction word. If you have a room called Hut, for instance, creating another room called South of the Hut is possible, as explained on **p. 3.2** of _Writing with Inform_, “Rooms and the map,” but it’s awkward.
 

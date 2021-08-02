@@ -1,4 +1,4 @@
-## Conversations, Part IV: Menu-Based Conversation {#conversations-part-iv-menu-based-conversation}
+## Conversations, Part IV: Menu-Based Conversation
 
 In a menu-based conversation, the player who starts talking with an NPC is presented with a menu of options, and selects one of the responses by number. The output might look something like this:
 

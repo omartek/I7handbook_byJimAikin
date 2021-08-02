@@ -1,4 +1,4 @@
-## Passing Time {#passing-time}
+## Passing Time
 
 Inform doesn’t do anything to mark the passage of time in a game unless you tell it to. All the same, it’s quietly keeping track of the number of turns that have passed since the beginning of the game. Unless you write some code that changes the default, Inform starts the game at 9:00 A.M. Each time the player enters a sensible command, one minute passes. But if the player types something that the parser doesn’t understand, no time passes.
 

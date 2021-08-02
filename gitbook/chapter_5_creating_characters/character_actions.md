@@ -1,4 +1,4 @@
-## Character Actions {#character-actions}
+## Character Actions
 
 A good way to make a character seem more alive is for the character to react in some way when the player does something. This reaction could range from a simple comment to an explosive act.
 

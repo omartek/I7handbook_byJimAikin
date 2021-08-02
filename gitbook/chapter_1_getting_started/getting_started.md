@@ -1,4 +1,4 @@
-# Chapter 1: Getting Started {#chapter-1-getting-started}
+# Chapter 1: Getting Started
 
 ![](../assets/graphics19.jpg)
 

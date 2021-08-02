@@ -1,4 +1,4 @@
-## Adding Hints {#adding-hints}
+## Adding Hints
 
 My personal belief (some people don’t agree) is that almost any work of IF that includes puzzles should have a complete set of built-in hints. The bad thing about hints is that they can make it too easy for the player. Instead of exercising her brain-power, she can just look up a hint, slam through the puzzle, and move on to the next part of the game.
 

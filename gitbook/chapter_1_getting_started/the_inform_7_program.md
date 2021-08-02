@@ -1,4 +1,4 @@
-## The Inform 7 Program {#the-inform-7-program}
+## The Inform 7 Program
 
 The first time you launch the Inform 7 program, a dialog box will ask you whether you want to open an existing project or start a new one. Since you don’t yet have a project to open, select “Start a new project...”. This will open a box in which you can name your project and tell Inform where you want to save it. (Use the Inform Projects folder in your Documents folder. If this folder doesn’t yet exist, it’s a good idea to create it.)
 
@@ -24,7 +24,7 @@ You can click the right-pointing arrow to go to the next page within the Documen
 
 In _The Inform 7 Handbook,_ references to “the Documentation” are generally about _Writing with Inform._ The table of contents for _Writing with Inform_ is in the left column of the Documentation pane. In the right column is the table of contents of _The Inform Recipe Book._ The _Recipe Book_ is an entirely separate manual. Both of them are well worth reading. They share the same set of Examples. In fact, some of the pages in these manuals provide only a quick overview of a topic, an overview that is fleshed out with details in the accompanying Examples. Study the Examples carefully, and try to figure out what each section in each Example does. For tips on how to use the Examples, see “How to Use the Built-In Documentation” [here](./using_the_built-in_documentation.md#using-the-built-in-documentation).
 
-### The Page Headers {#the-page-headers}
+### The Page Headers
 
 ![](../assets/graphics7.jpg)
 
@@ -70,7 +70,7 @@ Inform’s ability to handle images and sounds is cool, but fairly limited. If y
 
 Also in the Settings panel is a checkbox to make random numbers repeatable while you’re testing your game. If your game relies on “rolling the dice,” for example to decide the outcome of a combat, to move some of the characters from room to room, or just to choose among a few random alternatives when printing out atmospheric bits of text, using this checkbox will let you test the game more easily.
 
-### The Go! Button {#the-go-button}
+### The Go! Button
 
 ![](../assets/graphics3.png)
 
@@ -112,7 +112,7 @@ One thing you may want to know about the Go! button is that when you click it, t
 >
 >**Jumbled thinking**. To write IF, you need to work in a patient, logical, step-by-step manner. Trying to design a complicated action sequence before you’ve learned the basics is guaranteed to frustrate you — and if you post plaintive questions on the forum asking for help, you may not understand or know how to apply the answers that more knowledgeable authors give you.
 
-### The Release Button {#the-release-button}
+### The Release Button
 
 ![](../assets/graphics4.png)
 
@@ -128,7 +128,7 @@ Release along with cover art, a solution, and a website.
 
 The release options are explained in **Chapter 25** of _Writing with Inform_, “Releasing.”
 
-### Other Features {#other-features}
+### Other Features
 
 The Stop button is found only in the Windows IDE. It’s not used often, but you won’t be able to make certain kinds of edits in the Skein while the game is running. (That would be like trying to change to a new pair of ice-skates while skating around the rink.) The Stop button will end the current play session, making these Skein edits possible.
 

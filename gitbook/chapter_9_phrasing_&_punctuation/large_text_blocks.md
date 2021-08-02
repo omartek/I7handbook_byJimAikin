@@ -1,4 +1,4 @@
-## Large Text Blocks {#large-text-blocks}
+## Large Text Blocks
 
 Inform has an upper limit of about 3,000 characters on how much text can be included between quotation marks as a single chunk. You might run into this limit, for instance, while writing a long intro to your story (which many players frown on) or while writing an explanation for new players of how to play IF (a courteous and useful thing to do).
 

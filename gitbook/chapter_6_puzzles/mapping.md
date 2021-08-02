@@ -1,4 +1,4 @@
-## Mapping {#mapping}
+## Mapping
 
 Creating and maintaining a map that shows the layout of the game isn’t much of a puzzle, but it definitely qualifies. The player who neglects to create a pencilled map on which she notes that there’s a south exit from the Library is quite likely to miss something important in the game.
 

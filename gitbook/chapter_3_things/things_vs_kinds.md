@@ -1,4 +1,4 @@
-## Things vs. Kinds {#things-vs-kinds}
+## Things vs. Kinds
 
 New Inform writers sometimes get into trouble by using the word “kind” when it’s not needed. This word has a special meaning in Inform. It refers to types of objects — what traditional computer programmers call “classes.” The usual reason to create kinds is so that you can write code that will apply to several different objects, like this:
 

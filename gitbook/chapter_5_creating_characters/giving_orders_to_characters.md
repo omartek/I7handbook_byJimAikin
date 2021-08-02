@@ -1,4 +1,4 @@
-## Giving Orders to Characters {#giving-orders-to-characters}
+## Giving Orders to Characters
 
 The standard command that players can use to give orders to NPCs is in the form BOB, EAT THE PANCAKE. The NPC’s name is what grammarians call a “noun of address,” and is followed by a comma. If you want your game to respond to the alternate forms ASK BOB TO EAT THE PANCAKE and TELL BOB TO EAT THE PANCAKE, one easy way to do it is with an “after reading a command” rule. This type of rule intercepts the player’s input before it reaches the parser. You can change the player’s input in whatever way you like. This could be a sneaky way of creating an infuriatingly difficult puzzle, but here we’ll use it in a more friendly way:
 

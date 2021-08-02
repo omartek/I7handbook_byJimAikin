@@ -1,4 +1,4 @@
-## Puzzles {#puzzles}
+## Puzzles
 
 Let’s be frank: This _Handbook_ is notgoing to tell you everything you might want to know about writing puzzles. For one thing, clever authors keep dreaming up new possibilities! But puzzles are such a big part of interactive fiction that a book on how to write IF using Inform can’t neglect them entirely.
 

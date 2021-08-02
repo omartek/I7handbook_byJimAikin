@@ -1,4 +1,4 @@
-## Changing the Map During the Game {#changing-the-map-during-the-game}
+## Changing the Map During the Game
 
 In most of the games you may write, the model world will work the way you want it to if you create connections between rooms at the beginning of the game (that is, when creating the rooms in your source) and then leave the connections alone. But once in a while, you may want a connection between rooms to disappear while the game is being played — maybe because the rooms are in a cave complex and there has been a cave-in blocking a tunnel. Or maybe a magic door has suddenly appeared in a room, creating a connection where there wasn’t one before. The magic door might even have a mind of its own, and wander off again. (Inform doesn’t allow doors to be moved around during the game; if you want a magic door to move around, you’ll have to write some extra code to create an ordinary object that responds to the player’s commands as if it were a door.)
 

@@ -1,4 +1,4 @@
-## Action Processing {#action-processing}
+## Action Processing
 
 Page 12.2 of _Writing with Inform_, “How actions are processed,” has a diagram (a flowchart) that shows — as you might expect — how actions are processed. The first time I looked at this diagram, it baffled me, but it really does make sense. (See [here](../chapter_4_actions/action_processing__summary.md#ction-processing-summary) for a detailed run-through of this diagram).
 

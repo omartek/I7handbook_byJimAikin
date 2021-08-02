@@ -1,4 +1,4 @@
-## Characters the Player Can Follow {#characters-the-player-can-follow}
+## Characters the Player Can Follow
 
 There are at least two ways (and maybe more) to set up a game so that the player needs to follow another character. First, the NPC may be standing in the room, saying, “Come on, follow me!” or something of the sort, in which case the command FOLLOW BOB would likely be implemented so as to move both the PC and the NPC to whatever room the NPC has in mind. Second, the NPC may just have left the room, and the player may now be wanting to follow the NPC to see whither he is bound.
 

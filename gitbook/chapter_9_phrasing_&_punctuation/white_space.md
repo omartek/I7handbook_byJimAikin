@@ -1,4 +1,4 @@
-## White Space {#white-space}
+## White Space
 
 When you’re writing a game in Inform, does white space in your code matter? Sometimes yes, sometimes no. Because Inform is designed to look like “natural language,” its use of white space is a little trickier than in some other programming languages.
 

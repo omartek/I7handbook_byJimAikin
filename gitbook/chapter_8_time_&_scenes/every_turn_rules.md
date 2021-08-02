@@ -1,4 +1,4 @@
-## Every Turn Rules {#every-turn-rules}
+## Every Turn Rules
 
 We’ve already seen a couple of examples of Every Turn rules. As you can guess from the name of the rule, an Every Turn rule is consulted every turn to see whether it would like to do anything. This rule is consulted as the _last_ step in the process that starts when the player types a command. The output of an Every Turn rule will normally appear at the bottom of a block of text in the game, after the description of whatever happens as a result of the player’s latest command.
 

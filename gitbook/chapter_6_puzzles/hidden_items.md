@@ -1,4 +1,4 @@
-## Hidden Items {#hidden-items}
+## Hidden Items
 
 Experienced players of IF know to EXAMINE everything that’s mentioned in the room description, or in a description of another object. So it’s fair to tuck clues to various puzzles in descriptions. Quite often, the room will contain an object which is itself scenery, but which will reveal further details when examined. The description of a wall panel, for instance, might suggest to the player that the panel is a secret door. Or maybe the panel looks entirely innocent when examined, but if the player examines the rug he’ll learn that a semicircular mark on the rug curves out from the wall panel. (If you’re going to do that, be sure to mention the rug in the room description.) The details are “hidden” only in a technical sense, because you have to examine something else in order to notice them, so this is only barely a puzzle. Many games that award points don’t award any points for examining things, because the action is just too easy and obvious.
 

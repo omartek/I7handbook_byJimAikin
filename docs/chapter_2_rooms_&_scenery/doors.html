@@ -142,6 +142,19 @@
             
         </li>
     
+        <li class="chapter " data-level="1.2.3" data-path="../foreword/use_&_license.html">
+            
+                <a href="../foreword/use_&_license.html">
+            
+                    
+                    Use & License
+            
+                </a>
+            
+
+            
+        </li>
+    
 
             </ul>
             
@@ -2338,7 +2351,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="doors">Doors </h2>
+                                <h2 id="doors">Doors</h2>
 <p>In the real world, most indoor rooms are separated by doors. In Inform, a door is a special type of object because it&#x2019;s in two rooms at once and connects the two. In this section but we&#x2019;ll look at a couple of ways to improve on the default doors.</p>
 <p>To create a door, create the rooms on both sides of the door first, but <em>don&#x2019;t</em> connect the rooms by mentioning directions. If you mention the directional connection between the rooms, Inform won&#x2019;t let you create a door between them. After creating the rooms, create the door, and tell Inform about its directions with respect to the two rooms:</p>
 <pre><code class="lang-inform7">The Entry Hall <span class="hljs-keyword">is</span> a <span class="hljs-keyword">room</span>.
@@ -2375,7 +2388,7 @@ Instead of climbing the rickety ladder:
 </code></pre>
 <p>...the compiler will compile it, but you&#x2019;ll get a run-time error when you play the game. The error message will explain that doors can&#x2019;t be moved.</p>
 <p>Second, unlike most other objects in your Inform code, a door object is in two rooms at once. This makes sense, but it can lead to a problem. If you put an ornate silver door knocker on one side of the front door, the knocker will be visible on the inside of the door, even when the door is closed! A simple solution in this case is to use the extension Deluxe Doors by Emily Short. This extension allows you to create &#x201C;half-doors,&#x201D; each of which represents only one side of the door, and to keep them in sync, so that when the player opens or closes one of the half-doors, the other opens or closes as well.</p>
-<h3 id="locked-doors">Locked Doors </h3>
+<h3 id="locked-doors">Locked Doors</h3>
 <p><img src="../assets/graphics26.jpg" alt=""></p>
 <p>A locked door is a slightly different matter. Personally, I feel that a locked door and hidden key don&#x2019;t make for a very entertaining puzzle. Hundreds of games have included locked doors, and if there&#x2019;s a doormat or a potted plant anywhere nearby, players will instantly know to LOOK UNDER MAT and SEARCH POT. There&#x2019;s just not much fun in it anymore. I have played with this clich&#xE9; in a couple of ways. In one game I included both a locked door that can never be opened because there isn&#x2019;t a key, and a locked door to which another character spontaneously gives the player a key without even being asked for it. Doors that can only be unlocked from one side (after you find a secret entrance to the room) are slightly more interesting.</p>
 <p>Here&#x2019;s how to create a locked door in Inform, and how to make it friendly for the player. If the player carries the correct key, the door will be unlocked</p>
@@ -2403,7 +2416,7 @@ The player carries the brass key.
                 <span class="hljs-keyword">say</span> <span class="hljs-string">&quot;You unlock the gold amulet with the banana.&quot;</span>
 </code></pre>
 <p>If you create the oak door as shown on the previous page, the oak door will automatically be unlocked and then opened if the player carries the key. The only downside of this code is that it assumes the player <em>knows</em> the brass key unlocks the oak door. If you want to force the player to discover that fact, you&#x2019;ll have to work out a way to track what the player knows. Keeping track of the player&#x2019;s (or the player character&#x2019;s) knowledge is not difficult to manage, but the details may differ from one game to the next. The extension Epistemology by Eric Eve is designed to make it easy to track the player&#x2019;s knowledge.</p>
-<h3 id="secret-doors">Secret Doors </h3>
+<h3 id="secret-doors">Secret Doors</h3>
 <p>More interesting in a game than a locked door is a secret door &#x2014; something that doesn&#x2019;t appear to be a door at all until its presence is revealed. Secret Doors by Andrew Owen is a simple extension that allows you to create secret doors. This extension is available on the Inform 7 website, but there are two problems with it. First, the word &#x201C;when&#x201D; is repeated in two of its rules. This is easily fixed by editing. The other is that it relies on an outmoded method for printing error messages. To learn how to fix this, see Appendix B.</p>
 <p>If you include this extension and then create a secret door, the door will pretend not to exist until something happens in the game that causes it to be revealed. For instance, if the door is disguised as oak wall paneling, this would work:</p>
 <pre><code class="lang-inform7">Include Secret Doors by Andrew Owen.
@@ -2439,7 +2452,7 @@ You open the oak door.
 
 Small Windowless Room
 It smells dusty in here, as if the secret door hasn&apos;t been opened in ages.
-</code></pre><h3 id="dangerous-doors">Dangerous Doors </h3>
+</code></pre><h3 id="dangerous-doors">Dangerous Doors</h3>
 <p>When I was teaching some younger students the basics of IF, one them asked how to create a door that would slam shut behind the player. I thought this might make an interesting puzzle, so I wrote it up. The example below shows how to use an After rule to affect what happens when the player travels from one room to another:</p>
 <pre><code class="lang-inform7">The Corridor <span class="hljs-keyword">is</span> a <span class="hljs-keyword">room</span>. <span class="hljs-string">&quot;The corridor stretches east and west from here. A massive stone door stands invitingly open to the north.&quot;</span>
 
@@ -2504,7 +2517,7 @@ After going north from the Corridor:
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Doors","level":"1.4.7","depth":2,"next":{"title":"Travel by Fiat","level":"1.4.8","depth":2,"path":"chapter_2_rooms_&_scenery/travel_by_fiat.md","ref":"chapter_2_rooms_&_scenery/travel_by_fiat.md","articles":[]},"previous":{"title":"Enterable Scenery","level":"1.4.6","depth":2,"path":"chapter_2_rooms_&_scenery/enterable_scenery.md","ref":"chapter_2_rooms_&_scenery/enterable_scenery.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["intopic-toc","collapsible-menu","code"],"pluginsConfig":{"collapsible-menu":{},"intopic-toc":{"isCollapsed":true,"isScrollspyActive":true,"label":"In this article","maxDepth":6,"mode":"nested","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6","visible":true},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css"}},"file":{"path":"chapter_2_rooms_&_scenery/doors.md","mtime":"2021-07-29T20:24:06.656Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-08-01T19:41:45.199Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Doors","level":"1.4.7","depth":2,"next":{"title":"Travel by Fiat","level":"1.4.8","depth":2,"path":"chapter_2_rooms_&_scenery/travel_by_fiat.md","ref":"chapter_2_rooms_&_scenery/travel_by_fiat.md","articles":[]},"previous":{"title":"Enterable Scenery","level":"1.4.6","depth":2,"path":"chapter_2_rooms_&_scenery/enterable_scenery.md","ref":"chapter_2_rooms_&_scenery/enterable_scenery.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["intopic-toc","collapsible-menu","code"],"pluginsConfig":{"collapsible-menu":{},"intopic-toc":{"isCollapsed":true,"isScrollspyActive":true,"label":"In this article","maxDepth":6,"mode":"nested","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6","visible":true},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css"}},"file":{"path":"chapter_2_rooms_&_scenery/doors.md","mtime":"2021-08-02T21:05:54.592Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-08-02T21:18:49.184Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

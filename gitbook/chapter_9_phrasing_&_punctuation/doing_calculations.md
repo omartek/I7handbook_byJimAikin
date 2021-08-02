@@ -1,4 +1,4 @@
-## Doing Calculations {#doing-calculations}
+## Doing Calculations
 
 In a role-playing game (RPG), you may want to keep track of various characters’ strength and other characteristics. While the game is running, you may need to calculate things like their combat readiness based on various factors. The example below shows how this type of thing might be done. It uses Inform’s To Decide syntax to run calculations.
 

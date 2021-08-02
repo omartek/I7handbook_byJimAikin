@@ -1,4 +1,4 @@
-## Punctuation {#punctuation}
+## Punctuation
 
 Inform is fussy about punctuation, but you have some options. In conditional tests that have only one line, you can use a comma and then go right on in the same line rather than hitting a colon, a return, and adding another Tab indent. These two examples both work, and they do the same thing:
 

@@ -1,6 +1,4 @@
-# I7Handbook {#i7handbook}
-
-Inform 7 Handbook
+# I7Handbook - The Inform 7 Handbook
 
 by Jim Aikin
 

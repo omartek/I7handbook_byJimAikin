@@ -1,4 +1,4 @@
-## Testing Where a Thing Is {#testing-where-a-thing-is}
+## Testing Where a Thing Is
 
 In writing a game, it’s often very useful to be able to test where something is. If the time bomb is in the suitcase, for instance, and the player is carrying the suitcase or just in the room with the suitcase, we might want to print out “You hear a faint ticking noise” once every few turns.
 

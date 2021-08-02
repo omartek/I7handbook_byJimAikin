@@ -1,4 +1,4 @@
-## Blocked Passageways {#blocked-passageways}
+## Blocked Passageways
 
 A locked door is obviously a type of blocked passageway. In “The Craft of Adventure,” Graham Nelson observes, “Almost invariably games close off sections of the map (temporarily) by putting them behind locked doors, which the player can see and gnash her teeth over, but cannot yet open. And almost every variation on this theme has been tried: coded messages on the door, illusory defenses, gate-keepers, the key being in the lock on the wrong side, and so on. Still, the usual thing is simply to find a key in some fairly remote place, bring it to the door, and open it.”
 
