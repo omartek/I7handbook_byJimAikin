@@ -1,0 +1,8 @@
+gitbook/
+        index.md
+        README.md
+        foreword/foreword.md
+        foreword/acknowledgments.md
+        foreword/about_the_author.md
+        chapter_1_getting_started/getting_started.md
+        chapter_1_getting_started/downloading_&_installing.md
