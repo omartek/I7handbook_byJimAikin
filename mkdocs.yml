@@ -7,3 +7,6 @@ theme:
     hljs_languages:
         - yaml
         - inform7
+nav:
+    - 'Chapter 1': '/chapter_1_getting_started/'
+    - 'Chapter 1': '/chapter_2_rooms_&_scenery/'
