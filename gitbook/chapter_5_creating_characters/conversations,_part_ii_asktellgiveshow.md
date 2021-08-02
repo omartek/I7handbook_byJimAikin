@@ -44,7 +44,7 @@ Before showing the tuxedo to Troy:
 
 Now you can show the tuxedo to Troy without having the parser try to have you take the tuxedo (which of course Troy won’t let you have).
 
-### Topics of Conversation {#topics-of-conversation}
+### Topics of Conversation
 
 Inform’s default handling of ASK ABOUT and TELL ABOUT is good in one way, but bad in another way. These commands are implemented so as to handle topics, but they don’t know about objects in the game. Let’s suppose we want the player to be able to ask Troy about that interesting tuxedo. Here’s the basic way to do it:
 
