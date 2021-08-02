@@ -9,7 +9,7 @@ theme:
         - inform7
 nav:
     - ' Inform7 - I7Handbook':
-        - 'Info & Licence': 'README.md'
+        - 'Info & Licence': './README.md'
         - 'Foreword': './foreword/foreword.md'
         - 'Acknowledgments': './foreword/acknowledgments.md'
         - 'About the Author': './foreword/about_the_author.md'
