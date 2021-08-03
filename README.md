@@ -6,7 +6,7 @@ Github repository contains markdown files of every section of the handbook and a
 To create the structure and html files, I've used gitbook.
 The same file are used to create a version on Readthedocs using Mkdocs.
 
-[Here you can find **GITBOOK HTML** version.](https://omartek.github.io/I7handbook_byJimAikin/)
+[Here you can find **GITBOOK HTML** version.](https://omartek.github.io/Inform7handbook_byJimAikin/)
 
 [Here you can find **READTHEDOCS** version.](https://i7handbook.readthedocs.io/)
 
