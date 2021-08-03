@@ -8,6 +8,6 @@ The same file are used to create a version on Readthedocs using Mkdocs.
 
 [Here you can find **GITBOOK HTML** version.](https://omartek.github.io/Inform7handbook_byJimAikin/)
 
-[Here you can find **READTHEDOCS** version.](https://i7handbook.readthedocs.io/)
+[Here you can find **READTHEDOCS** version.](https://inform-7-handbook.readthedocs.io/)
 
 [Original .PDF and .ODT versions are on **J.Aikin web pages**](http://www.musicwords.net/if/i7hb.htm)
