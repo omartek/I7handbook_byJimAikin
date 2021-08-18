@@ -38,7 +38,7 @@ You can use the door kind in Inform to make other room-connecting objects, such 
 
 ```inform7
 The wooden bridge is a scenery door. The wooden bridge is south of the Meadow and north of the Forest Path. The wooden bridge is open and not openable. The description is "It's a handsome old bridge. Curiously, there's no creek running beneath it."
-```inform7
+```
 
 It’s handy that Inform understands the command CROSS BRIDGE. If you consult the Index/Actions page in the IDE, you’ll discover that CROSS is a synonym for ENTER, so you don’t need to code it yourself. But if you create a ladder using the door kind, you’ll need to write an Instead rule to handle CLIMB LADDER:
 

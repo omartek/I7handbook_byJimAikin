@@ -67,7 +67,7 @@ To scrutinize (R - a room):
         repeat with item running through things in R:
                 if item is huge:
                 add item to L;
-        if the number of entries in L &gt; 0:
+        if the number of entries in L > 0:
                 say " [The containing-name of R] you can see ";
                 say "[L with indefinite articles].";
         otherwise:
