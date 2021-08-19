@@ -1,5 +1,7 @@
 ## Doors
 
+![](../assets/graphics25.jpg)
+
 In the real world, most indoor rooms are separated by doors. In Inform, a door is a special type of object because it’s in two rooms at once and connects the two. In this section but we’ll look at a couple of ways to improve on the default doors.
 
 To create a door, create the rooms on both sides of the door first, but _don’t_ connect the rooms by mentioning directions. If you mention the directional connection between the rooms, Inform won’t let you create a door between them. After creating the rooms, create the door, and tell Inform about its directions with respect to the two rooms:

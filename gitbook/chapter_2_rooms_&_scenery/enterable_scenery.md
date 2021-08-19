@@ -29,6 +29,4 @@ Instead of going inside in the Farmyard:
         try going north.
 ```
 
-![](../assets/graphics25.jpg)
-
 If the enterable thing is small (a refrigerator carton or phone booth, for instance) we might want to make it an enterable container rather than a separate room. (See the section on “Enterable Containers &amp; Supporters” in Chapter 3.) With a larger object, making it a separate room will work better.
